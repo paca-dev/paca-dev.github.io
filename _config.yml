@@ -255,6 +255,10 @@ pagination:
     before: 2
     after: 2
 
+collections:
+  companies:
+    output: true
+    permalink: /companies/:name/
 
 # Plugins (previously gems:)
 plugins:

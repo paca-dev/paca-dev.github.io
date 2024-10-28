@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<article class="company">
+  <h1>{{ page.title }}</h1>
+  
+  {% if page.description %}
+    <p class="company-description">{{ page.description }}</p>
+  {% endif %}
+
+  <div class="company-content">
+    {{ content }}
+  </div>
+</article>
