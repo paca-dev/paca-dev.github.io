@@ -12,7 +12,7 @@ layout: default
     <div class="card-content">
 
       {% if page.location %}
-        <div class="company-location">{{ page.location }}</div>
+        <div class="company-location">{{ page.location.city }}</div>
       {% endif %}
       {% if page.employees %}
         <div class="company-employees">{{ page.employees }}</div>

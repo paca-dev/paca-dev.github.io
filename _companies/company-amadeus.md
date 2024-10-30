@@ -1,6 +1,6 @@
 ---
 layout: company
-published: true
+published: false
 tags: 
     - relocation_support: 
         name: Reloacation support

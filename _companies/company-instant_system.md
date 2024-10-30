@@ -3,7 +3,7 @@ layout: company
 title: Instant System
 published: true
 
-logo: /assets/images/company_logo-template.png
+logo: /assets/images/company_logo-instant_system.png
 
 tags: 
     Relocation Support: Visa Sponsorship
