@@ -4,10 +4,88 @@ layout: default
 
 <article class="company">
   <h1>{{ page.title }}</h1>
+
+
+  <div class="card">
+    
+    <h2>About {{ page.title }}</h2>
+    <div class="card-content">
+
+      {% if page.location %}
+        <div class="company-location">{{ page.location }}</div>
+      {% endif %}
+      {% if page.employees %}
+        <div class="company-employees">{{ page.employees }}</div>
+      {% endif %}
+      
+      {% if page.description %}
+        <p class="company-description">{{ page.description }}</p>
+      {% endif %}
+      {% if page.mission %}
+        <p class="company-mission">{{ page.mission }}</p>
+      {% endif %}
+      {% if page.commitment %}
+        <p class="company-commitment">{{ page.commitment }}</p>
+      {% endif %}
+    </div>
+
+  </div>
   
-  {% if page.description %}
-    <p class="company-description">{{ page.description }}</p>
-  {% endif %}
+
+  <div class="card">
+    <h2>International</h2>
+    <div class="card-content">
+
+      {% if page.international.french_language_policy %}
+        <p>French language policy</p>
+        <p class="company-french_language_policy">{{ page.title }} {{ page.international.french_language_policy }}</p>
+  
+        <p>Relocation Support</p>
+        <p class="company-relocation_support">{{ page.title }} {{ page.international.relocation_support }}</p>
+  
+      {% endif %}
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Perks & Benefits</h2>
+    <div class="card-content">
+      {% if page.perks.employee_stock_option_plan == true %}
+        <p>💹 Employee stock option plan</p>
+      {% endif %}
+      {% if page.perks.new_tech_gear == true %}
+        <p>💻 New tech gear</p>
+      {% endif %}
+      {% if page.perks.new_tech_gear == true %}
+        <p>🍹 Free drinks</p>
+      {% endif %}
+      {% if page.perks.complete_health_and_social_insurance == true %}
+        <p>💟 Complete health and social insurance</p>
+      {% endif %}
+      {% if page.perks.commuter_allowance == true %}
+        <p>🚃 Commuter allowance</p>
+      {% endif %}
+      {% if page.perks.book_purchases == true %}
+        <p>📕 Book purchases</p>
+      {% endif %}
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>{{ page.title }} Tags</h2>
+    <div class="card-content">
+      
+      {% for tag_item in page.tags %}
+        {% for tag in tag_item %}
+          
+            <p>{{ tag[1].name }}:  {{ tag[1].value }}</p>
+         
+        {% endfor %}
+      {% endfor %}
+      
+    </div>
+  </div>
+
 
   <div class="company-content">
     {{ content }}
