@@ -61,6 +61,4 @@ specialties:
     - Patent granted application
     - ROI in less than 1 year
     - From 40 to 20,000 of CPU cores managed
-
-
 ---
