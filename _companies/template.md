@@ -1,7 +1,7 @@
 ---
 layout: company
-title: Instant System
-published: true
+title: Template
+published: false
 
 logo: /assets/images/company_logo-template.png
 
@@ -32,7 +32,7 @@ international:
       language_policy_french: required
       language_policy_english: no information
 
-founded_in: 2013
+founded_in: N/A
 employees: 70+
 location:
     address: Garden Space, 240 Rue Evariste Galois 
@@ -40,7 +40,7 @@ location:
 
 url: https://www.instant-system.com/
 description: >
-    A pioneer and leader in Mobility-as-a-Service (MaaS) solutions, designing 
+    A pioneer and leader in Platform-as-a-Service (PaaS) solutions, designing 
     applications that allow users to choose from various mobility options for 
     their journeys.
 mission: >

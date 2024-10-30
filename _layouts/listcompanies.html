@@ -26,11 +26,31 @@ layout: default
 
     <ul class="companies-list">
       {% for company in site.companies %}
-        <li>
-          <h2><a href="{{ company.url }}">{{ company.title }}</a></h2>
-          {% if company.description %}
-            <p>{{ company.description }}</p>
-          {% endif %}
+        <li class="d-flex flex-row">
+          <div class="company-logo mr-3">
+            <img src="{{ company.logo }}" alt="{{ company.title }} logo" class="img-fluid" style="width: 80px; height: auto;">
+          </div>
+          <div class="company-info">
+            <h2 class="h5 mt-0"><a href="{{ company.url }}">{{ company.title }}</a></h2>
+            {% if company.description %}
+              <p>{{ company.description }}</p>
+            {% endif %}
+            <div class="company-tags mt-2">
+              {% if company.location %}
+                <span class="badge badge-info mr-1">
+                  🌍 <!-- Emoji for location -->
+                  {{ company.location.city }}
+                </span>
+              {% endif %}
+              {% if company.culture %}
+                <span class="badge badge-success mr-1">
+                  ⭐ <!-- Emoji for culture -->  
+                  Culture data
+                </span>
+              {% endif %}
+            </div>
+          </div>
+
         </li>
       {% endfor %}
     </ul>
