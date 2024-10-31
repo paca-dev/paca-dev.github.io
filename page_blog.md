@@ -1,5 +1,5 @@
 ---
-layout: listcompanies
+layout: blog
 title: Hand-picked Tech Companies in PACA
-permalink: /companies/
+permalink: /blog/
 ---

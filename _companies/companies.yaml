@@ -1,0 +1,400 @@
+companies:
+  - name: Renault Software Labs
+    url: https://www.renaultgroup.com/en/our-company/locations/software-labs-sophia-antipolis-2/
+    description: >
+      A software R&D center that develops software architectures and embedded systems 
+      integrated into connected, autonomous and electric vehicles.
+    mission: >
+      To accelerate innovation in connected and autonomous vehicles, and to internalize 
+      strategic software expertise for Renault Group.
+    problem_solving: >
+      Developing cutting-edge software solutions for the future of mobility, 
+      focusing on connected, autonomous, and electric vehicles.
+    commitment: >
+      To transform the software company culture within Renault and Nissan, 
+      and to become the software integration center for the Alliance.
+    employees: 600+ engineers across sites
+    address: 2600 Route des crêtes, Sophia Antipolis 06560 Valbonne France
+    language_policy: Not specified, likely French and English
+    founded_in: 2017
+    specialties:
+      - Connectivity (cellular and non-cellular)
+      - Audio and Media
+      - Security
+      - Algorithms
+      - FOTA (Firmware Over The Air)
+      - Software Architecture
+      - System requirements
+      - Development tools
+    key_activities:
+      - Software platforming
+      - Continuous integration and validation
+      - Software internalization and mastering
+      - Partner with Renault and Nissan for software strategy
+    culture: >
+      Emphasis on innovation, software expertise, and collaboration within 
+      the Renault-Nissan Alliance. Strong focus on open-source technologies.
+
+  - name: Capgemini
+    url: https://www.capgemini.com/
+    employees: Not specified for Sophia Antipolis location
+    address: Not specified
+    language_policy: Likely French and English
+
+  - name: Apside
+    url: https://www.apside.com/en/agency/nice-sophia-antipolis/
+    description: >
+      A leading IT services company with multiple branches across France, 
+      specializing in technological solutions and digital transformation.
+    mission: To support clients in their digital transformation and technological innovation.
+    problem_solving: >
+      Providing expertise in various sectors including retail, insurance, banking, 
+      and technology to help businesses navigate digital challenges.
+    commitment: >
+      Fostering a dynamic, friendly, and stimulating work environment that promotes 
+      professional development and innovation.
+    employees: Not specified for individual locations
+    address: 
+      Nice - Sophia Antipolis: 120 Route des macarons, 06560 Valbonne, France
+    language_policy: French and English (based on bilingual website)
+    culture: >
+      Prioritizes employee well-being, fosters a friendly working environment, 
+      and organizes regular team events like monthly lunch-time gatherings, 
+      after-work events, and quarterly and annual parties.
+    specialties:
+      - Data science
+      - DevOps
+      - UX/UI design
+    key_clients:
+      - Air France
+      - Orange
+      - ProBTP
+      - Docapost
+      - Vodafone
+      - NXP
+
+  - name: Ansys
+    tags: 
+    - relocation_support: 
+        name: Reloacation support
+        value: N/A
+    - international: 
+        name: International
+        value: Hires Foreigners
+    - work-env:
+        name: Work environment
+        value: B2B In-house Product
+    - other: 
+        name: Other
+        value: multisite
+    url: https://amadeus.com/en
+
+  - name: Amadeus IT Group
+    url: https://amadeus.com/en
+    description: >
+      A global travel technology company that provides software solutions for 
+      airlines, airports, hotels, travel agencies, and tour operators.
+    mission: To shape the future of travel through innovative technology solutions.
+    problem_solving: >
+      Streamlining travel booking and management processes for the entire travel 
+      industry value chain, including search, pricing, booking, ticketing, and 
+      other services.
+    commitment: >
+      Driving digital transformation in the travel industry and promoting 
+      sustainable travel practices.
+    employees: 19,987 (as of the latest available data)
+    address: 
+      Headquarters: Madrid, Spain
+      Key sites: 
+        - Sophia Antipolis, France (product development)
+        - Bel Air, France
+        - London, UK (product development)
+        - Bangalore, India (product development)
+        - Erding, Germany (Data center)
+    language_policy: Not specified, likely English and Spanish given global presence
+    founded_in: 1987
+    specialties:
+      - Global Distribution System (GDS)
+      - Airline IT solutions
+      - Hotel IT solutions
+      - Travel agency solutions
+      - Analytics and Intelligence Solutions
+      - Business Management Solutions
+    key_facts:
+      - World's leading provider of travel technology
+      - Processes over 945 million billable travel transactions annually
+      - Present in over 190 countries
+      - Listed on the Spanish stock exchanges (BMAD: AMS)
+    culture: >
+      Focuses on innovation and technological advancement in the travel industry. 
+      Emphasizes global collaboration with a diverse workforce spread across 
+      multiple international locations.
+
+  - name: SAP Labs France
+    url: https://www.sap.com/france/about/labs-france.html
+    description: >
+      A research and development center of SAP, focusing on innovative 
+      technologies to support businesses in their digital transformation.
+    mission: >
+      To create and innovate, supporting businesses through the digital 
+      revolution with technological expertise.
+    problem_solving: >
+      Developing cutting-edge solutions in areas such as artificial intelligence, 
+      machine learning, predictive analysis, Internet of Things, and security.
+    commitment: >
+      To be close to clients, foster innovation, and promote inclusion and 
+      diversity as a source of innovation.
+    employees: Approximately 900 across 3 sites in France
+    address: 
+      Sophia Antipolis: 805, avenue du Docteur Maurice Donat – Font de l'Orme, 06259 Mougins
+      Paris: 35, rue d'Alsace, 92300 Levallois-Perret
+      Caen: 8, rue du Commodore JH Hallet, 14000 Caen
+    language_policy: Not specified, likely French and English
+    founded_in: 1998 (first R&D entity in France)
+    specialties:
+      - Artificial Intelligence
+      - Machine Learning
+      - Predictive Analysis
+      - Internet of Things
+      - Security
+      - Cloud Infrastructure
+      - User Experience (chatbots and conversational interfaces)
+    key_facts:
+      - Certified as Top Employer
+      - Over 30 different nationalities among employees
+      - Recently inaugurated an AI-dedicated Customer Experience Center in Sophia Antipolis
+    culture: >
+      Emphasizes learning and innovation through practical workshops. 
+      Each site has a "d-shop" equipped with the latest technologies for 
+      hands-on learning. Strongly committed to promoting coding education, 
+      particularly through programs like Africa Code Week.
+
+  - name: Orange S.A.
+    url: https://www.orange.com/en
+    description: >
+      A leading telecommunications operator providing mobile, landline, internet, 
+      and IPTV services globally, with a strong presence in Europe and Africa.
+    mission: >
+      To be the trusted partner for a positive, digital, and responsible society, 
+      connecting people and businesses worldwide.
+    problem_solving: >
+      Providing comprehensive telecommunications solutions, digital services, 
+      and infrastructure to support individuals, businesses, and other operators 
+      in their digital transformation journey.
+    commitment: >
+      Driving digital inclusion, promoting sustainable practices, and fostering 
+      innovation in telecommunications and related technologies.
+    employees: 137,094 (as of 2023)
+    address: 
+      Headquarters: 111, quai du Président Roosevelt, 92130 Issy-les-Moulineaux, France
+    language_policy: Not specified, likely French and English given global presence
+    founded_in: 1988 (as France Télécom)
+    specialties:
+      - Mobile telecommunications
+      - Fixed-line telephony
+      - Internet services
+      - IPTV
+      - Digital content distribution
+      - E-commerce
+      - Online advertising
+      - M2M solutions
+      - Home automation
+      - Remote assistance
+    key_facts:
+      - Present in over 26 countries
+      - 254 million mobile customers worldwide
+      - 44.5 million fixed broadband customers
+      - Listed on Euronext Paris (ORAN) and on the New York Stock Exchange (ORAN)
+    financials:
+      - Total revenue in 2023: €43.37 billion
+      - Main revenue sources:
+        - France: 40.9%
+        - Europe: 23.1%
+        - Africa & Middle East: 16.5%
+        - Enterprise services: 18.3%
+    culture: >
+      Emphasizes digital innovation, customer-centric approach, and corporate 
+      social responsibility. Focuses on developing sustainable and inclusive 
+      digital solutions across its markets.
+
+  - name: Thales
+    url: https://www.thalesgroup.com/
+    description: >
+        A French multinational company that designs, develops and manufactures 
+        electrical systems, devices, and equipment for the aerospace, defence, 
+        transportation and security sectors.
+    mission: >
+        To build a future we can all trust by harnessing the power of advanced 
+        technologies in digital and "deep tech" innovations.
+    problem_solving: >
+        Developing innovative solutions for critical systems in defense, 
+        aerospace, security, and transportation. Focusing on Big Data, 
+        artificial intelligence, connectivity, cybersecurity, and quantum technology.
+    commitment: >
+        To provide trusted solutions for customers' critical missions, promote 
+        ethical business practices, support education and professional integration, 
+        and contribute to environmental protection.
+    employees: 81,060 (as of 2024)
+    address: 
+        Headquarters: La Défense, Paris, France
+    language_policy: Not specified, likely French and English given global presence
+    founded_in: 1893 (as Compagnie Française Thomson-Houston)
+    specialties:
+        - Defense and Security Systems
+        - Aerospace Technologies
+        - Digital Identity and Security
+        - Ground Transportation Systems
+        - Space Technologies
+    key_facts:
+        - Present in over 56 countries
+        - 8th largest defense contractor globally (as of 2017)
+        - 52% of revenue generated from international subsidiaries (2008)
+        - Listed on Euronext Paris
+    financials:
+        - Revenue in 2019: €18.4 billion
+        - 55% of total sales from military work (2017)
+    culture: >
+        Emphasizes innovation, ethical practices, and human-centric approach to 
+        technology. Focuses on building long-term relationships with customers 
+        and partners, including academic institutions and tech start-ups.
+    key_products_services:
+        - In-flight Entertainment and Connectivity Systems
+        - Flight Avionics
+        - Air Traffic Management Solutions
+        - Cybersecurity Systems
+        - Military Avionics
+        - Training and Simulation Systems
+        - Smart Cards and Digital Services
+
+  - name: NXP Semiconductors
+    url: https://www.nxp.com/
+    description: >
+      A global semiconductor company that provides High Performance Mixed Signal 
+      and Standard Product solutions, leveraging its leading expertise in RF, 
+      Analog, Power Management, Interface, Security and Digital Processing.
+    mission: >
+      The R&D site on the Cote d’Azur in Mougins is specialized in secure connectivity solutions that help to advance and automate the world around us.
+    problem_solving: >
+      Developing innovative semiconductor solutions for automotive, industrial & IoT, 
+      mobile, and communication infrastructure markets. Focusing on complex autonomy, 
+      connectivity, and electrification challenges.
+    commitment: >
+      NXP France has established a network of motivated and engaged internal contributors to ensure unbiased integration and support of people with disabilities or in social distress. NXP builds on a defined code of conduct through a series of events each year that strengthen awareness and keep team members engaged.
+      Globally NXP has received several external awards in recognition of our ongoing commitment to the engagement and success of our team members.
+    employees: 34,500
+    location: 
+      address: NATURAE 80, route des Lucioles 06560 Valbonne
+      city: Valbonne
+    language_policy_french: Not required
+    language_policy_english: candidates should be able to communicate effectively in English
+    founded_in: 2006 (spin-off from Philips)
+    specialties:
+      - Microcontrollers
+      - Application Processors
+      - Communication Processors
+      - Connectivity Chipsets
+      - Analog and Interface Devices
+      - RF Power Amplifiers
+      - Security Controllers
+      - Sensors
+    key_facts:
+      - Operations in more than 30 countries
+      - Posted revenue of $13.21 billion in 2022
+      - Listed on NASDAQ (NXPI)
+    key_products_services:
+      - S32 Automotive Platform
+      - Arm Processors and MCUs
+      - UWB (Ultra-Wideband) Technology
+      - 5G Solutions
+      - V2X (Vehicle-to-Everything) Technology
+      - Wi-Fi 6/6E and Bluetooth Solutions
+    culture: >
+      Emphasizes innovation, sustainability, and ethical practices. Focuses on 
+      creating breakthrough technologies that make the connected world better, 
+      safer, and more secure. Promotes diversity and inclusion in its global workforce.
+
+  - name: Accenture plc
+    url: https://www.accenture.com/
+    description: >
+      A leading global professional services company that helps the world's leading 
+      organizations build their digital core, optimize their operations, accelerate 
+      revenue growth and enhance services.
+    mission: >
+      To deliver on the promise of technology and human ingenuity, creating 360° value 
+      for clients, each other, shareholders, partners and communities.
+    problem_solving: >
+      Providing comprehensive services across Strategy & Consulting, Technology, 
+      Operations, Industry X and Song to help clients reinvent and build trusted, 
+      lasting relationships in the digital age.
+    commitment: >
+      To accelerate equality for all, innovate with integrity and purpose, and help 
+      clients become more sustainable, inclusive, and optimized for the future.
+    employees: Approximately 774,000
+    address: 
+      Headquarters: 1 Grand Canal Square, Dublin, Ireland
+    language_policy: Not specified, likely English given global presence
+    founded_in: 1989 (as Andersen Consulting, renamed Accenture in 2001)
+    specialties:
+      - Strategy & Consulting
+      - Technology Services
+      - Operations
+      - Industry X (Digital Engineering and Manufacturing)
+      - Accenture Song (formerly Interactive)
+    key_facts:
+      - Present in more than 120 countries
+      - Serves clients in more than 40 industries
+      - Listed on the New York Stock Exchange (NYSE: ACN)
+    financials:
+      - Revenue in fiscal 2024: $64.1 billion
+      - Net income in fiscal 2022: $6.989 billion
+    culture: >
+      Emphasizes innovation, diversity, and continuous learning. Focuses on 
+      creating tangible value at speed and scale for clients while maintaining 
+      a strong commitment to ethics and corporate citizenship.
+    key_services:
+      - Cloud Services
+      - Artificial Intelligence and Analytics
+      - Cybersecurity
+      - Industry-specific Solutions
+      - Digital Transformation
+      - Sustainability Services
+    leadership:
+      CEO: Julie Sweet
+      CFO: KC McClure
+      COO: John Walsh
+
+  - name: Instant System
+    founded_in: 2013
+    logo: media/images/c-logo-instant_system.png
+    employees: 70+
+    location:
+      address: Garden Space, 240 Rue Evariste Galois 
+      city: Biot, France
+
+    international:
+      language_policy_french: required
+      language_policy_english: no information
+
+    perks: 
+      employee_stock_option_plan: false
+      new_tech_gear: true
+      free_drinks: false
+      complete_health_and_social_insurance: true
+      commuter_allowance: false
+      book_purchases: false
+
+    work:
+      ticket_restaurant: true
+      contract type: CDI
+      creche_dentreprise: true
+      teletravail: 2d/week
+      rtt: true
+      eparnage: false
+
+
+    description: >
+      Designs and develops MaaS applications.Allows users to choose from various mobility options for their journeys (e.g., train, bus, bike, taxi, scooter, carpooling)
+
+    culture: >
+      Focuses on innovation. Our teams are constantly designing and testing innovative features that will strengthen our MaaS products and partnerships.
+      They organise barbeques, breakfasts, team buildings and musical evening.

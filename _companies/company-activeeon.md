@@ -1,8 +1,8 @@
 ---
 layout: company
-title: Activeeon
 published: true
 
+title: Activeeon
 logo: /assets/images/company_logo-activeeon.png
 
 tags: 
@@ -10,7 +10,7 @@ tags:
     International: Hires Foreigners
     Work Environment: 
         - R&D
-    other: Java Cloud research
+    other: Java Cloud research, ML
 
 work:
     # Subsidized meals
@@ -47,7 +47,11 @@ location:
 
 url: https://www.activeeon.com/
 description: >
-    ActiveEon provides companies with Workflows & Scheduling software for workload automation, acceleration and scalability in the context of big data, analytics, Internet of Things, machine learning, HPC. ActiveEon is involved in projects requiring significant processing times, such as data analysis, financial simulations, machine learning, predictive maintenance, satellite image processing, DNA profiling and more.
+    ActiveEon provides companies with Workflows & Scheduling software for workload automation, acceleration and scalability in the context of big data, analytics, Internet of Things, machine learning, HPC. 
+
+more_description: >
+    ActiveEon is involved in projects requiring significant processing times, such as data analysis, financial simulations, machine learning, predictive maintenance, satellite image processing, DNA profiling and more.
+
 mission: >
     Create and provide users with the best orchestration solution for workload automation and big compute on premises and in the cloud. 
 problem_solving: >
