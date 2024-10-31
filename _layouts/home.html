@@ -20,4 +20,12 @@ layout: archive
   {% include documents-collection.html entries=posts type=entries_layout %}
 </div>
 
+
+{% assign companies = companies | where_exp: "company", "company.published != false" %}
+
+{% assign entries_layout = page.entries_layout | default: 'list' %}
+<div class="entries-{{ entries_layout }}">
+  {% include documents-collection.html entries=companies type=entries_layout %}
+</div>
+
 {% include paginator.html %}

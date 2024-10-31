@@ -37,15 +37,21 @@ layout: default
             {% endif %}
             <div class="company-tags mt-2">
               {% if company.location %}
-                <span class="badge badge-info mr-1">
+                <span class=" mr-1">
                   🌍 <!-- Emoji for location -->
                   {{ company.location.city }}
                 </span>
               {% endif %}
               {% if company.culture %}
-                <span class="badge badge-success mr-1">
+                <span class=" mr-1">
                   ⭐ <!-- Emoji for culture -->  
                   Culture data
+                </span>
+              {% endif %}
+              {% if company.employees %}
+                <span class=" mr-1">
+                  <i class="bi bi-people-fill"></i> <!-- Emoji for people -->  
+                  {{ company.employees }}
                 </span>
               {% endif %}
             </div>
