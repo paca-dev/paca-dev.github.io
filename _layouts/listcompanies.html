@@ -27,13 +27,13 @@ layout: default
     <ul class="companies-list">
       {% for company in site.companies %}
         <li class="d-flex flex-row">
-          <div class="company-logo mr-3">
-            <img src="{{ company.logo }}" alt="{{ company.title }} logo" class="img-fluid" style="width: 80px; height: auto;">
-          </div>
-          <div class="company-info">
+      
+          <img src="{{ company.logo }}" alt="{{ company.title }} logo" class="img-fluid company-logo-img " style="width: 80px; height: 80px;">
+         
+          <div class="company-info flex-fill ml-3">
             <h2 class="h5 mt-0"><a href="{{ company.url }}">{{ company.title }}</a></h2>
             {% if company.description %}
-              <p>{{ company.description }}</p>
+              <p class=".truncate100">{{ company.description }}</p>
             {% endif %}
             <div class="company-tags mt-2">
               {% if company.location %}
