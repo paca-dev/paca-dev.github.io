@@ -18,6 +18,50 @@
 
 {% assign image_description = image_description | markdownify | strip_html | strip_newlines | escape_once %}
 
+<script>
+  document.getElementById('newsletterForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    
+    const email = document.getElementById('emailInput').value;
+    const messageElement = document.getElementById('formMessage');
+    
+    // Strict email validation
+    const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+    if (!emailRegex.test(email)) {
+      messageElement.textContent = 'Please enter a valid email address.';
+      messageElement.style.color = 'red';
+      return;
+    }
+    
+    // Construct the API endpoint URL with the email as a query parameter
+    const apiUrl = `https://api.paca-dev.rvieraapps.com/subscribe?email=${encodeURIComponent(email)}`;
+    
+    fetch(apiUrl, {
+      method: 'GET',
+      headers: {
+        'Accept': 'application/json'
+      }
+    })
+    .then(response => {
+      if (!response.ok) {
+        throw new Error('Network response was not ok');
+      }
+      return response.json();
+    })
+    .then(data => {
+      // Assuming the API returns a success message
+      messageElement.textContent = 'Subscription successful!';
+      messageElement.style.color = 'green';
+      document.getElementById('emailInput').value = ''; // Clear the input field
+    })
+    .catch(error => {
+      messageElement.textContent = 'An error occurred. Please try again later.';
+      messageElement.style.color = 'red';
+      console.error('Error:', error);
+    });
+  });
+  </script>
+
 <div class="page__hero{% if page.header.overlay_color or page.header.overlay_image %}--overlay{% endif %}"
   style="{% if page.header.overlay_color %}background-color: {{ page.header.overlay_color | default: 'transparent' }};{% endif %} {% if overlay_img_path %}background-image: {% if overlay_filter %}{{ overlay_filter }}, {% endif %}url('{{ overlay_img_path }}');{% endif %}"
 >
@@ -38,13 +82,18 @@
       {% include page__meta.html %}
       
       {% if page.header.newsletter %}
-        <div class="mb-4 d-none d-sm-inline-block">
-          <button class="btn btn-light btn-lg me-2 mb-2">Get weekly email job alerts</button>
-          <button class="btn btn-outline-light btn-lg mb-2">Join 35k readers</button>
+        <div class="mb-4 d-none d-sm-inline-block" style=" width: 100%;">
+          <form id="" class="row g-2" style="background-color: transparent;">
+            <div class="col-auto">
+              <input type="email" class="form-control" id="emailInput" placeholder="Enter your email" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$">
+            </div>
+            <div class="col-auto">
+              <button type="submit" class="btn btn-primary">Get job alerts</button>
+            </div>
+          </form>
+
         </div>
-        <p class="mt-4 d-none d-sm-inline-block ">
-          <i class="bi bi-arrow-up-circle-fill"></i> Get our Developer Salary Guide free
-        </p>
+        
       {% endif %}
 
       {% if page.header.actions %}
