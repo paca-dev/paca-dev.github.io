@@ -46,11 +46,13 @@ perks:
       value: 5w
 
 international:
-      language_policy_french: not required
-      language_policy_english: requires English proficiency
+  language_policy_french: not required
+  language_policy_english: English proficiency required
+  relocation_support: false
 
 founded_in: 2007
-employees: 45+
+employees: 45
+
 location:
     address: 2000 route des Lucioles, Les Algorithmes, Pythagore B 
     city: Sophia Antipolis, France

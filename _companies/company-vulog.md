@@ -46,9 +46,9 @@ perks:
       value: 5w
 
 international:
-      language_policy_french: not required
-      language_policy_english: English proficiency required
-      relocation_support: false
+  language_policy_french: not required
+  language_policy_english: English proficiency required
+  relocation_support: false
 
 founded_in: 2006
 employees: 100

@@ -3,42 +3,62 @@ layout: company
 title: Instant System
 published: true
 
+company_url: https://www.instant-system.com/
+
 logo: /assets/images/company_logo-instant_system.png
 
-tags: 
-    Relocation Support: Visa Sponsorship
+company_tags: 
+    main: B2B, In-house Product, Startup
+    other: Python, Rust, Backend Engineering
+    
     International: Hires Foreigners
-    Work Environment: 
-        - B2B 
-        - In-house Product 
-        - Startup
-    other: Python Rust Backend Engineering Eng-Other
-
+   
 work:
-      ticket_restaurant: true
-      contract type: CDI
-      creche_dentreprise: true
-      teletravail: 2d/week
-      rtt: true
-      eparnage: false
-perks: 
-      employee_stock_option_plan: false
-      new_tech_gear: true
-      free_drinks: false
-      complete_health_and_social_insurance: true
-      commuter_allowance: false
-      book_purchases: false
-international:
-      language_policy_french: required
-      language_policy_english: no information
+    - name: Subsedized meals (ticket restaurant)
+      value: true
+    - name: Contract type(s) 
+      value: CDI (Full Time)
+    - name: Remote work (teletravail)
+      value: flexible
+    - name: RTT
+      value: true
+    - name: Eparnage
+      value: false
+    - name: Creche d'entreprise
+      value: false
 
-founded_in: 2013
-employees: 70+
+perks: 
+    - name: "Employee stock option plan"
+      value: false 
+    - name: New tech Gear
+      value: true
+    - name: Free drinks
+      value: false
+    - name: Renumeration based on experience
+      value: false
+    - name: Complete health and social insurance
+      value: true
+    - name: CSE
+      value: false
+    - name: Public transport reimpursement
+      value: Partial
+    - name: Conference events
+      value: false
+    - name: Annual leave 
+      value: false
+
+international:
+    language_policy_french: required
+    language_policy_english: no information
+    relocation_support: false
+
+founded_in: 2006
+employees: 70
+
 location:
     address: Garden Space, 240 Rue Evariste Galois 
     city: Biot, France
 
-url: https://www.instant-system.com/
 description: >
     A pioneer and leader in Mobility-as-a-Service (MaaS) solutions, designing 
     applications that allow users to choose from various mobility options for 
@@ -53,19 +73,19 @@ problem_solving: >
 commitment: >
     To generate virtuous mobility patterns, create more efficient travel combinations, 
     and help cities better understand and meet mobility needs.
-language_policy: Not specified, likely French and English
+
 specialties:
     - Mobility-as-a-Service (MaaS) platforms
     - Real-time mobility centers
     - Multimodal journey planning
     - B2C mobility strategies
+    
 key_facts:
     - Over 1,500,000 users
     - 100,000,000 kms travelled via their apps
     - 89% app retention rate
     - 100 B2B customers at country level
-financials:
-    - Raised €8 million in 2021 for European and international expansion
+
 culture: >
     Emphasizes innovation and collaboration with research institutions like INRIA. 
     Focuses on user-centric solutions and environmental aspects of urban mobility.
