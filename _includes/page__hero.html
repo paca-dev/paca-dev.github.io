@@ -36,6 +36,17 @@
         <p class="page__lead">{{ page.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</p>
       {% endif %}
       {% include page__meta.html %}
+      
+      {% if page.header.newsletter %}
+        <div class="mb-4 d-none d-sm-inline-block">
+          <button class="btn btn-light btn-lg me-2 mb-2">Get weekly email job alerts</button>
+          <button class="btn btn-outline-light btn-lg mb-2">Join 35k readers</button>
+        </div>
+        <p class="mt-4 d-none d-sm-inline-block ">
+          <i class="bi bi-arrow-up-circle-fill"></i> Get our Developer Salary Guide free
+        </p>
+      {% endif %}
+
       {% if page.header.actions %}
         <p>
         {% for action in page.header.actions %}
@@ -43,6 +54,7 @@
         {% endfor %}
         </p>
       {% endif %}
+
     </div>
   {% else %}
     <img src="{{ page.header.image | relative_url }}" alt="{{ image_description }}" class="page__hero-image">

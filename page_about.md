@@ -1,10 +1,10 @@
 ---
-layout: page
+layout: archive
 title: "About"
 permalink: /about/
 ---
 
-# About Me
+# About Us
 
 PACA-dev
 
@@ -12,9 +12,6 @@ PACA-dev
 
 Feel free to reach out:
 
-- GitHub: https://github.com/paca-dev
-- Email: paca.dev06@gmail.com
+- Email: {{ page.mail }}
 
 ---
-
-I'm excited about the opportunity to contribute to innovative projects in the DevOps space!

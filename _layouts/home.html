@@ -16,30 +16,6 @@ layout: default
 
 <div id="main" role="main">
 
-  <div class="container-fluid py-5">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 mx-auto text-center">
-          <h1 class="mb-4 ">Software Developer Jobs in Provence-Alpes-Côte d'Azur (PACA)</h1>
-          <p class="lead mb-4">273 hand-picked jobs in Japan for software developers & tech folks.</p>
-          <p class="mb-4 d-none d-lg-inline-block">No French required. Top companies only.</p>
-          <div class="mb-4 d-none d-lg-inline-block">
-            <button class="btn btn-light btn-lg me-2 mb-2">Get weekly email job alerts</button>
-            <button class="btn btn-outline-light btn-lg mb-2">Join 35k readers</button>
-          </div>
-          <p class="mt-4 d-none d-lg-inline-block ">
-            <i class="bi bi-arrow-up-circle-fill"></i> Get our Developer Salary Guide free
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="mt-2">
-    <button type="button" class="btn btn-primary">No French required</button>
-    <button type="button" class="btn btn-primary">Remote Jobs</button>
-    <button type="button" class="btn btn-primary">CDI (full time)</button>
-  </div>
 
   <div class="archive">
     {% unless page.header.overlay_color or page.header.overlay_image %}
@@ -64,7 +40,7 @@ layout: default
             <div class="company-tags">
               {% if company.location %}
                 <span class="tag location-tag">
-                  <i class="bi bi-pin-fill"></i>
+                  <i class="bi bi-geo-alt-fill"></i>
                   {{ company.location.city }}
                 </span>
               {% endif %}

@@ -3,56 +3,63 @@ layout: company
 title: Vulog
 published: true
 
-url: www.vulog.com
+company_url: www.vulog.com
 
 logo: /assets/images/company_logo-vulog.png
 
-tags: 
-    Work Environment: 
-        - Startup
-        - SaaS
-        - Mobile
-        - Economy
-        - Cloud services
+company_tags: 
+    main: Startup, SaaS, Mobile, Economy, Cloud services
     other: iOS, NodeJS, Java, Redis, ReactJS, Flutter, 
 
 work:
-    # Subsidized meals
-    ticket_restaurant: true
-    contract_type: CDI (Full Time)
-    creche_dentreprise: false
-    # remote work
-    teletravail: flexible
-    rtt: false
-    eparnage: false
+    - name: Subsedized meals (ticket restaurant)
+      value: true
+    - name: Contract type(s) 
+      value: CDI (Full Time)
+    - name: Creche d'entreprise
+      value: false
+    - name: Remote work (teletravail)
+      value: flexible
+    - name: RTT
+      value: false
+    - name: Eparnage
+      value: false
+
 perks: 
-    employee_stock_option_plan: false
-    new_tech_gear: false
-    free_drinks: false
-    # renumeration based on experinece
-    experience_based_renumeration: false
-    complete_health_and_social_insurance: false
-    CSE: true
-    # Public transport partially reimbursed
-    commuter_allowance: true
-    # conferences and events
-    confrences_events: false   
-    book_purchases: false
-    # rtt 
-    annual_leave: 5w
+    - name: "Employee stock option plan"
+      value: true 
+    - name: New tech Gear
+      value: false
+    - name: Free drinks
+      value: false
+    - name: Renumeration based on experience
+      value: true
+    - name: Complete health and social insurance
+      value: false
+    - name: CSE
+      value: true
+    - name: Public transport reimpursement
+      value: Partial
+    - name: Conference events
+      value: false
+    - name: Annual leave 
+      value: 5w
+
 international:
       language_policy_french: not required
-      language_policy_english: requires English proficiency
+      language_policy_english: English proficiency required
+      relocation_support: false
 
 founded_in: 2006
 employees: 100
+
 location:
     address: 2000 route des Lucioles, Les Algorithmes, Pythagore B 
     city: Sophia Antipolis, France
 
-
 description: >
-    
+    Vulog offers services and solution in mobility market. Their platform and know-how helps companies to reach profitability.
+
 mission: >
     They provide solutions for shared mobility operators. To optimize fleet operations, fostering profitability and sustainable growth. Their offer a platform Mobility Showcase and experience to guide partners from initial launch to profitability. 
 vision: > 
