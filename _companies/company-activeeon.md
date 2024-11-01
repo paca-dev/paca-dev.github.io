@@ -9,7 +9,7 @@ logo: /assets/images/company_logo-activeeon.png
 
 company_tags: 
     main: R&D
-    other: Java Cloud research, ML
+    other: Java, Cloud, Research, ML
 
 work:
     - name: Subsedized meals (ticket restaurant)
