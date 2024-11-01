@@ -1,40 +1,50 @@
 ---
 layout: company
+title: Activeeon
 published: true
 
-title: Activeeon
+company_url: https://www.activeeon.com/
+
 logo: /assets/images/company_logo-activeeon.png
 
-tags: 
-    Relocation Support: Visa Sponsorship
-    International: Hires Foreigners
-    Work Environment: 
-        - R&D
+company_tags: 
+    main: R&D
     other: Java Cloud research, ML
 
 work:
-    # Subsidized meals
-    ticket_restaurant: true
-    contract_type: CDI (Full Time)
-    creche_dentreprise: false
-    # remote work
-    teletravail: flexible
-    rtt: false
-    eparnage: false
+    - name: Subsedized meals (ticket restaurant)
+      value: true
+    - name: Contract type(s) 
+      value: CDI (Full Time)
+    - name: Creche d'entreprise
+      value: false
+    - name: Remote work (teletravail)
+      value: flexible
+    - name: RTT
+      value: false
+    - name: Eparnage
+      value: false
+
 perks: 
-    employee_stock_option_plan: false
-    new_tech_gear: false
-    free_drinks: false
-    # renumeration based on experinece
-    experience_based_renumeration: true
-    complete_health_and_social_insurance: true
-    # Public transport partially reimbursed
-    commuter_allowance: true
-    # conferences and events
-    confrences_events: true   
-    book_purchases: false
-    # rtt 
-    annual_leave: 5w
+    - name: "Employee stock option plan"
+      value: false 
+    - name: New tech Gear
+      value: false
+    - name: Free drinks
+      value: false
+    - name: Renumeration based on experience
+      value: true
+    - name: Complete health and social insurance
+      value: true
+    - name: CSE
+      value: false
+    - name: Public transport reimpursement
+      value: true
+    - name: Conference events
+      value: true
+    - name: Annual leave 
+      value: 5w
+
 international:
       language_policy_french: not required
       language_policy_english: requires English proficiency
@@ -45,7 +55,6 @@ location:
     address: 2000 route des Lucioles, Les Algorithmes, Pythagore B 
     city: Sophia Antipolis, France
 
-url: https://www.activeeon.com/
 description: >
     ActiveEon provides companies with Workflows & Scheduling software for workload automation, acceleration and scalability in the context of big data, analytics, Internet of Things, machine learning, HPC. 
 

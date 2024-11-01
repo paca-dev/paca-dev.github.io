@@ -21,13 +21,27 @@ work:
       teletravail: 2d/week
       rtt: true
       eparnage: false
+
 perks: 
-      employee_stock_option_plan: false
-      new_tech_gear: true
-      free_drinks: false
-      complete_health_and_social_insurance: true
-      commuter_allowance: false
-      book_purchases: false
+    - name: "Employee stock option plan"
+      value: false
+    - name: New tech Gear
+      value: false
+    - name: Free drinks
+      value: false
+    - name: Renumeration based on experience
+      value: false
+    - name: Complete health and social insurance
+      value: false
+    - name: CSE
+      value: false
+    - name: Public transport reimpursement
+      value: partially
+    - name: Conference events
+      value: false
+    - name: Annual leave 
+      value: 5w
+      
 international:
       language_policy_french: required
       language_policy_english: no information
