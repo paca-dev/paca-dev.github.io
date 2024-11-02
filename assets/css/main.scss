@@ -8,6 +8,16 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
+
+// hero component modifications
+.page__title{
+      color: #000;
+}
+.page__hero--overlay .page__lead {
+  max-width: 100%;
+}
+
+
 .companies-list {
     list-style-type: none;
     padding: 0;
