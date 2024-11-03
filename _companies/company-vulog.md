@@ -14,36 +14,30 @@ company_tags:
 work:
     - name: Subsedized meals (ticket restaurant)
       value: true
+      icon: 🍔
     - name: Contract type(s) 
       value: CDI (Full Time)
-    - name: Creche d'entreprise
-      value: false
+      icon: ⌛
     - name: Remote work (teletravail)
       value: flexible
-    - name: RTT
-      value: false
-    - name: Eparnage
-      value: false
+      icon: 🏠
 
 perks: 
     - name: "Employee stock option plan"
-      value: true 
-    - name: New tech Gear
-      value: false
-    - name: Free drinks
-      value: false
+      value: true
+      icon: 📈
     - name: Renumeration based on experience
       value: true
-    - name: Complete health and social insurance
-      value: false
+      icon: 🗞️
     - name: CSE
       value: true
+      icon: 🎈
     - name: Public transport reimpursement
       value: Partial
-    - name: Conference events
-      value: false
+      icon: 🚎
     - name: Annual leave 
       value: 5w
+      icon: 🏖️
 
 international:
   language_policy_french: not required

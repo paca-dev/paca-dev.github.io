@@ -12,38 +12,13 @@ company_tags:
     other: multisite
 
 work:
-    - name: Subsedized meals (ticket restaurant)
-      value: false
     - name: Contract type(s) 
       value: CDI (Full Time)
-    - name: Creche d'entreprise
-      value: false
-    - name: Remote work (teletravail)
-      value: false
-    - name: RTT
-      value: false
-    - name: Eparnage
-      value: false
-
-perks: 
-    - name: "Employee stock option plan"
-      value: false 
-    - name: New tech Gear
-      value: false
-    - name: Free drinks
-      value: false
-    - name: Renumeration based on experience
-      value: false
-    - name: Complete health and social insurance
-      value: false
-    - name: CSE
-      value: false
-    - name: Public transport reimpursement
-      value: false
-    - name: Conference events
-      value: false
+      icon: ⌛
+perks:
     - name: Annual leave 
-      value: false
+      value: true
+      icon: 🏖️
 
 description: >
     A global semiconductor company that provides High Performance Mixed Signal 

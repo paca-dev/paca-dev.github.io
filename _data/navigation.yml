@@ -4,13 +4,17 @@ main:
   #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "Get Job Alerts"
     url: /newsletter/
-    class: btn btn-primary d-block d-md-none
+    icon: "fas fa-fw fa-envelope-square"
+    class: btn btn-primary d-block d-md-none btn-sm
   - title: "Jobs"
     url: /jobs/
-  - title: "Blog"
-    url: /blog/
+    icon: "fas fa-fw fa-list-square"
   - title: "Companies"
     url: /companies/
+    icon: "fas fa-fw fa-list-square"
+  - title: "Blog"
+    icon: "fas fa-fw fa-document-square"
+    url: /blog/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
@@ -19,3 +23,4 @@ main:
 footer: 
   - title: "Companies"
     url: /companies/
+    icon: "fas fa-fw fa-list-square"

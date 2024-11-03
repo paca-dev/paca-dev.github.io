@@ -1,5 +1,10 @@
 ---
 layout: newsletter
-title: "Are You Looking for a Tech Job in Provence-Alpes-Côte d'Azur (PACA)?"
+title: "Newsletter"
 permalink: /newsletter/
 ---
+
+# Are You Looking for a Tech Job in PACA region?
+
+Get weekly job alerts from companies that value you. Sign up now and we'll send you our Developer Salary Guide for free 👇
+
