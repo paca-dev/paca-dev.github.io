@@ -2,15 +2,18 @@
 main:
   # - title: "Quick-Start Guide"
   #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  - title: "Get Job Alerts"
-    url: /newsletter/
-    class: btn btn-primary d-block d-md-none
-  - title: "Jobs"
+  - title: "Serch Jobs"
+    url: /jobs/
+  - title: "Companies"
     url: /jobs/
   - title: "Blog"
     url: /blog/
-  - title: "Companies"
-    url: /companies/
+  - title: "About"
+    url: /about/
+  - title: "Get Job Alerts"
+    url: /newsletter/
+  - title: "For employers"
+    url: /employers/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
