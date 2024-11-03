@@ -259,7 +259,10 @@ collections:
   companies:
     output: true
     permalink: /companies/:name/
-
+  jobs:
+    output: true
+    permalink: /jobs/:name/
+    
 # Plugins (previously gems:)
 plugins:
   - jekyll-paginate
