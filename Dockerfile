@@ -9,4 +9,4 @@ COPY . .
 
 EXPOSE 4000
 
-CMD ["bundle", "exec", "jekyll", "serve", "--trace", "--host", "0.0.0.0"]
+CMD ["bundle", "exec", "jekyll", "serve", "--trace", "--host", "0.0.0.0", "--verbose"]
