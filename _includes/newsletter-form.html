@@ -1,0 +1,55 @@
+
+
+
+<form id="newsletterForm" class="form-inline g-2 pb-0" style="background-color: transparent;">
+    <div class="form-group mx-sm-3 mb-2">
+        <label for="email" class="sr-only">Email</label>
+        <input id="emailInput" type="email" class="form-control" id="emailInput" placeholder="Enter your email" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$">
+    </div>
+    <button type="submit" class="btn btn-primary mb-2">Get job alerts</button>
+</form>
+<small id="formMessage" class="form-text text-muted">New jobs, new companies and more ☝️ </small>
+
+<script>
+    document.getElementById('newsletterForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      
+      const email = document.getElementById('emailInput').value;
+      const messageElement = document.getElementById('formMessage');
+      
+      // Strict email validation
+      const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+      if (!emailRegex.test(email)) {
+        messageElement.textContent = 'Please enter a valid email address.';
+        messageElement.style.color = 'red';
+        return;
+      }
+      
+      // Construct the API endpoint URL with the email as a query parameter
+      const apiUrl = `https://api.paca-dev.rvieraapps.com/subscribe?email=${encodeURIComponent(email)}`;
+      
+      fetch(apiUrl, {
+        method: 'GET',
+        headers: {
+          'Accept': 'application/json'
+        }
+      })
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Network response was not ok');
+        }
+        return response.json();
+      })
+      .then(data => {
+        // Assuming the API returns a success message
+        messageElement.textContent = 'Subscription successful!';
+        messageElement.style.color = 'green';
+        document.getElementById('emailInput').value = ''; // Clear the input field
+      })
+      .catch(error => {
+        messageElement.textContent = 'An error occurred. Please try again later.';
+        messageElement.style.color = 'red';
+        console.error('Error:', error);
+      });
+    });
+</script>
