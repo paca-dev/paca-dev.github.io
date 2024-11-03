@@ -1,6 +1,6 @@
 <ul class="companies-list">
   {% for company in site.companies | where_exp: "company", "company.published != false" %}
-    <li class="company-item">
+    <li class="company-item mt-4">
       <div class="company-logo">
         <img src="{{ company.logo }}" alt="{{ company.title }} logo" class="img-fluid company-logo-img">
       </div>

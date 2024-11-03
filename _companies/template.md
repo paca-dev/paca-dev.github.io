@@ -15,32 +15,59 @@ tags:
     other: Python Rust Backend Engineering Eng-Other
 
 work:
-      ticket_restaurant: true
-      contract type: CDI
-      creche_dentreprise: true
-      teletravail: 2d/week
-      rtt: true
-      eparnage: false
+    - name: Subsedized meals (ticket restaurant)
+      value: false
+      icon: 🍔
+    - name: Contract type(s) 
+      value: CDI (Full Time)
+      icon: ⌛
+    - name: Creche d'entreprise
+      value: false
+      icon: 👶
+    - name: Remote work (teletravail)
+      value: false
+      icon: 🏠
+    - name: RTT
+      value: false
+      icon: 
+    - name: Eparnage
+      value: false
+      icon: 🏦
+    - name: Daily meeting
+      value: false
+      icon: 📰
+    - name: Language learning support
+      value: false
+      icon: 🇫🇷
 
 perks: 
     - name: "Employee stock option plan"
-      value: false
+      value: false 
+      icon: 📈
     - name: New tech Gear
       value: false
-    - name: Free drinks
-      value: false
+      icon: 💻
     - name: Renumeration based on experience
       value: false
+      icon: 🗞️
     - name: Complete health and social insurance
       value: false
+      icon: 👩‍⚕️
     - name: CSE
       value: false
+      icon: 🎈
     - name: Public transport reimpursement
-      value: partially
+      value: false
+      icon: 🚎
     - name: Conference events
       value: false
+      icon: 🎟️
     - name: Annual leave 
       value: 5w
+      icon: 🏖️
+    - name: Free drinks
+      value: false
+      icon: 🥤
       
 international:
       language_policy_french: required

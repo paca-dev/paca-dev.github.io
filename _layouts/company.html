@@ -128,10 +128,14 @@ layout: default
       <h2>Work</h2>
       <div class="card-content">
         <ul>
-          {% for perk_item in page.perks %}
+          {% for perk_item in page.work %}
             {% if perk_item.value != false %}
               {% if perk_item.value == true %}
+              {% if perk_item.icon %}
+                <li>{{ perk_item.icon }} {{ perk_item.name }}</li>
+              {% else %}
                 <li>{{ perk_item.name }}</li>
+              {% endif %}
               {% else %}
                 <li>{{ perk_item.value }} {{ perk_item.name }}</li>
               {% endif %}
@@ -148,7 +152,12 @@ layout: default
           {% for perk_item in page.perks %}
             {% if perk_item.value != false %}
               {% if perk_item.value == true %}
-                <li>{{ perk_item.name }}</li>
+                {% if perk_item.icon %}
+                  <li>{{ perk_item.icon }} {{ perk_item.name }}</li>
+                {% else %}
+                  <li>{{ perk_item.name }}</li>
+                {% endif %}
+                
               {% else %}
                 <li>{{ perk_item.value }} {{ perk_item.name }}</li>
               {% endif %}

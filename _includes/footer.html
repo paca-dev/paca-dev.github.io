@@ -1,42 +1,59 @@
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+      <p class="fw-bold">Page Navigation</p>
+      <ul class="footer-nav-list list-unstyled">
+        {% if site.data.navigation.main %}
+          {% for link in site.data.navigation.main %}
+            {% if link.title and link.url %}
+              <li>
+                {% if link.icon %}
+                  <i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i>
+                {% endif %}
+                <a href="{{ link.url | relative_url }}">{{ link.title }}</a></li>
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+      </ul>
+    </div>
+    <div class="col-sm">
+      <p class="fw-bold">Page Navigation</p>
+      <ul class="footer-nav-list list-unstyled">
+        {% if site.data.navigation.footer %}
+          {% for link in site.data.navigation.footer %}
+            {% if link.title and link.url %}
+              <li>
+                {% if link.icon %}
+                <i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i>
+                {% endif %}
 
-<div class="page__footer-nav">
-  <ul class="footer-nav-list">
-    {% if site.main %}
-      {% for link in site.main %}
-        {% if link.title and link.url %}
-          <li><a href="{{ link.url | relative_url }}">{{ link.title }}</a></li>
+                <a href="{{ link.url | relative_url }}">{{ link.title }}</a></li>
+            {% endif %}
+          {% endfor %}
         {% endif %}
-      {% endfor %}
-    {% endif %}
-    
-    {% if site.footer %}
-      {% for link in site.footer %}
-        {% if link.title and link.url %}
-          <li><a href="{{ link.url | relative_url }}">{{ link.title }}</a></li>
+      </ul>
+    </div>
+    <div class="col-sm">
+      <p class="fw-bold">Contact</p>
+      <ul class="footer-nav-list list-unstyled">
+        {% if site.author.links %}
+          {% for link in site.author.links %}
+            {% if link.label and link.url %}
+              <li>
+
+                {% if link.icon %}
+                <i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i>
+                {% endif %}
+
+                <a href="{{ link.url | relative_url }}">{{ link.label }}</a>
+              </li>
+            {% endif %}
+          {% endfor %}
         {% endif %}
-      {% endfor %}
-    {% endif %}
-  </ul>
+      </ul>
+    </div>
+  </div>
 </div>
 
-<div class="page__footer-follow">
-  <ul class="social-icons">
-    {% if site.data.ui-text[site.locale].follow_label %}
-      <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
-    {% endif %}
-
-    {% if site.footer.links %}
-      {% for link in site.footer.links %}
-        {% if link.label and link.url %}
-          <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer"><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i> {{ link.label }}</a></li>
-        {% endif %}
-      {% endfor %}
-    {% endif %}
-
-    {% unless site.atom_feed.hide %}
-      <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
-    {% endunless %}
-  </ul>
-</div>
 
 <div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} <a href="{{ site.copyright_url | default: site.url }}">{{ site.copyright | default: site.title }}</a>. {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/jekyll-themes/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a>.</div>

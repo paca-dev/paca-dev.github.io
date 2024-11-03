@@ -25,6 +25,9 @@ layout: default
 
     <ul class="jobs-list">
       {% assign published_jobs = site.jobs | where_exp: "job", "job.published != false" %}
+        {% if published_jobs.size < 1 %}
+          <p>No jobs yet. <a href="/newsletter">subscribe</a> to get alerts</p>
+        {% endif %}
         {% for job in published_jobs %}
         <li class="job-item">
           <div class="job-info">
