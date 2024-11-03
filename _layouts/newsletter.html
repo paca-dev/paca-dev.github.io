@@ -6,30 +6,23 @@ layout: default
 <div id="main" role="main">
 
 
-  <div class="archive container">
+  <div class="archive ">
     
     {{ content }}
     
 
       <div class="row">
-        <div class="col">
+        <div class="col-sm-12 col-md-6">
           <img src="/assets/images/page/newsletter/6263.jpg">
         </div>
-        <div class="col">
+        <div class="col-sm-12 col-md-5">
 
           {% unless page.header.overlay_color or page.header.overlay_image %}
-            <h1 id="page-title" class="page__title"{% if page.locale %} lang="{{ page.locale }}"{% endif %}>{{ page.title }}</h1>
+            <h1 id="page-title" class="pt-2 page__title"{% if page.locale %} lang="{{ page.locale }}"{% endif %}>{{ page.title }}</h1>
           {% endunless %}
 
+          {% include newsletter-form.html %}
 
-          <form id="" class="form-inline g-2 pb-0" style="background-color: transparent;">
-          <div class="form-group mx-sm-3 mb-2">
-            <label for="email" class="sr-only">Email</label>
-            <input type="email" class="form-control" id="emailInput" placeholder="Enter your email" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$">
-          </div>
-          <button type="submit" class="btn btn-primary mb-2">Get job alerts</button>
-        </form>
-        <small id="emailHelp" class="form-text text-muted">New jobs, new companies and more ☝️ </small>
         </div>
       </div>
  

@@ -18,56 +18,12 @@
 
 {% assign image_description = image_description | markdownify | strip_html | strip_newlines | escape_once %}
 
-<script>
-  document.getElementById('newsletterForm').addEventListener('submit', function(e) {
-    e.preventDefault();
-    
-    const email = document.getElementById('emailInput').value;
-    const messageElement = document.getElementById('formMessage');
-    
-    // Strict email validation
-    const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
-    if (!emailRegex.test(email)) {
-      messageElement.textContent = 'Please enter a valid email address.';
-      messageElement.style.color = 'red';
-      return;
-    }
-    
-    // Construct the API endpoint URL with the email as a query parameter
-    const apiUrl = `https://api.paca-dev.rvieraapps.com/subscribe?email=${encodeURIComponent(email)}`;
-    
-    fetch(apiUrl, {
-      method: 'GET',
-      headers: {
-        'Accept': 'application/json'
-      }
-    })
-    .then(response => {
-      if (!response.ok) {
-        throw new Error('Network response was not ok');
-      }
-      return response.json();
-    })
-    .then(data => {
-      // Assuming the API returns a success message
-      messageElement.textContent = 'Subscription successful!';
-      messageElement.style.color = 'green';
-      document.getElementById('emailInput').value = ''; // Clear the input field
-    })
-    .catch(error => {
-      messageElement.textContent = 'An error occurred. Please try again later.';
-      messageElement.style.color = 'red';
-      console.error('Error:', error);
-    });
-  });
-  </script>
-
 <div class="page__hero{% if page.header.overlay_color or page.header.overlay_image %}--overlay{% endif %}"
   style="{% if page.header.overlay_color %}background-color: {{ page.header.overlay_color | default: 'transparent' }};{% endif %} {% if overlay_img_path %}background-image: {% if overlay_filter %}{{ overlay_filter }}, {% endif %}url('{{ overlay_img_path }}');{% endif %}"
 >
   {% if page.header.overlay_color or page.header.overlay_image %}
     <div class="wrapper" style="text-align: center;">
-      <h1 id="page-title" class="page__title" itemprop="headline">
+      <h1 id="page-title" class="page__title" itemprop="headline" style="color: #2d2d2d">
         {% if paginator and site.paginate_show_page_num %}
           {{ site.title }}{% unless paginator.page == 1 %} {{ site.data.ui-text[site.locale].page | default: "Page" }} {{ paginator.page }}{% endunless %}
         {% else %}
@@ -75,31 +31,22 @@
         {% endif %}
       </h1>
       {% if page.tagline %}
-        <p class="page__lead">{{ page.tagline | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+        <p class="page__lead" style="color: #2d2d2d">{{ page.tagline | markdownify | remove: "<p>" | remove: "</p>" }}</p>
       {% elsif page.header.show_overlay_excerpt != false and page.excerpt %}
-        <p class="page__lead">{{ page.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+        <p class="page__lead" style="color: #2d2d2d">{{ page.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</p>
       {% endif %}
       {% include page__meta.html %}
       
       {% if page.header.newsletter %}
         <div class="mb-4 d-none d-sm-inline-block">
-          <form id="" class="form-inline g-2 pb-0" style="background-color: transparent;">
-            <div class="form-group mx-sm-3 mb-2">
-              <label for="email" class="sr-only">Email</label>
-              <input type="email" class="form-control" id="emailInput" placeholder="Enter your email" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$">
-            </div>
-            <button type="submit" class="btn btn-primary mb-2">Get job alerts</button>
-          </form>
-          <small id="emailHelp" class="form-text text-muted">New jobs, new companies and more ☝️ </small>
-
+          {% include newsletter-form.html %}
         </div>
-        
       {% endif %}
 
       {% if page.header.actions %}
         <p>
         {% for action in page.header.actions %}
-          <a href="{{ action.url | relative_url }}" class="btn btn--light-outline btn--large">{{ action.label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
+          <a href="{{ action.url | relative_url }}" class="btn btn--primary-outline btn--large" style="color: #2d2d2d"> {{ action.label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
         {% endfor %}
         </p>
       {% endif %}
