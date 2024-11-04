@@ -2,7 +2,7 @@
 layout: job
 title: DevOps Engineer at Activeeon
 company: Activeeon
-published: true
+published: false
 
 job_tags:
     - Java
