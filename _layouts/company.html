@@ -11,7 +11,7 @@ layout: default
 
     <article class="company">
 
-    <div class="d-flex mt-3">
+    <div class="d-flex mt-4">
       <div class="company-info">
         <h1>{{ page.title }}</h1>
         <!-- URL to the website -->
@@ -44,7 +44,7 @@ layout: default
       </span>
     {% endif %}
 
-    <div class="">
+    <div class="mt-4">
       <h2 class="card-title">About {{ page.title }}</h2>
       
         <div class="card-text">
@@ -54,19 +54,19 @@ layout: default
 
           
           {% if page.mission %}
-            <h3 class="card-title">Mission</h3>
+            <h3 class="card-title mt-4">Mission</h3>
             <p class="company-mission">{{ page.mission }}</p>
           {% endif %}
           {% if page.vision %}
-            <h3 class="card-title">Vision</h3>
+            <h3 class="card-title mt-4">Vision</h3>
             <p class="company-vision">{{ page.vision }}</p>
           {% endif %}
           {% if page.values %}
-            <h3 class="card-title">Values</h3>
+            <h3 class="card-title mt-4">Values</h3>
             <p class="company-values">{{ page.values }}</p>
           {% endif %}
           {% if page.culture %}
-            <h3 class="card-title">Culture</h3>
+            <h3 class="card-title mt-4">Culture</h3>
             <p class="company-culture">{{ page.culture }}</p>
           {% endif %}
   
@@ -74,7 +74,7 @@ layout: default
         </div>
     </div>
   
-    <div class="">
+    <div class="mt-4">
       <h2>International</h2>
       <div class="card-content">
         
@@ -99,7 +99,7 @@ layout: default
       <h2>{{ page.title }} Tags</h2>
   
       
-      <div class="">
+      <div class="mt-4">
         {% if page.company_tags.main %}
           {% for tag_main in page.company_tags.main | split: ", " %}
             <span class="badge text-bg-light">{{ tag_main }}</span>
@@ -124,7 +124,7 @@ layout: default
       </div>
     </div>
   
-    <div class="">
+    <div class="mt-4">
       <h2>Work</h2>
       <div class="card-content">
         <ul>
@@ -145,7 +145,7 @@ layout: default
       </div>
     </div>
   
-    <div class="">
+    <div class="mt-4">
       <h2>Perks</h2>
       <div class="card-content">
         <ul>
