@@ -88,16 +88,7 @@
       
       {% if page.header.newsletter %}
         <div class="mb-4 d-none d-sm-inline-block" style=" width: 100%;">
-          <form id="newsletterForm" class="row g-2" style="background-color: transparent;">
-            <div class="col-auto">
-              <input type="email" class="form-control" id="emailInput" placeholder="Enter your email" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$">
-              <small id="formMessage" class="form-text text-muted"></small>
-            </div>
-            <div class="col-auto">
-              <button onclick="handle_submit()" class="btn btn-primary">Get job alerts</button>
-            </div>
-          </form>
-
+          {% include newsletter-form.html %}
         </div>
       {% endif %}
 
