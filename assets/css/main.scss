@@ -16,7 +16,24 @@ search: false
 .page__hero--overlay .page__lead {
   max-width: 100%;
 }
+.page__hero--overlay a {
+  color: var(--bs-heading-color);
+}
 
+.page__hero--overlay .btn {
+  color: var(--bs-heading-color);
+}
+.greedy-nav {
+  a {
+    color: var(--bs-heading-color);
+  }
+}
+
+.jobs-list {
+  list-style-type: none; // removes bullets
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+}
 
 .masterhead__inner-wrap {
  background-color: #005F99;
