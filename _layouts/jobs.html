@@ -15,7 +15,7 @@ layout: default
 {% endif %}
 
 <div id="main" role="main">
-  <div class="">
+  <div class="mt-4 mb-4">
     {% unless page.header.overlay_color or page.header.overlay_image %}
       <h1 id="page-title" class="page__title"{% if page.locale %} lang="{{ page.locale }}"{% endif %}>{{ page.title }}</h1>
     {% endunless %}
@@ -34,7 +34,7 @@ layout: default
             <h2 class="h5 mt-0"><a href="{{ job.url }}">{{ job.title }}</a></h2>
             <h3 class="h6 company-name">{{ job.company }}</h3>
             {% if job.description %}
-              <p class="job-description truncate100">{{ job.description }}</p>
+              <p class="job-description truncate100">{{ job.description | truncate: 150 }}</p>
             {% endif %}
             <div class="job-tags">
               {% if job.location %}
@@ -55,11 +55,12 @@ layout: default
                   {{ job.salary_range }}
                 </span>
               {% endif %}
-              {% if job.date_posted %}
-                <span class="tag date-posted-tag">
-                  <i class="bi bi-calendar-event"></i>
-                  Posted: {{ job.date_posted | date: "%B %d, %Y" }}
-                </span>
+              {% if job.job_tags %}
+                {% for tag in job.job_tags %}
+                  <span class="tag date-posted-tag">
+                    #{{ tag" }}
+                  </span>
+                {% endfor %}
               {% endif %}
             </div>
           </div>
