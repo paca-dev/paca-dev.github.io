@@ -1,3 +1,42 @@
 <!-- start custom footer snippets -->
 
 <!-- end custom footer snippets -->
+
+<script>
+    // const isDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const darkModeToggle = document.querySelector("#darkmode_toggle > a")
+    const iconDark = document.getElementById('icon-dark');
+    const iconLight = document.getElementById('icon-light');
+
+    if (isDark) {
+        enableDarkMode();
+    } else if (darkModeSelected === 'false') {
+        disableDarkMode();
+    }
+    
+    // Toggle dark mode on button click
+    darkModeToggle.onclick = function() {
+        if (document.body.classList.contains('dark')) {
+            disableDarkMode();
+        } else {
+            enableDarkMode();
+        }
+    };
+
+    function enableDarkMode() {
+        document.body.classList.add('dark');
+        localStorage.setItem('dark-mode', 'true');
+        iconDark.style.display = 'none';
+        iconLight.style.display = 'inline';
+        htmlElement.setAttribute('data-bs-theme', 'dark');
+    }
+
+    function disableDarkMode() {
+        document.body.classList.remove('dark');
+        localStorage.setItem('dark-mode', 'false');
+        iconDark.style.display = 'inline';
+        iconLight.style.display = 'none';
+        htmlElement.setAttribute('data-bs-theme', 'light');
+    }
+
+  </script>

@@ -98,3 +98,12 @@ search: false
       width: 100%;
     }
   }
+
+// menu button fog 
+.greedy-nav__toggle {
+  &:before {
+    @supports (pointer-events: none) {
+      background-color: rgba(0, 0, 0, 0.61)
+    }
+  }
+}
