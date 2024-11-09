@@ -28,6 +28,14 @@
           </li>
           
           {%- endfor -%}
+
+          <li id="darkmode_toggle" class="masthead__menu-item ">
+            <a class="dark-mode-button" id="dark-mode-toggle">
+              <i id="icon-dark" class="fa fa-moon"></i>
+              <i id="icon-light" class="fa fa-sun" style="display: none;"></i>
+            </a>
+          </li>
+
         </ul>
         {% if site.search == true %}
         <button class="search__toggle" type="button">
