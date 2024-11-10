@@ -263,7 +263,7 @@ collections:
     permalink: /companies/:name/
   jobs:
     output: true
-    permalink: /jobs/:name/
+    permalink: /job/:name/  # URL for individual job posts
     
 # Plugins (previously gems:)
 plugins:
