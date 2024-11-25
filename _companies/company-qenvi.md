@@ -3,20 +3,19 @@ layout: company
 title: Qenvi
 published: true
 
-company_url: https://www.qenvi.com
+company_url: https://www.qenvirobotics.com
 
-logo: /assets/images/company_logo-quantificare.png
+logo: /assets/images/company_logo-qenvirobotics.png
 
 company_tags: 
-    main: 
-      - medical 
+    main:
       - robotics
-      - AI
-    other: 
-      - PHP
-      - C++ 
-      - Python, 
       - ML
+    other: 
+      - Java 
+      - C++ 
+      - nodeJS
+      - scrum
 
 work:
     - name: Subsedized meals (ticket restaurant)
@@ -82,24 +81,31 @@ founded_in: 2001
 employees: 51-200
 
 location:
-    address: ""
+    address: "1503 ROUTE DES DOLINES SOPHIA ANTIPOLIS, VALBONNE, 06560 FR"
     city: Sophia Antipolis, France
 
-description: "QuantifiCare is a leading Imaging CRO and manufacturer specializing in 2D/3D imaging systems and services for medical and aesthetic applications"
+description: "is a 100% subsidiary of QENVI Sarl, established in 2016. The company specializes in developing follower and autonomous robots capable of carrying loads, along with stock management software and fleet management solutions. Based in Sophia Antipolis, known as the "French Silicon Valley," QENVI Robotics thrives in an environment conducive to technological innovation."
 
-more_description: "Founded in 2001 as a spin-off from INRIA, QuantifiCare has grown into a global company with over 100 employees across all continents. It operates two main business units: a Clinical Research Organization (CRO) for skin imaging in clinical trials and a 3D imaging systems provider for aesthetic specialists"
+more_description: "The company provides a comprehensive connected solution for inventory management, which includes: 1. A physical follower robot 2. A mobile application 3. A server software.
+QENVI Robotics has filed a patent for its innovative solution, showcasing its technical expertise. The developed robots can carry loads of up to 2 tons and can be customized according to client needs (e.g., wheelchairs, stretchers, hydraulic machines)."
 
-mission: "To transform pioneering ideas into innovative solutions in medical imaging, providing 'proof through imaging' for both clinical research and aesthetic practice"
+mission: "The mission of QENVI Robotics is to revolutionize inventory management for businesses, particularly SMEs, by combining:
+ 1. Effective on-site management 2. An innovative physical solution (follower robot) 3. A robust ERP system
+The goal is to optimize inventory management processes, enhance safety, reduce workplace accidents, and improve operational efficiency."
 
-problem_solving: "QuantifiCare addresses challenges in medical imaging through;
-    1. Standardization of digital photography in clinical trials
-    2. Development of all-inclusive 3D imaging systems for dermatologists and plastic surgeons
-    3. Focus on customer service, R&D, and global presence
-    4. Emphasis on innovation in 3D imaging, research, and technology"
+problem_solving: "QENVI Robotics addresses several significant challenges in inventory management: 1. The lack of affordable mobile/field solutions for SMEs 2. Data loss and insecurity associated with cheap solutions or Excel 3. Inefficiencies in traditional inventory management processes.
+The solution from QENVI Robotics enables physical inventory management, facilitating the identification of process failures and enhancing the performance of logistical flows."
 
     
 specialties:
-    - medicl imagery
-    - 2D 3D imaging
-    
+    - Robotics; Development of follower and autonomous robots.
+    - Artificial Intelligence; Implementation of AI techniques for robot control.
+    - Software Development; Creation of mobile applications and server software.
+    - IoT; Design of connected solutions for inventory management.
+    - Embedded Systems; Programming systems for robots.
+    - Data Management; Optimization of data flows for inventory control.
+    - User Interfaces; Designing intuitive interfaces for mobile applications and software.
+
+tools: Java, C++, Docker, REST APIs, NoSQL databases, HTML5, jQuery, and Node.js, JENKINS, JIRA, and SONAR 
+
 ---
