@@ -5,7 +5,7 @@ published: true
 
 company_url: https://symphony.com/
 
-logo: /assets/images/company_logo-symphony.png
+logo: /assets/images/company_logo-symphony.svg
 
 company_tags: 
     main:

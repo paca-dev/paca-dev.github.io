@@ -1,7 +1,7 @@
 ---
 layout: company
 title: Cintoo
-published: false
+published: true
 
 company_url: https://cintoo.com/
 

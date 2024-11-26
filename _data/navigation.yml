@@ -16,6 +16,7 @@ main:
     icon: "fas fa-fw fa-document-square"
     url: /blog/
   - title: "About"
+    icon: "fas fa-fw fa-list-square"
     url: /about/
   # - title: "Sample Collections"
   #   url: /collection-archive/
@@ -32,3 +33,13 @@ footer:
   - title: "blog"
     url: /blog/
     icon: "fas fa-fw fa-list-square"
+rss:
+  - label: "RSS-blog"
+    icon: "fas fa-fw fa-rss-square"
+    url: "/feed.xml"
+  - label: "RSS-companies"
+    icon: "fas fa-fw fa-rss-square"
+    url: "/feed/companies.xml"
+  - label: "RSS-jobs"
+    icon: "fas fa-fw fa-rss-square"
+    url: "/feed/jobs.xml"

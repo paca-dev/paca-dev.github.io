@@ -52,6 +52,23 @@
         {% endif %}
       </ul>
     </div>
+    <div class="col-sm">
+      <p class="fw-bold">RSS</p>
+      <ul class="footer-nav-list list-unstyled">
+        {% if site.data.navigation.rss %}
+          {% for link in site.data.navigation.rss %}
+            {% if link.label and link.url %}
+              <li>
+                {% if link.icon %}
+                <i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i>
+                {% endif %}
+
+                <a href="{{ link.url | relative_url }}">{{ link.label }}</a></li>
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+      </ul>
+    </div>
   </div>
 </div>
 

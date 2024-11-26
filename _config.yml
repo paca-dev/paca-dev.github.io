@@ -281,6 +281,11 @@ whitelist:
   - jekyll-feed
   - jekyll-include-cache
 
+feed:
+  posts_limit: 10
+  collections:
+    - companies
+    - jobs
 
 # Archives
 #  Type
