@@ -26,3 +26,9 @@ footer:
   - title: "Companies"
     url: /companies/
     icon: "fas fa-fw fa-list-square"
+  - title: "jobs"
+    url: /jobs/
+    icon: "fas fa-fw fa-list-square"
+  - title: "blog"
+    url: /blog/
+    icon: "fas fa-fw fa-list-square"
