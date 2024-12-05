@@ -1,3 +1,15 @@
+---
+layout: post
+current: post
+cover:  assets/images/paca-dev-logo.png
+navigation: True
+title: "Navigating Work Commutes; A Developer's Survival Guide to PACA Region Traffic"
+date: 2024-12-05 10:00:00
+tags: info
+author: paca-dev
+published: true
+---
+
 # Navigating Work Commutes: A Developer's Survival Guide to PACA Region Traffic
 
 ## The Rhythms of Professional Movement
