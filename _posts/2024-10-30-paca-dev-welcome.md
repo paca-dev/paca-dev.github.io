@@ -5,7 +5,7 @@ cover:  assets/images/paca-dev-logo.png
 navigation: True
 title: PACA-Dev
 date: 2024-10-30 10:00:00
-tags: devops
+tags: info
 author: paca-dev
 published: true
 ---
