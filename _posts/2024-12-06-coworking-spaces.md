@@ -4,7 +4,7 @@ current: post
 cover:  assets/images/paca-dev-logo.png
 navigation: True
 title: "Coworking Spaces and Innovation Hubs in PACA"
-date: 2024-112-06 10:00:00
+date: 2024-12-06 10:00:00
 tags: info
 author: paca-dev
 published: true
