@@ -1,6 +1,13 @@
 ---
-author:paca-dev
-
+layout: post
+current: post
+cover:  assets/images/paca-dev-logo.png
+navigation: True
+title: Navigating the tech Landscape: Develops guide to working in PACA France
+date: 2024-12-05 10:00:00
+tags: guide
+author: paca-dev
+published: true
 ---
 # Navigating the Tech Landscape: A Developer's Guide to Working in PACA, France
 
