@@ -3,7 +3,7 @@ layout: post
 current: post
 cover:  assets/images/paca-dev-logo.png
 navigation: True
-title: "The Tech Mosaic of Sophia Antipolis: Diverse Companies and Innovation Landscape"
+title: "The Tech Mosaic of Sophia Antipolis; Diverse Companies and Innovation Landscape"
 date: 2024-12-05 10:00:00
 tags: info
 author: paca-dev
