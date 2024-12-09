@@ -1,0 +1,27 @@
+---
+layout: default
+---
+<div class="row mt-5">
+  <div class="col-sm-12 col-md-6">
+    <img src="/assets/images/page/newsletter/6263-jobs.jpg">
+  </div>
+  <div class="col-sm-12 col-md-6">
+
+    {% unless page.header.overlay_color or page.header.overlay_image %}
+      <p id="page-title" class="pt-2 page__title"{% if page.locale %} lang="{{ page.locale }}"{% endif %}>
+        {{ page.title }}
+      </p>
+    {% endunless %}
+
+    <h3 class="archive__title">Would you like to be in the loop for new positions?</h3>
+    <p>
+      Every now and then, I publish new job positions on the page. Is it ok if I send you an email? It will be only about job positions.
+    </p>
+
+    {% include newsletter-form-jobs.html %}
+
+  </div>
+</div>
+ 
+
+
