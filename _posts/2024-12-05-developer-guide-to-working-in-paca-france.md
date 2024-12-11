@@ -24,6 +24,8 @@ Developers can expect a holistic approach to professional life that emphasizes:
 - Extremely generous vacation policies offering 5-6 weeks of paid leave annually, allowing for genuine rest and personal exploration
 - A cultural emphasis on work-life integration rather than work-life balance, meaning professional and personal experiences are seen as complementary, not competing
 
+Of corse these perks depend from one company to another. 
+
 The French approach values the entire person, not just their professional output. This means employers are more likely to invest in your personal development, mental health, and overall well-being.
 
 ## The Recruitment Landscape: Navigating Agency Waters
