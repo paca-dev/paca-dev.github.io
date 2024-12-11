@@ -5,7 +5,7 @@ cover: assets/images/paca-dev-logo.png
 navigation: True
 title: Sophia Antipolis vs. Silicon Valley
 date: 2024-12-11 10:00:00
-tags: guide
+tags: comparative analasys
 author: paca-dev
 published: true
 keywords:
