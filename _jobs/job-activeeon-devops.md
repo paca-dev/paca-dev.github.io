@@ -22,7 +22,7 @@ salary_range: Competitive, based on experience
 application_url: https://www.activeeon.com/careers
 
 date_posted: 2024-11-01
-expiration_date: 2024-12-01
+expiration_date: 2025-01-01
 
 description: >
     Join Activeeon's innovative team to develop cutting-edge AI orchestration and workflow automation solutions. As a Senior Java Developer, you'll play a crucial role in enhancing our ProActive AI Orchestration platform, helping clients deploy and scale machine learning workflows across diverse infrastructures.
@@ -57,7 +57,6 @@ benefits:
 
 how_to_apply: >
     If you're passionate about AI, automation, and distributed computing, we want to hear from you! Please submit your CV and a brief cover letter through our careers page, highlighting your relevant experience and why you're excited to join Activeeon.
-
 ---
 
 ## About Activeeon

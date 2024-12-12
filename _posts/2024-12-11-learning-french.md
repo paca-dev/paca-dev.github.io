@@ -35,9 +35,10 @@ French-speaking regions are emerging as significant tech hubs, particularly in:
 ### 1. Tech-Enabled Learning Approaches
 
 #### AI-Powered Language Tools
-- **Duolingo AI**: Personalized learning paths
-- **Babbel Advanced**: Context-based learning algorithms
-- **Memrise Pro**: Real-world conversation simulations
+- [**Duolingo AI**](https://www.duolingo.com/): Personalized learning paths
+- [**Babbel Advanced**](https://www.babbel.com): Context-based learning algorithms
+- [**Memrise Pro**](https://www.memrise.com/): Real-world conversation simulations
+- [**Fluent French 95**](https://lang.rivieraapps.com): Challnges in French
 
 #### Immersive Technologies
 - **VR Language Environments**
@@ -49,7 +50,7 @@ French-speaking regions are emerging as significant tech hubs, particularly in:
 #### Technical French Resources
 - **Coursera French for Tech Professionals**
 - **LinkedIn Learning: Technical French Communication**
-- **Udemy: Programming Vocabulary in French**
+- [**Udemy: Programming Vocabulary in French**](https://www.udemy.com/)
 
 ## Practical Learning Techniques
 
@@ -65,7 +66,7 @@ French-speaking regions are emerging as significant tech hubs, particularly in:
 - **Slack/Discord Tech Communities**
 - **French Tech Meetup Participation**
 - **Duolingo French Podcast**
-- **Tandem app**
+- [**Tandem app**](https://tandem.net/)
 
 ## Language Learning Roadmap
 
