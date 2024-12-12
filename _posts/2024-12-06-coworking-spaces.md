@@ -16,32 +16,37 @@ published: true
 
 The PACA region has emerged as a hotspot for innovative workspaces, transforming how professionals collaborate, create, and connect.
 
-## Sophia Antipolis: The Innovation Epicenter
+## Sophia Antipolis
 
-### Créativ'Lab (Nice)
-- **Location**: Nice
-- **Specialties**:
-  - Tech-focused coworking
-  - Startup incubation
-  - Networking events
-- **Unique Features**:
-  - 24/7 access
-  - High-speed internet
-  - Meeting room facilities
-  - Mentorship programs
+### [Alatere CoWo](https://www.alatere-web.com/espace-de-coworking/)
+- **Location**: Antibes
+- **Focus**:
+  - Close to the train station
+  - 20EUR/day or 300EUR/month
+  - [details](https://workin.space/coworking/france/alpes-maritimes-06/antibes-06600/alatere-cowo)
 
-### Telecom Valley Coworking Space
+### [Coworking Saint Philippe]()
+- **Location**: Route des Colles - Biot
+- **Perks and price**:
+  - 150EUR/month
+  - Modern working space 150m2 
+  - Parting
+### [Regus](https://www.regus.com/en-gb/france/sophia-antipolis)
 - **Location**: Sophia Antipolis
 - **Focus**:
-  - Telecommunications professionals
-  - Digital innovation
-  - Technology startups
+  - Digital nomads
 - **Amenities**:
-  - Specialized tech infrastructure
+  - Offices with equipment
   - Collaborative zones
-  - Regular industry meetups
+
+### [Spaces Les Templiers](https://www.spacesworks.com/fr/sophia-antipolis-france/les-templiers/)
+- **Location**: Route des Colles - Biot
+- **Perks and Price**:
+  - 209EUR/month
+  - modern
 
 ## Marseille's Innovation Ecosystem
+
 
 ### Marseille Innovation
 - **Location**: Marseille
