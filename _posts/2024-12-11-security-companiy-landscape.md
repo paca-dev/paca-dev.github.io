@@ -89,7 +89,7 @@ Cybersecurity startups in Tel Aviv can secure funding ranging from €2 million 
 ### Sophia Antipolis Notable Companies
 - NOKIA Cybersecurity Solutions
 - Orange Cybersecurity Research Center
-- [Fortinet](fortinet.com)
+- [Fortinet](https://fortinet.com)
 - EURECOM Security Research Laboratories
 - Specialized telecommunications security firms
 
