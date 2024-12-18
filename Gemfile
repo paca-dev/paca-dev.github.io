@@ -19,3 +19,6 @@ gem "json", "~> 2.7.4"
 gem "net-http", "~> 0.4.1"
 gem "uri", "~> 0.13.1"
 
+gem "rexml", "3.3.9"
+gem "logger", "1.6.2"
+gem "google-protobuf", "4.29.1"
