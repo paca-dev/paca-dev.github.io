@@ -3,7 +3,7 @@ layout: post
 current: post
 cover: assets/images/paca-dev-logo.png
 navigation: True
-title: Living on the Côte d'Azur An Insider's Guide to the French Riviera
+title: Living on the Côte dAzur An Insiders Guide to the French Riviera
 date: 2024-12-16 10:00:00
 tags: insider
 author: paca-dev
