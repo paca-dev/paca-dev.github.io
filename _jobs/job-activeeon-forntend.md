@@ -34,7 +34,7 @@ experience:
 application_url: https://www.activeeon.com/about/careers/
 
 date_posted: 2024-11-03
-expiration_date: 2024-12-03
+expiration_date: 2025-01-15
 
 description: >
     Activeeon, an Open Source software editor providing Orchestration, Scheduling, IT and Business Process Workload Automation for the multi-Cloud era, is seeking Front-End Engineers at all levels. You will be responsible for improving and maintaining the ProActive web client, a rich in-browser application relied upon by several enterprises and government institutions across the globe.

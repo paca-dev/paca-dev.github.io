@@ -27,7 +27,7 @@ experience:
   seniority: N/A
 application_url: https://www.activeeon.com/about/careers/
 date_posted: 2024-11-03
-expiration_date: 2024-12-03
+expiration_date: 2025-01-15
 description: >
   ActiveEon, a high-growth French technology company, is seeking a Machine Learning Architect to join our team. You'll be part of developing open source solutions for cloud, big data, distributed and parallel computing, helping companies scale their business. This role offers the opportunity to work with cutting-edge technologies in a dynamic, international environment.
 responsibilities:

@@ -34,8 +34,7 @@ experience:
 application_url: https://www.activeeon.com/about/careers/
 
 date_posted: 2024-11-03
-expiration_date: 2024-12-03
-
+expiration_date: 2025-01-15
 description: >
     ActiveEon, an INRIA start-up and software publisher of Open Source solutions for HPC Cloud and parallel computing, is seeking a highly qualified Java Developer to join our R&D team. This role offers the opportunity to work on innovative solutions that accelerate computer applications & Workflows, and manage Grids and Cloud infrastructures.
 
