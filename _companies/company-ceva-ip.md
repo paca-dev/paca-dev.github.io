@@ -3,7 +3,7 @@ layout: company
 title: Ceva
 published: true
 
-company_url: https://ceva-ip.com/
+company_url: https://www.ceva-ip.com
 
 logo: /assets/images/company_logo-ceva-ip.png
 

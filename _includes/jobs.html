@@ -2,12 +2,22 @@
 <!-- filter the jobs which are published -->
 {% assign published_jobs = site.jobs | where_exp: "job", "job.published != false" %}
 
+{% if page.filters == null %}
+  {% assign filtered_jobs = published_jobs %}
+{% else %}
+  {% assign filtered_jobs = published_jobs | where_exp: "job", "job.job_tags contains page.filters" %}
+{% endif %}
+
 <div class="jobs-list row">
-      
-  {% if published_jobs.size < 1 %}
-    <p>No jobs yet. <a href="/newsletter">subscribe</a> to get alerts</p>
+  {% if page.filters != null %} <a href="/jobs"> < Back to all jobs</a> {% endif %}
+  {% if filtered_jobs.size < 1 %}
+    <p class="mt-3 mb-5" style="text-align:center;">
+      No {{ page.filters[0] }} jobs right now. Subscribe to get alerts.
+    </p>
+
+    {% include newsletter-form-jobs.html %}
   {% endif %}
-  {% for job in published_jobs %}
+  {% for job in filtered_jobs %}
   <div class="job-item col-md-6 mt-3">
     <div class="job-info">
       <h2 class="h5 mt-0"><a href="{{ job.url }}">{{ job.title }}</a></h2>

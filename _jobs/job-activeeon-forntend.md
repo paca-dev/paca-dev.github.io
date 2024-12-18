@@ -11,6 +11,7 @@ job_tags:
     - Front-End
     - Web Development
     - Open Source
+    - CDI
 
 location:
     city: Sophia Antipolis, France
@@ -72,6 +73,6 @@ benefits:
     - Mentorship and career growth opportunities
 
 how_to_apply: >
-    If you're passionate about front-end development and innovation, we want to hear from you! Please send your resume to our careers page. The position is open immediately.
+    If you're passionate about front-end development and innovation, ActiveEon wants to hear from you! Please send your resume to our careers page. The position is open immediately.
 
 ---

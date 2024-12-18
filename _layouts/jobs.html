@@ -16,9 +16,7 @@ layout: default
 
 <!-- intercept the filter for the jobs -->
 {% assign job_filter = page.url | split: '/' | last %}
-{% assign filtered_jobs = site.jobs | where_exp: "job", "job.job_tags contains site.tags" %}
-
-
+{% assign filtered_jobs = site.jobs | where_exp: "job", "job.job_tags contains page.filters" %}
 
 <div id="main" role="main">
   <div class="mt-4 mb-4">

@@ -9,6 +9,7 @@ job_tags:
     - Cloud
     - AI
     - Machine Learning
+    - CDI
 
 location:
     city: Sophia Antipolis, France
@@ -19,7 +20,7 @@ contract_type: CDI
 
 salary_range: Competitive, based on experience
 
-application_url: https://www.activeeon.com/careers
+application_url: https://www.activeeon.com/about/careers/
 
 date_posted: 2024-11-01
 expiration_date: 2025-01-01
@@ -56,11 +57,5 @@ benefits:
     - Collaborative and innovative work environment
 
 how_to_apply: >
-    If you're passionate about AI, automation, and distributed computing, we want to hear from you! Please submit your CV and a brief cover letter through our careers page, highlighting your relevant experience and why you're excited to join Activeeon.
+    If you're passionate about AI, automation, and distributed computing, ActiveEon wants to hear from you! Please submit your CV and a brief cover letter through ActiveEon's careers page, highlighting your relevant experience and why you're excited to join Activeeon.
 ---
-
-## About Activeeon
-
-Activeeon is a leading provider of workflow automation and AI orchestration solutions. Our mission is to create the best orchestration solution for workload automation and big compute on premises and in the cloud. With a focus on innovation and scalability, we help companies across various industries optimize their processes and leverage the power of AI and machine learning.
-
-For more details about our company culture, benefits, and work environment, please visit our [company profile](/companies/activeeon).

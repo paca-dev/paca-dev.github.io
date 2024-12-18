@@ -11,6 +11,7 @@ job_tags:
     - Cloud
     - Open Source
     - Distributed Systems
+    - CDI
 
 location:
     city: Sophia Antipolis, France
@@ -30,7 +31,7 @@ language_requirements:
 experience: 
     seniority: 🔥 senior
 
-application_url: mailto:apply@activeeon.com
+application_url: https://www.activeeon.com/about/careers/
 
 date_posted: 2024-11-03
 expiration_date: 2024-12-03
@@ -68,6 +69,6 @@ benefits:
     - Location in the heart of French "Telecom Valley"
 
 how_to_apply: >
-    If you're passionate about Java development and innovation, we want to hear from you! Please send your CV with a motivation letter to apply@activeeon.com and Denis.Caromel@activeEon.com. The position is open immediately.
+    If you're passionate about Java development and innovation, ActiveEon wants to hear from you! Please send your CV with a motivation letter to apply@activeeon.com and Denis.Caromel@activeEon.com.
 
 ---
