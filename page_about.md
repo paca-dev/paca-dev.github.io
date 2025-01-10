@@ -6,7 +6,7 @@ permalink: /about/
 
 # Find Your Dream Tech Job in PACA 
 
-Welcome to **PACA-dev**, my personal guide to discovering exceptional tech opportunities in the vibrant Provence-Alpes-Côte d'Azur (PACA) region!
+Welcome to **PACA-dev**, my personal guide to discovering exceptional tech opportunities in the vibrant Provence-Alpes-Côte d'Azur (PACA) region! the region is also known as French Riviera, Provence or simply South of France.
 
 As an independent developer, I understand the excitement of working with cutting-edge technologies and the importance of finding a company that aligns with your passions. That's why I created PACA-dev – not just as a job board, but as a curated resource for tech professionals like us who want to thrive in innovative environments.
 
