@@ -1,13 +1,13 @@
 ---
-name: "Senior Sales Partner & Indirect Channels Position at ActiveEon"
+name: "Senior Sales Partners & Indirect Channels"
 companyname: "ActiveEon"
-joboppeningurl: "http://www.ActiveEon.com"
-joboppeningshortdescription: "Senior Sales position in a multi-product, multi-channel environment driving sales partners and indirect channels."
-joboppeningid: "SeniorSalesPartners-and-IndirectChannels"
-joboppninglongdescription: "ActiveEon is a high-growth, dynamic IT Company that recently closed a round of investment with several VCs, including KIMA Venture created by Iliad-Free founder: Xavier Niel. In this Senior Sales position, you will be primarily driving our Sales Partners and Indirect Channels, mainly with ISVs, Integrators, Service Companies, Added Value Resellers, and Cloud Hosting organizations. You will win, maintain, and expand relationships with such channel partners. Experience in indirect sales partner network management is required, as well as in IT Services and Software. Knowledge of Cloud and/or Open Source models would be appreciated. The position requires direct partner contact, some customer interaction, as well as working in close relation with ActiveEon CEO, other Sales staff, and Pre-sales. Key duties and responsibilities include: developing an annual channel sales plan, maximizing sales opportunities, providing input to marketing plans and budgets, engaging directly with customers, maintaining key customer relationships, recommending sales strategies for improvement based on market research and competitor analyses, participating in trade shows, periodical reporting of business performance, and performing other related duties as assigned by management. Key partner/channel duties and responsibilities include: proactively identifying, qualifying, and closing new sales partners; cooperating with CEO in identifying and closing new strategic partnership opportunities; creating and implementing account strategies that drives the indirect sales of ActiveEon products; maintaining a detailed understanding of top partners business (pain points, investment areas, profitability factors, etc.); responsible for increasing market share and revenue growth along with maintaining accurate and timely revenue forecasts; identification of new opportunities, sales and incentive campaign management; educating partners about product portfolio and complimentary services offered; communicating up-to-date information about new products and enhancements to partners; delivering customer presentations and attending sales meetings and partner conferences; working with partners to develop sale proposals, quotations, and pricings; assisting resellers with product positioning and pricing/quoting issues; creating awareness for company products amongst resellers; maintaining knowledge in product, marketplace, and current business issues, and disseminating appropriate knowledge to selling partners; evangelizing both internally and externally; organizing and managing multiple priorities; displaying a relentless commitment to win, personal & corporate integrity, leadership through innovation, passion for what you do, and a drive to improve; mastery of at least both English and French languages. Benefits include a remuneration package commensurate to the position (fixed and variable) including the possibility to acquire stock-options. To apply for this position, send CV and motivation by email to Denis.Caromel@ActiveEon.com."
+joboppeningurl: "https://www.activeeon.com/about/careers/job-offers/SeniorSalesPartners-and-IndirectChannels.pdf"
+joboppeningshortdescription: "Senior Sales Partner position at ActiveEon, a high-growth IT Company located in Nice and/or Paris."
+joboppeningid: "03312025_seniorsalespartners"
+joboppninglongdescription: "As a Senior Sales Partner, you will be primarily driving the Sales Partners and Indirect Channels at ActiveEon. This position requires experience in indirect sales partner network management, IT Services, and Software. Knowledge of Cloud and/or Open Source models is appreciated. The role involves direct partner contact, some customer interaction, and working closely with the CEO, other sales staff, and pre-sales. Key responsibilities include developing an annual channel sales plan, increasing market share and revenue growth, creating awareness for solutions amongst partners, maintaining key customer relationships, and performing other related duties as assigned by management."
 jobskillrequirements:
   - "Minimum of 5 years’ experience in indirect sales"
-  - "Some experience in Software and IT Services, and/or Cloud Computing, Cloud Hosting & Services"
+  - "Experience in Software and IT Services, and/or Cloud Computing, Cloud Hosting & Services"
   - "Demonstrable experience working with channel partners to reach sales objectives"
   - "Strong account management and relationship building skills"
   - "Demonstrated business skills in forecasting, budgeting, training, presentations"
@@ -15,24 +15,28 @@ jobskillrequirements:
   - "Strong negotiation skills, proficient in managing complex negotiations, identify and address hidden agendas"
   - "A previous experience in a software startup would be appreciated, as well as knowledge in Open Source Business Models"
   - "Established contacts and relationships with potential channel partners and end customers"
-  - "Be a market-sensing leader that obtains competitive knowledge and critical information"
+  - "Ability to obtain competitive knowledge and critical information"
   - "Ability to organize and manage multiple priorities"
   - "Outstanding communication abilities and excellent interpersonal skills and listening skills"
   - "Strong presentation and oral and written skills are required"
   - "Ability to complete weekly metrics to ensure successful performance as well as forecast"
-  - "Ability to thrive in a fast paced environment"
+  - "Ability to thrive in a fast-paced environment"
   - "Ability to travel domestically and internationally"
   - "Practice of CRM, and all office software"
-jobnicetohaves:
-  - "Knowledge of Cloud and/or Open Source models would be appreciated"
+  - "Displays a relentless commitment to win"
+  - "Displays personal & corporate integrity"
+  - "Displays leadership through innovation in everything you do"
+  - "Displays a passion for what you do and a drive to improve"
+  - "Mastery of at least both English and French languages"
+jobnicetohaves: []
 jobisremote: false
 jobisfulltime: true
 jobisinternship: false
 jobisparttime: false
 jobisonsite: true
 jobishybridonsite: false
-jobpublisheddate: "2022-11-30"
-jobwheretoapply: "France"
+jobpublisheddate: "2022-03-31"
+jobwheretoapply: "Denis.Caromel@ActiveEon.com"
 jobspokenlanguages:
   - "English"
   - "French"
@@ -40,24 +44,18 @@ jobprogramminglanguages: []
 jobdevelopertools: []
 jobdevelopertechnologies: []
 jobdevelopermethodologies: []
-jobposttype: "Full Time"
-jobworkconditions:
-  - "Remote"
-  - "On-Site"
-jobavailiability: "Immediate"
+jobposttype: "JobOpening"
+jobworkconditions: []
+jobavailiability: "Full Time"
 doesjobincludetraveling: "Yes"
-doesjobrequiredriving: "No"
+doesjobrequiredriving: "Unknown"
 softwaredevelopertags: []
 seotags:
-  - "Senior Sales"
-  - "Channel Partner"
-  - "Indirect Sales"
-  - "Software"
-  - "IT Services"
-  - "Cloud Computing"
-  - "Cloud Hosting"
-  - "Startup"
-jobexperiencelevel: "Experienced"
+  - "senior sales partner"
+  - "indirect sales"
+  - "it company"
+  - "activeeon"
+jobexperiencelevel: "Senior Level"
 applicationprocessandcontact: "Send CV and motivation by email to Denis.Caromel@ActiveEon.com."
 
 ---
