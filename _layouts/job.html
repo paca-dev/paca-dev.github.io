@@ -56,22 +56,23 @@ layout: default
             <i class="bi bi-geo-alt-fill"></i>
             {{ page.joboppeninglocatiuon }}
         </span>
+        
         <span class="job-type me-3">
             <i class="bi bi-briefcase-fill"></i>
-            {% for page.jobisfulltime %}
+            {% if page.jobisfulltime %}
                 Fulltime
             {% endif %}
-            {% for page.jobisinternship %}
+            {% if page.jobisinternship %}
                 Internship
             {% endif %}
-            {% for page.jobisinternship %}
+            {% if page.jobisinternship %}
                 Part time
             {% endif %}
         </span>
 
          <span class="job-posted me-3">
             <i class="bi bi-calendar-event"></i>
-            Posted: {{ page.jobpublisheddate | date: "%Y-%B-%d" }}
+            Posted: {{ page.jobdateposted | date: "%Y-%B-%d" }}
         </span>
         
         </div>
@@ -93,25 +94,16 @@ layout: default
                 {{% endif%}}
                 
                 
-                {{% if page.language_requirements %}}
+                {{% if page.jobspokenlanguages %}}
                 <div class="col-sm">
                     <p class="fw-bold">
                         <i class="bi bi-bar-globe"></i>
                         Language</p>
                         <ul class="list-unstyled">
-                            {% for lang in page.language_requirements %}
-                                <li>{{ lang.label }}: {{ lang.value }}</li>
+                            {% for lang in page.jobspokenlanguages %}
+                                <li>{{ lang }}</li>
                             {% endfor %}
-                            
-                            {% assign french_requirement = page.language_requirements | where: "label", "French" | first %} 
-                            <li>
-                                French: 
-                                {% if french_requirement %}
-                                    {{ french_requirement.value }}
-                                {% else %}
-                                    not required 👍
-                                {% endif %}
-                            </li>
+                        
                         </ul>
                     </div>
                 
@@ -129,16 +121,21 @@ layout: default
 
         <div class="job-description">
             <h2>Job Description</h2>
-            <p>{{ page.description }}</p>
+            <p>{{ page.joboppeningshortdescription }}</p>
         </div>
 
         <div class="job-responsibilities">
             <h2>Responsibilities</h2>
             <ul>
-                {% for responsibility in page.responsibilities %}
+                {% for responsibility in page.jobresponsibilities %}
                 <li>{{ responsibility }}</li>
                 {% endfor %}
             </ul>
+        </div>
+
+        <div class="job-description">
+            <h2>Job Description</h2>
+            <p>{{ page.joboppninglongdescription }}</p>
         </div>
 
         <div class="job-qualifications">
@@ -157,11 +154,16 @@ layout: default
             {% for item in page.jobworkconditions %}
                 <li>{{ item }}</li>
             {% endfor %}
+                
+                {{% if page.jobisonsite %}} <li> on-site </li> {{% endif %}}
+                {{% if page.jobishybridonsite %}} <li> hybrid </li> {{% endif %}}
+                {{% if page.jobisremote %}} <li> remote </li> {{% endif %}}
             </ul>
         </div>
         {% endif %}
 
         {% if page.jobdevelopertechnologies %}
+        {% if page.jobdevelopertechnologies.size > 1 %}
         <div class="job-nice-to-have">
             <h2>Technologies used</h2>
             <ul>
@@ -171,8 +173,23 @@ layout: default
             </ul>
         </div>
         {% endif %}
+        {% endif %}
+
+        {% if page.jobprogramminglanguages %}
+        {% if page.jobprogramminglanguages.size > 1 %}
+        <div class="job-nice-to-have">
+            <h2>Programming languages</h2>
+            <ul>
+            {% for item in page.jobprogramminglanguages %}
+                <li>{{ item }}</li>
+            {% endfor %}
+            </ul>
+        </div>
+        {% endif %}
+        {% endif %}
 
         {% if page.jobdevelopertools %}
+        {% if page.jobdevelopertools.size > 1 %}
         <div class="job-nice-to-have">
             <h2>Tools used</h2>
             <ul>
@@ -182,9 +199,11 @@ layout: default
             </ul>
         </div>
         {% endif %}
+        {% endif %}
 
 
         {% if page.jobnicetohaves %}
+        {% if page.jobnicetohaves.size > 1 %}
         <div class="job-nice-to-have">
             <h2>Nice to Have</h2>
             <ul>
@@ -194,6 +213,7 @@ layout: default
             </ul>
         </div>
         {% endif %}
+        {% endif %}
 
         {% if page.doesjobincludetraveling %}
         <div class="job-nice-to-have">
@@ -201,14 +221,6 @@ layout: default
         </div>
         {% endif %}
 
-        <div class="job-benefits">
-            <h2>Benefits</h2>
-            <ul>
-                {% for benefit in page.benefits %}
-                <li>{{ benefit }}</li>
-                {% endfor %}
-            </ul>
-        </div>
 
         
         <div class="job-salary">
