@@ -21,10 +21,10 @@
   <div class="job-item col-md-6 mt-3">
     <div class="job-info">
       <h2 class="h5 mt-0"><a href="{{ job.url }}">
-        {% if page.title %}
-            {{ page.title }}
+        {% if job.title %}
+            {{ job.title }}
         {% else %}
-            {{ page.name }}
+            {{ job.name }}
         {% endif %}
       </a></h2>
       <h3 class="h6 company-name">{{ job.companyname }}</h3>
