@@ -3,7 +3,7 @@ name: "Job Posting"
 joboppeningcompanyname: "instantsystem"
 layout: "job"
 isthisjoboppeningforasinglejobpost: true
-joboppeninglocatiuon: "Location"
+joboppeninglocation: "Location"
 joboppeningurl: "https://instantsystem.recruitee.com/o/customer-success-manager-hf"
 joboppeningshortdescription: "Position for a seasoned Customer Success Manager with experience in managing projects and a strong understanding of RUN. The ideal candidate will have excellent organizational skills, communication abilities, and English proficiency."
 joboppeningid: "Job Post ID"

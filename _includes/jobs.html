@@ -32,7 +32,7 @@
         <p class="job-description truncate100">{{ job.joboppeningshortdescription | truncate: 100 }}</p>
       {% endif %}
       <div class="job-tags">
-        {% if job.joboppeninglocatiuon %}
+        {% if job.joboppeninglocation %}
           <span class="tag location-tag">
             <i class="bi bi-geo-alt-fill"></i>
             {{ job.location.city }}, {{ job.location.type }}

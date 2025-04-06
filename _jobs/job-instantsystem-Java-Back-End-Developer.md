@@ -3,7 +3,7 @@ name: "Java Back-End Developer"
 joboppeningcompanyname: "instantsystem"
 layout: "job"
 isthisjoboppeningforasinglejobpost: true
-joboppeninglocatiuon: "City Name"
+joboppeninglocation: "City Name"
 joboppeningurl: "https://instantsystem.recruitee.com/o/developpeur-java-backend-hf"
 joboppeningshortdescription: "Java Back-End Developer position available at Your Company Name. Minimum 7 years of experience required."
 joboppeningid: "JBED/01"
