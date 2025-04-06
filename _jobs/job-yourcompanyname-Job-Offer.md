@@ -1,42 +1,38 @@
 ---
 name: "Job Offer"
-companyname: "Your Company Name"
+joboppeningcompanyname: "Your Company Name"
 layout: "job"
 isthisjoboppeningforasinglejobpost: true
-joboppeninglocatiuon: "Your City, Your Country"
-joboppeningurl: ""
-joboppeningshortdescription: "Senior Backend Developer Position with Java and Microservices experience."
-joboppeningid: "123456789"
-joboppninglongdescription: "[Job Offer] **Senior Backend Developer**\n\nYour Company Name is currently looking for a Senior Backend Developer to join our team in *Your City, Your Country*. In this role, you will be working on exciting projects with Java and Microservices technology. The ideal candidate should have at least 7 years of experience in backend development.\n\n**Key Responsibilities:**\n- Development of back-end services for our platforms.\n- Creation and maintenance of databases (MySQL, MongoDB).\n- Collaboration on the design and implementation of the architecture.\n- Implementing continuous integration practices.\n- Writing and maintaining documentation.\n- Coaching and mentoring junior developers.\n\n**Requirements:**\n- Strong Java skills with experience in Springboot and Hibernate.\n- Knowledge of databases, optimization, and architecture design.\n- Understanding of microservices and distributed systems.\n- Experience with DevOps practices and cloud technologies (GCP, AWS, or Azure).\n- Familiarity with Docker, Kubernetes, Jenkins, and Kafka.\n\n**Qualities Sought:**\n- Leadership, autonomy, teamwork, drive, communication skills, curiosity, humility.\n\nTo apply for this position, please visit our website or send your resume to [Your Email]."
+joboppeninglocatiuon: "Location of the company"
+joboppeningurl: "https://instantsystem.recruitee.com/o/developpeur-java-backend-hf"
+joboppeningshortdescription: "Join our team and contribute to innovative projects using Java Back-End."
+joboppeningid: "JobOffer_BackEndDev"
+joboppninglongdescription: "We are looking for a skilled Java Back-End Developer with at least 7 years of experience to join our dynamic team. You will have the opportunity to work on exciting projects using SaaS and cloud technologies.\n\nResponsibilities:\n* Develop back-end of our platforms.\n* Participate in the architecture and creation of specifications.\n* Collaborate with DevOps, QA, BA teams.\n* Implement tests and integration into our CI/CD pipelines.\n* Contribute to technical documentation.\n\nRequired Skills:\n* Proficiency in Java and associated frameworks (Springboot, Hibernate, ...)\n* Knowledge of databases (ideally MySQL and MongoDB): modeling, optimization, ... (but without being a DBA)\n* Knowledge of distributed architectures and microservices\n* Familiarity with DevOps practices and cloud technologies\n* Ability to write unit tests and integration tests\n* Proficiency in Agile methodologies\n\nOptional Skills:\n* Knowledge of one of the major Cloud providers (GCP, AWS, or Azure)\n* Knowledge of Docker, Kubernetes, Jenkins\n* Familiarity with Kafka\n\nDesired Qualities:\n* Leadership\n* Autonomy\n* Teamwork\n* Propositive attitude\n* Communication skills\n* Curiosity and humility"
 jobskillrequirements:
-  - "Java 11 - 21"
-  - "Springboot 2.3 - 3.2"
+  - "Java Back-End Development"
+  - "Springboot"
   - "Hibernate"
-  - "Microservices"
-  - "MySQL"
-  - "MongoDB"
+  - "Database Management (ideally MySQL and MongoDB)"
   - "DevOps"
-  - "Cloud (GCP, AWS, Azure)"
-  - "Docker"
-  - "Kubernetes"
-  - "Jenkins"
-  - "Kafka"
+  - "Cloud Technologies"
+  - "Agile Methodologies"
 jobresponsibilities:
-  - "Development of back-end services for our platforms"
-  - "Creation and maintenance of databases (MySQL, MongoDB)"
-  - "Collaboration on the design and implementation of the architecture"
-  - "Implementing continuous integration practices"
-  - "Writing and maintaining documentation"
-  - "Coaching and mentoring junior developers"
+  - "Develop back-end of our platforms."
+  - "Participate in the architecture and creation of specifications."
+  - "Collaborate with DevOps, QA, BA teams."
+  - "Implement tests and integration into our CI/CD pipelines."
+  - "Contribute to technical documentation."
 jobnicetohaves:
-  - "Familiarity with Docker, Kubernetes, Jenkins, and Kafka"
+  - "Knowledge of Cloud Providers (GCP, AWS, or Azure)"
+  - "Knowledge of Docker, Kubernetes, Jenkins"
+  - "Familiarity with Kafka"
 jobisremote: false
 jobisfulltime: true
 jobisinternship: false
 jobisparttime: false
 jobisonsite: true
 jobishybridonsite: false
-jobdateposted: "2023-01-28"
+jobdateposted: "2022-04-15"
 jobspokenlanguages:
   - "English"
 jobprogramminglanguages:
@@ -44,42 +40,36 @@ jobprogramminglanguages:
 jobdevelopertools:
   - "Springboot"
   - "Hibernate"
-  - "Microservices"
   - "MySQL"
   - "MongoDB"
-  - "DevOps"
-  - "Cloud (GCP, AWS, Azure)"
-  - "Docker"
-  - "Kubernetes"
-  - "Jenkins"
-  - "Kafka"
 jobdevelopertechnologies:
-  - "Backend Development"
-  - "Databases"
+  - "Distributed Architectures"
+  - "Microservices"
+  - "DevOps Practices"
+  - "Cloud Technologies"
+  - "Agile Methodologies"
 jobdevelopermethodologies:
   - "Agile"
-jobposttype: "Full Time"
+jobposttype: "JobOffer"
 jobworkconditions:
-  - "2 days of telecommuting per week"
-jobavailiability: "Immediate employment"
+  - "CDI Cadre RTT (2 jours de télétravail/semaine possible à l'issue de la période d'essai)"
+  - "Crèche d'entreprise"
+jobavailiability: "Full Time"
 doesjobincludetraveling: false
 doesjobrequiredriving: false
 joboppeningsearchtags:
-  - "Java"
-  - "Backend Developer"
-  - "Senior Backend Developer"
-  - "Microservices"
-  - "Springboot"
-  - "Hibernate"
+  - "Java Back-End Developer"
+  - "Software Development"
+  - "Cloud Technologies"
 seotags:
-  - "senior backend developer"
-  - "java developer"
-  - "microservices"
-  - "springboot"
-  - "hibernate"
-jobexperiencelevel: "Senior"
-jobwheretoapply: "Your Company Name website or [Your Email]."
-applicationprocessandcontact: "Apply on our website or send your resume to [Your Email]."
+  - "Java Back-End Developer Job"
+  - "SaaS Projects"
+  - "Cloud Technologies Job"
+  - "Agile Methodologies Job"
+jobexperiencelevel: "Experienced"
+jobwheretoapply: "www.yourcompanyurl.com/careers"
+applicationprocessandcontact: "Please apply through our online application process at www.yourcompanyurl.com/careers. We will contact you if your profile matches our requirements."
+companyname: "instantsystem"
 published: true
 
 ---

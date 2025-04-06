@@ -1,42 +1,44 @@
 ---
 name: "Job Description"
-companyname: "Company Name"
+joboppeningcompanyname: "Company Name"
 layout: "job"
 isthisjoboppeningforasinglejobpost: true
 joboppeninglocatiuon: "Location"
-joboppeningurl: "https://www.indeed.com/viewjob?t=Job%20Title&jk=09e6317d4c4230a5"
-joboppeningshortdescription: "Job Title for Company Name"
-joboppeningid: ",123456"
-joboppninglongdescription: "Job Description"
+joboppeningurl: "https://instantsystem.recruitee.com/o/customer-success-manager-hf"
+joboppeningshortdescription: "Job Opening Short Description"
+joboppeningid: "Job ID"
+joboppninglongdescription: "Here's the long job description:\n\nTitle: [Job Title]\n\nCompany: [Company Name]\nLocation: [Location]\n\nApply Online: [Job Application Link]\n\n\nJob Description:\n\n[Long Job Description]"
 jobskillrequirements:
-  - "Bac+5 in IT is recommended"
-  - "Experienced CSM with at least 7-8 years of experience, including significant experience in project management (Build)"
-  - "Strong knowledge of phases of RUN and sensitivity to client needs"
-  - "Ability to manage relationships with external vendors (technical interfaces, operators, assistant to master work order...)"
-  - "Experience with public tenders"
-  - "Proficiency in tools such as Jira, Confluence, Hubspot, GitLab,..."
-  - "Good understanding of technical issues"
-  - "Ability to manage multiple projects simultaneously"
-  - "Ability to work independently while promoting collaboration"
-  - "Rigor, leadership and excellent organizational skills"
-  - "Excellent communication and synthesis abilities"
-  - "Professional level English"
-  - "Adaptation in an evolving ecosystem"
+  - "Bac+5 in IT is recommended."
+  - "Experience: We are looking for an experienced CSM with at least 7-8 years of experience, including a significant portion in project Build management."
+  - "Competencies Sought: Confirmed experience in application project management with a focus on cost, time and risk management."
+  - "Strong knowledge of RUN phases and client needs."
+  - "Ability to manage relationships with external vendors (technical interfaces, operators, assistance-in-work providers...)."
+  - "Experience with Public Markets."
+  - "Proficiency with various tools: Jira, Confluence, Hubspot, GitLab,..."
+  - "Good understanding of technical challenges."
+  - "Ability to manage multiple projects simultaneously."
+  - "Ability to work independently while fostering collaboration."
+  - "Personal Qualities: Rigor, leadership, and excellent organizational skills."
+  - "Good communication and synthesis abilities."
+  - "Professional English language proficiency."
+  - "Adaptability in an evolving ecosystem."
 jobresponsibilities:
-  - "Project management (Build): Manage phases of definition, design, and deployment with a focus on cost, deadlines, and risks"
-  - "Client coordination and follow-up: Serve as the primary contact, ensure delivery of commitments, and contribute to the definition of corrective actions and improvements"
-  - "RUN management: Ensure client satisfaction when in production, supervise RUN activities, analyze incidents, and define improvement plans"
-  - "Reporting: Produce contractual and operational deliverables using defined performance indicators (dashboards, analysis of deviations, project reports, corrective action tracking, etc.) to ensure service level agreement compliance and be proactive in identifying necessary actions"
-  - "Participation in bids: Collaborate with internal teams on responses to RFPs in France and abroad"
+  - "Project Build Management: Governing the definition, design, and deployment phases of projects, with a focus on cost, time, and risk management."
+  - "Client Coordination and Follow-up: Serving as a privileged interlocutor, ensuring the delivery and performance of commitments."
+  - "Contribution to the definition and recapture of correctives and enhancements."
+  - "RUN Management: Ensuring client satisfaction once in production, overseeing RUN activities, analyzing incidents, and defining improvement plans."
+  - "Reporting and Tracking: Producing contractual and operational deliverables on agreed-upon indicators (dashboards, analysis of deviations, project reporting, corrective action plan management, etc.) to ensure service level compliance and be a force of proposal for necessary actions."
+  - "Participation in RFPs: Collaborating with internal teams on RFP responses in France and abroad."
 jobnicetohaves:
-  - "2 days of telework per week possible (subject to probation/integration period)"
+  - "2 days of remote work per week possible (following the probation/integration period)"
 jobisremote: false
 jobisfulltime: true
 jobisinternship: false
 jobisparttime: false
 jobisonsite: true
 jobishybridonsite: false
-jobdateposted: "2022-12-16"
+jobdateposted: "2023-03-17"
 jobspokenlanguages:
   - "English"
 jobprogramminglanguages: []
@@ -47,24 +49,30 @@ jobdevelopertools:
   - "GitLab"
 jobdevelopertechnologies: []
 jobdevelopermethodologies:
-  - "Agile (Adapted to 2-week cycles)"
-jobposttype: "Job Posting"
+  - "Agile"
+jobposttype: "Full-Time"
 jobworkconditions:
-  - "Remote work is possible after a trial/integration period (2 days per week)"
-jobavailiability: "Full Time"
+  - "Remote Work: 2 days per week possible (following the probation/integration period)"
+jobavailiability: "Immediate"
 doesjobincludetraveling: false
 doesjobrequiredriving: false
 joboppeningsearchtags:
-  - "Project Manager"
-  - "IT Project Manager"
   - "Customer Success Manager"
+  - "Project Management"
+  - "IT Projects"
+  - "Software Development"
+  - "Customer Service"
 seotags:
-  - "Job Title"
-  - "Company Name"
-  - "Location"
+  - "Job Opening in [Location]"
+  - "Customer Success Manager Job"
+  - "IT Project Manager Job"
+  - "Full-Time Job in [Location]"
+  - "[Company Name] Job Opening"
+  - "[Company Name] Hiring"
 jobexperiencelevel: "Experienced (Non-Student)"
-jobwheretoapply: "Apply on Indeed"
-applicationprocessandcontact: "To apply, please submit your resume and cover letter through the Indeed platform."
+jobwheretoapply: "Online - [Job Application Link]"
+applicationprocessandcontact: "Please apply online through the link provided. If you have any questions, feel free to reach out to our HR department at [HR Email] or call us at [HR Phone Number]."
+companyname: "instantsystem"
 published: true
 
 ---
