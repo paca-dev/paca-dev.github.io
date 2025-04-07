@@ -4,7 +4,7 @@ title: "About-fr"
 permalink: /about/fr/
 ---
 
-# Find Your Dream Tech Job in PACA 
+# Trouvez votre rêve de poste tech en PACA
 
 Bienvenue sur **PACA-dev**, mon guide personnel pour découvrir des opportunités exceptionnelles dans la région Provence-Alpes-Côte d'Azur (PACA) ! La région est également connue sous le nom de Côte d'Azur, Provence ou simplement Sud de la France.
 
