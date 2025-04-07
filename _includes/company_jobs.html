@@ -2,7 +2,7 @@
   <div class="company-jobs">
     <h2>Open Positions at {{ page.title }}</h2>
     <ul class="job-listings">
-      {% assign company_jobs = site.jobs | where: "company", page.joboppeningcompanyname | where: "published", true %}
+      {% assign company_jobs = site.jobs | where: "joboppeningcompanyname", page.title | where: "published", true %}
       {% if company_jobs.size > 0 %}
         {% for job in company_jobs %}
           <li class="job-listing">
