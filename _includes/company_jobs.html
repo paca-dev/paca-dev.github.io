@@ -3,7 +3,7 @@
     <h2>Open Positions at {{ page.title }}</h2>
     <ul class="job-listings">
       {% assign page_title_downcase = page.title | downcase %}
-      {% assign company_jobs = site.jobs | where: "joboppeningcompanyname", page_title_downcase | where: "published", true %}
+      {% assign company_jobs = site.jobs | where_exp: "job", "job.joboppeningcompanyname contains page_title_downcase and job.published == true" %}
       {% if company_jobs.size > 0 %}
         {% for job in company_jobs %}
           <li class="job-listing">
