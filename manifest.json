@@ -1,0 +1,27 @@
+{
+  "name": "Paca Dev - AI Job Search",
+  "short_name": "Paca Dev",
+  "description": "AI-powered job search platform for the French Riviera",
+  "start_url": "/paca-dev/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/paca-dev/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/paca-dev/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["business", "productivity"],
+  "lang": "en",
+  "dir": "ltr"
+}
