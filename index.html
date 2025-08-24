@@ -4,53 +4,35 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Paca Dev - AI-Powered Job Search</title>
-    <meta name="description" content="AI-powered job search platform for the French Riviera. Upload your CV and let AI find the perfect job matches." />
-    <meta name="keywords" content="job search, AI, French Riviera, careers, employment, CV matching" />
-    <meta name="author" content="Paca Dev" />
+    <title>PACA-Dev - Tech Jobs in Sophia Antipolis & French Riviera</title>
+    <meta name="description" content="Find your dream tech job in Sophia Antipolis and the French Riviera. Browse opportunities, read our expat guide, and connect with innovative companies." />
+    <meta name="keywords" content="sophia antipolis jobs, tech jobs france, developer jobs nice, expat tech jobs, french riviera careers" />
     
-    <!-- PWA Meta Tags -->
-    <meta name="theme-color" content="#2563eb" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-    <meta name="apple-mobile-web-app-title" content="Paca Dev" />
-    <link rel="apple-touch-icon" href="/paca-dev/icon-192.png" />
-    <link rel="manifest" href="/paca-dev/manifest.json" />
-    
-    <!-- Open Graph / Facebook -->
+    <!-- Open Graph -->
+    <meta property="og:title" content="PACA-Dev - Tech Jobs in Sophia Antipolis & French Riviera" />
+    <meta property="og:description" content="Find your dream tech job in Sophia Antipolis and the French Riviera. Browse opportunities, read our expat guide, and connect with innovative companies." />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://yourusername.github.io/paca-dev/" />
-    <meta property="og:title" content="Paca Dev - AI-Powered Job Search" />
-    <meta property="og:description" content="AI-powered job search platform for the French Riviera. Upload your CV and let AI find the perfect job matches." />
+    <meta property="og:url" content="https://paca-dev.com" />
     
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://yourusername.github.io/paca-dev/" />
-    <meta property="twitter:title" content="Paca Dev - AI-Powered Job Search" />
-    <meta property="twitter:description" content="AI-powered job search platform for the French Riviera. Upload your CV and let AI find the perfect job matches." />
-    
-    <!-- Preconnect for performance -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <script type="module" crossorigin src="/paca-dev/assets/index-DGotDfow.js"></script>
-    <link rel="stylesheet" crossorigin href="/paca-dev/assets/index-Cep1Us2L.css">
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "PACA-Dev",
+        "url": "https://paca-dev.com",
+        "description": "Your gateway to tech opportunities in Sophia Antipolis and the French Riviera",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Sophia Antipolis",
+          "addressCountry": "France"
+        }
+      }
+    </script>
+    <script type="module" crossorigin src="/paca-dev/assets/index-h-dwkVVU.js"></script>
+    <link rel="stylesheet" crossorigin href="/paca-dev/assets/index-CwoOm8la.css">
   </head>
   <body>
     <div id="root"></div>
-    
-    <!-- PWA Service Worker Registration -->
-    <script>
-      if ('serviceWorker' in navigator) {
-        window.addEventListener('load', () => {
-          navigator.serviceWorker.register('/paca-dev/sw.js')
-            .then((registration) => {
-              console.log('SW registered: ', registration);
-            })
-            .catch((registrationError) => {
-              console.log('SW registration failed: ', registrationError);
-            });
-        });
-      }
-    </script>
   </body>
 </html>
