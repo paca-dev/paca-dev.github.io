@@ -1,10 +1,3 @@
-
----
-title: "French Work Culture That Expats Need to Know: Thriving in Sophia Antipolis"
-date: "2025-09-03"
-author: "Admin"
----
-
 # French Work Culture That Expats Need to Know: Thriving in Sophia Antipolis
 
 Working in Sophia Antipolis as an expat offers incredible career opportunities, but success depends on understanding and adapting to French workplace culture. This guide will help you navigate the unique aspects of French professional life and integrate seamlessly into the tech hub's international community.
