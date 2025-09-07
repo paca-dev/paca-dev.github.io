@@ -25,28 +25,23 @@ These contracting companies serve as intermediaries, placing developers with end
 ## When Contracting Makes Sense (And When It Doesn't)
 
 ### ✅ **Consider Contracting If:**
-- You want **higher daily rates** than permanent positions
+- You're a **junior developer** seeking first opportunity in big companies
 - You prefer **project variety** and changing technical challenges
 - You're comfortable with **less job security** in exchange for flexibility
-- You have **3+ years of experience** in your tech stack
 - You want to **build a diverse network** across multiple companies
 - You're planning a **2-3 year stint** to experience the French Riviera
+- You want to rely on the training program provided by the contracting company (french courses)
 
 ### ❌ **Think Twice About Contracting If:**
-- You're a **junior developer** seeking mentorship and structured growth
-- You want **comprehensive benefits** like health insurance, paid vacation, and training budgets
-- You prefer **long-term stability** and team belonging
+- You have **3+ years of experience** in your tech stack
+- You want **comprehensive benefits** travel, and training budgets
+- You prefer **long-term stability**, project ownership and team belonging
 - You're looking for **equity participation** or stock options
 - You need **visa sponsorship** (contractors face more complex requirements)
 
 ## Salary Reality Check: Is Your Offer Competitive?
 
 The French Riviera isn't cheap. While tech salaries in Sophia Antipolis are generally higher than other French regions, they often lag behind Paris, London, or German tech hubs. Here's what to expect:
-
-**Daily Contractor Rates:**
-- Junior developers (2-4 years): €300-450/day
-- Mid-level developers (4-7 years): €450-650/day  
-- Senior developers (7+ years): €600-800+/day
 
 **Permanent Positions:**
 - Junior: €35,000-45,000/year
@@ -109,7 +104,7 @@ If you scored higher on the first option in most pairs, contracting in Sophia An
 
 Before making any decisions, arm yourself with comprehensive information about living and working on the French Riviera. The lifestyle, visa requirements, tax implications, and cultural adaptation can significantly impact your experience.
 
-**Ready to dive deeper?** Visit our comprehensive [Expat Developer Guide](https://paca-dev.rivieraapps.com) for detailed insights on:
+**Ready to dive deeper?** Visit our comprehensive [Expat Developer Guide](/#/expat-guide) for detailed insights on:
 - Visa and work permit requirements
 - Tax optimization strategies for contractors  
 - Housing and neighborhood guides
