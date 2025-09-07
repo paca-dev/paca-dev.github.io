@@ -1,0 +1,93 @@
+[
+    {
+      "id": "1",
+      "title": "Why Studying in PACA Region France is Your Smart Career Move in 2025",
+      "slug": "studying-in-paca-region-france-is-your-smart-career-move-in-2025",
+      "excerpt": "If you're a student searching for entry-level positions, part-time work, or traineeships that can kickstart your career, the PACA region (Provence-Alpes-Côte d'Azur) might just be the game-changing decision you've been looking for.",
+      "content": "",
+      "author": "Admin",
+      "publishedAt": "2025-09-05",
+      "tags": ["Internship", "Career", "Sophia Antipolis"],
+      "image": "https://images.pexels.com/photos/3760067/pexels-photo-3760067.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "readTime": 10,
+      "category": "Career"
+    },
+    {
+      "id": "2",
+      "title": "Best Neighborhoods for Tech Workers in Nice and Cannes",
+      "slug": "best-neighborhoods-tech-workers-nice-cannes",
+      "excerpt": "A comprehensive guide to finding the perfect place to live as a tech professional on the French Riviera.",
+      "content": "",
+      "author": "Admin",
+      "publishedAt": "2024-01-12",
+      "tags": ["Housing", "Lifestyle", "Nice", "Cannes"],
+      "image": "https://images.pexels.com/photos/2506947/pexels-photo-2506947.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "readTime": 12,
+      "category": "Lifestyle"
+    },
+    {
+      "id": "3",
+      "title": "Freelancing vs Full-time: What Works Best in France",
+      "slug": "freelancing-vs-fulltime-france",
+      "excerpt": "Compare the pros and cons of different employment arrangements for international tech professionals in France.",
+      "content": "",
+      "author": "Admin",
+      "publishedAt": "2024-01-10",
+      "tags": ["Freelancing", "Employment", "Legal"],
+      "image": "https://images.pexels.com/photos/3184460/pexels-photo-3184460.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "readTime": 6,
+      "category": "Legal"
+    },
+    {
+      "id": "4",
+      "title": "Top 10 Tech Companies Hiring in Sophia Antipolis",
+      "slug": "top-10-tech-companies-sophia-antipolis",
+      "excerpt": "Meet the leading tech companies that are actively hiring and learn what they look for in candidates.",
+      "content": "",
+      "author": "Admin",
+      "publishedAt": "2024-01-08",
+      "tags": ["Companies", "Hiring", "Jobs"],
+      "image": "https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "readTime": 10,
+      "category": "Companies"
+    },
+    {
+      "id": "5",
+      "title": "French Work Culture: What International Developers Need to Know",
+      "slug": "french-work-culture-international-developers",
+      "excerpt": "Navigate French workplace customs, communication styles, and professional etiquette as an international developer.",
+      "content": "",
+      "author": "Admin",
+      "publishedAt": "2024-01-05",
+      "tags": ["Culture", "Workplace", "Integration"],
+      "image": "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "readTime": 9,
+      "category": "Culture"
+    },
+    {
+      "id": "6",
+      "title": "Building Your Network in the French Riviera Tech Scene",
+      "slug": "building-network-french-riviera-tech",
+      "excerpt": "Essential tips for networking, finding mentors, and building professional relationships in the local tech community.",
+      "content": "",
+      "author": "Admin",
+      "publishedAt": "2024-01-03",
+      "tags": ["Networking", "Community", "Career Growth"],
+      "image": "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "readTime": 7,
+      "category": "Career"
+    },
+    {
+      "id": "7",
+      "title": "Your Smart Guide to Fireworks Festivals on the Côte d'Azur: Skip the Parking Nightmare and Take the Train",
+      "slug": "your-smart-guide-to-fireworks-festivals-on-the-cote-dazur-skip-the-parking-nightmare-and-take-the-train",
+      "excerpt": "Essential tips for navigating firework festivals in Cote D'Azur in your free time from work.",
+      "content": "",
+      "author": "Admin",
+      "publishedAt": "2025-08-06",
+      "tags": ["Networking", "Community", "Festivals"],
+      "image": "tsuyoshi-kozu-d-Sk3Ab6njo-unsplash.jpg",
+      "readTime": 5,
+      "category": "Lifestyle"
+    }
+]

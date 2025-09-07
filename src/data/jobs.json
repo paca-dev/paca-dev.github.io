@@ -1,0 +1,80 @@
+[
+    {
+      "id": "1",
+      "title": "Senior React Developer",
+      "company": "TechCorp SA",
+      "location": "Sophia Antipolis",
+      "type": "Full-time",
+      "salary": "€55,000 - €70,000",
+      "remote": true,
+      "description": "Join our dynamic team building next-generation web applications...",
+      "tags": ["React", "TypeScript", "GraphQL", "AWS"],
+      "postedAt": "2 days ago",
+      "logo": "https://ui-avatars.com/api/?name=TechCorp&background=1e3a8a&color=fff"
+    },
+    {
+      "id": "2",
+      "title": "DevOps Engineer",
+      "company": "CloudTech Solutions",
+      "location": "Antibes",
+      "type": "Full-time",
+      "salary": "€60,000 - €80,000",
+      "remote": false,
+      "description": "We are looking for an experienced DevOps engineer to help scale our infrastructure...",
+      "tags": ["AWS", "Docker", "Kubernetes", "Terraform"],
+      "postedAt": "1 week ago",
+      "logo": "https://ui-avatars.com/api/?name=CloudTech&background=0d9488&color=fff"
+    },
+    {
+      "id": "3",
+      "title": "Product Manager Intern",
+      "company": "StartupHub",
+      "location": "Nice",
+      "type": "Internship",
+      "salary": "€1,200/month",
+      "remote": true,
+      "description": "Great opportunity for a student to learn product management in a fast-paced environment...",
+      "tags": ["Product Management", "Agile", "Analytics"],
+      "postedAt": "3 days ago",
+      "logo": "https://ui-avatars.com/api/?name=StartupHub&background=ea580c&color=fff"
+    },
+    {
+      "id": "4",
+      "title": "Full Stack Developer",
+      "company": "FinTech Innovations",
+      "location": "Cannes",
+      "type": "Contract",
+      "salary": "€500-600/day",
+      "remote": true,
+      "description": "Join our fintech startup building the future of digital payments...",
+      "tags": ["Node.js", "React", "MongoDB", "Blockchain"],
+      "postedAt": "5 days ago",
+      "logo": "https://ui-avatars.com/api/?name=FinTech&background=7c3aed&color=fff"
+    },
+    {
+      "id": "5",
+      "title": "Data Scientist",
+      "company": "AI Research Lab",
+      "location": "Sophia Antipolis",
+      "type": "Full-time",
+      "salary": "€65,000 - €85,000",
+      "remote": false,
+      "description": "Work on cutting-edge AI projects and help shape the future of machine learning...",
+      "tags": ["Python", "Machine Learning", "TensorFlow", "SQL"],
+      "postedAt": "1 day ago",
+      "logo": "https://ui-avatars.com/api/?name=AI+Research&background=059669&color=fff"
+    },
+    {
+      "id": "6",
+      "title": "UX/UI Designer",
+      "company": "Design Studio Pro",
+      "location": "Monaco",
+      "type": "Full-time",
+      "salary": "€45,000 - €60,000",
+      "remote": true,
+      "description": "Create beautiful and intuitive user experiences for luxury brand clients...",
+      "tags": ["Figma", "Adobe CC", "Prototyping", "User Research"],
+      "postedAt": "4 days ago",
+      "logo": "https://ui-avatars.com/api/?name=Design+Studio&background=dc2626&color=fff"
+    }
+]
