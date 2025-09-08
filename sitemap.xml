@@ -8,7 +8,7 @@
 
   <!-- Homepage -->
   <url>
-    <loc>https://paca-dev.rivieraapps.com/</loc>
+    <loc>https://paca-dev.rivieraapps.com/#/</loc>
     <lastmod>2024-01-15T10:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -16,35 +16,35 @@
 
   <!-- Main Pages -->
   <url>
-    <loc>https://paca-dev.rivieraapps.com/jobs</loc>
+    <loc>https://paca-dev.rivieraapps.com/#/jobs</loc>
     <lastmod>2024-01-15T10:00:00+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://paca-dev.rivieraapps.com/blog</loc>
+    <loc>https://paca-dev.rivieraapps.com/#/blog</loc>
     <lastmod>2024-01-15T10:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://paca-dev.rivieraapps.com/expat-guide</loc>
+    <loc>https://paca-dev.rivieraapps.com/#/expat-guide</loc>
     <lastmod>2024-01-15T10:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://paca-dev.rivieraapps.com/companies</loc>
+    <loc>https://paca-dev.rivieraapps.com/#/companies</loc>
     <lastmod>2024-01-15T10:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://paca-dev.rivieraapps.com/dashboard</loc>
+    <loc>https://paca-dev.rivieraapps.com/#/dashboard</loc>
     <lastmod>2024-01-15T10:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -52,42 +52,42 @@
 
   <!-- Blog Posts -->
   <url>
-    <loc>https://paca-dev.rivieraapps.com/blog/tech-salaries-sophia-antipolis-2024</loc>
+    <loc>https://paca-dev.rivieraapps.com/#/blog/tech-salaries-sophia-antipolis-2024</loc>
     <lastmod>2024-01-15T10:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://paca-dev.rivieraapps.com/blog/best-neighborhoods-tech-workers-nice-cannes</loc>
+    <loc>https://paca-dev.rivieraapps.com/#/blog/best-neighborhoods-tech-workers-nice-cannes</loc>
     <lastmod>2024-01-12T10:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://paca-dev.rivieraapps.com/blog/freelancing-vs-fulltime-france</loc>
+    <loc>https://paca-dev.rivieraapps.com/#/blog/freelancing-vs-fulltime-france</loc>
     <lastmod>2024-01-10T10:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://paca-dev.rivieraapps.com/blog/top-10-tech-companies-sophia-antipolis</loc>
+    <loc>https://paca-dev.rivieraapps.com/#/blog/top-10-tech-companies-sophia-antipolis</loc>
     <lastmod>2024-01-08T10:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://paca-dev.rivieraapps.com/blog/french-work-culture-international-developers</loc>
+    <loc>https://paca-dev.rivieraapps.com/#/blog/french-work-culture-international-developers</loc>
     <lastmod>2024-01-05T10:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://paca-dev.rivieraapps.com/blog/building-network-french-riviera-tech</loc>
+    <loc>https://paca-dev.rivieraapps.com/#/blog/building-network-french-riviera-tech</loc>
     <lastmod>2024-01-03T10:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -95,35 +95,35 @@
 
   <!-- Location-specific pages -->
   <url>
-    <loc>https://paca-dev.rivieraapps.com/jobs/sophia-antipolis</loc>
+    <loc>https://paca-dev.rivieraapps.com/#/jobs/sophia-antipolis</loc>
     <lastmod>2024-01-15T10:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://paca-dev.rivieraapps.com/jobs/nice</loc>
+    <loc>https://paca-dev.rivieraapps.com/#/jobs/nice</loc>
     <lastmod>2024-01-15T10:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://paca-dev.rivieraapps.com/jobs/cannes</loc>
+    <loc>https://paca-dev.rivieraapps.com/#/jobs/cannes</loc>
     <lastmod>2024-01-15T10:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://paca-dev.rivieraapps.com/jobs/antibes</loc>
+    <loc>https://paca-dev.rivieraapps.com/#/jobs/antibes</loc>
     <lastmod>2024-01-15T10:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://paca-dev.rivieraapps.com/jobs/monaco</loc>
+    <loc>https://paca-dev.rivieraapps.com/#/jobs/monaco</loc>
     <lastmod>2024-01-15T10:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -131,28 +131,28 @@
 
   <!-- Job type pages -->
   <url>
-    <loc>https://paca-dev.rivieraapps.com/jobs/full-time</loc>
+    <loc>https://paca-dev.rivieraapps.com/#/jobs/full-time</loc>
     <lastmod>2024-01-15T10:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://paca-dev.rivieraapps.com/jobs/contract</loc>
+    <loc>https://paca-dev.rivieraapps.com/#/jobs/contract</loc>
     <lastmod>2024-01-15T10:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://paca-dev.rivieraapps.com/jobs/internship</loc>
+    <loc>https://paca-dev.rivieraapps.com/#/jobs/internship</loc>
     <lastmod>2024-01-15T10:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://paca-dev.rivieraapps.com/jobs/remote</loc>
+    <loc>https://paca-dev.rivieraapps.com/#/jobs/remote</loc>
     <lastmod>2024-01-15T10:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
@@ -160,35 +160,35 @@
 
   <!-- Skill-based job pages -->
   <url>
-    <loc>https://paca-dev.rivieraapps.com/jobs/react-developer</loc>
+    <loc>https://paca-dev.rivieraapps.com/#/jobs/react-developer</loc>
     <lastmod>2024-01-15T10:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://paca-dev.rivieraapps.com/jobs/python-developer</loc>
+    <loc>https://paca-dev.rivieraapps.com/#/jobs/python-developer</loc>
     <lastmod>2024-01-15T10:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://paca-dev.rivieraapps.com/jobs/devops-engineer</loc>
+    <loc>https://paca-dev.rivieraapps.com/#/jobs/devops-engineer</loc>
     <lastmod>2024-01-15T10:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://paca-dev.rivieraapps.com/jobs/data-scientist</loc>
+    <loc>https://paca-dev.rivieraapps.com/#/jobs/data-scientist</loc>
     <lastmod>2024-01-15T10:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://paca-dev.rivieraapps.com/jobs/product-manager</loc>
+    <loc>https://paca-dev.rivieraapps.com/#/jobs/product-manager</loc>
     <lastmod>2024-01-15T10:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
@@ -196,35 +196,35 @@
 
   <!-- Company pages -->
   <url>
-    <loc>https://paca-dev.rivieraapps.com/companies/amadeus</loc>
+    <loc>https://paca-dev.rivieraapps.com/#/companies/amadeus</loc>
     <lastmod>2024-01-15T10:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://paca-dev.rivieraapps.com/companies/sap-labs</loc>
+    <loc>https://paca-dev.rivieraapps.com/#/companies/sap-labs</loc>
     <lastmod>2024-01-15T10:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://paca-dev.rivieraapps.com/companies/cisco</loc>
+    <loc>https://paca-dev.rivieraapps.com/#/companies/cisco</loc>
     <lastmod>2024-01-15T10:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://paca-dev.rivieraapps.com/companies/nxp-semiconductors</loc>
+    <loc>https://paca-dev.rivieraapps.com/#/companies/nxp-semiconductors</loc>
     <lastmod>2024-01-15T10:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://paca-dev.rivieraapps.com/companies/thales-alenia-space</loc>
+    <loc>https://paca-dev.rivieraapps.com/#/companies/thales-alenia-space</loc>
     <lastmod>2024-01-15T10:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -232,42 +232,42 @@
 
   <!-- Expat guide sub-pages -->
   <url>
-    <loc>https://paca-dev.rivieraapps.com/expat-guide/housing</loc>
+    <loc>https://paca-dev.rivieraapps.com/#/expat-guide/housing</loc>
     <lastmod>2024-01-15T10:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://paca-dev.rivieraapps.com/expat-guide/salary-guide</loc>
+    <loc>https://paca-dev.rivieraapps.com/#/expat-guide/salary-guide</loc>
     <lastmod>2024-01-15T10:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://paca-dev.rivieraapps.com/expat-guide/visa-requirements</loc>
+    <loc>https://paca-dev.rivieraapps.com/#/expat-guide/visa-requirements</loc>
     <lastmod>2024-01-15T10:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://paca-dev.rivieraapps.com/expat-guide/cost-of-living</loc>
+    <loc>https://paca-dev.rivieraapps.com/#/expat-guide/cost-of-living</loc>
     <lastmod>2024-01-15T10:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://paca-dev.rivieraapps.com/expat-guide/transportation</loc>
+    <loc>https://paca-dev.rivieraapps.com/#/expat-guide/transportation</loc>
     <lastmod>2024-01-15T10:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://paca-dev.rivieraapps.com/expat-guide/networking</loc>
+    <loc>https://paca-dev.rivieraapps.com/#/expat-guide/networking</loc>
     <lastmod>2024-01-15T10:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -275,28 +275,28 @@
 
   <!-- Legal and informational pages -->
   <url>
-    <loc>https://paca-dev.rivieraapps.com/privacy-policy</loc>
+    <loc>https://paca-dev.rivieraapps.com/#/privacy-policy</loc>
     <lastmod>2024-01-15T10:00:00+00:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
 
   <url>
-    <loc>https://paca-dev.rivieraapps.com/terms-of-service</loc>
+    <loc>https://paca-dev.rivieraapps.com/#/terms-of-service</loc>
     <lastmod>2024-01-15T10:00:00+00:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
 
   <url>
-    <loc>https://paca-dev.rivieraapps.com/contact</loc>
+    <loc>https://paca-dev.rivieraapps.com/#/contact</loc>
     <lastmod>2024-01-15T10:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
 
   <url>
-    <loc>https://paca-dev.rivieraapps.com/about</loc>
+    <loc>https://paca-dev.rivieraapps.com/#/about</loc>
     <lastmod>2024-01-15T10:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -304,14 +304,14 @@
 
   <!-- Newsletter and subscription pages -->
   <url>
-    <loc>https://paca-dev.rivieraapps.com/newsletter</loc>
+    <loc>https://paca-dev.rivieraapps.com/#/newsletter</loc>
     <lastmod>2024-01-15T10:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
 
   <url>
-    <loc>https://paca-dev.rivieraapps.com/unsubscribe</loc>
+    <loc>https://paca-dev.rivieraapps.com/#/unsubscribe</loc>
     <lastmod>2024-01-15T10:00:00+00:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>
