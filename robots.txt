@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://paca-dev.com/sitemap.xml
+Sitemap: https://paca-dev.rivieraapps.com/sitemap.xml
 
 # Disallow admin and private areas
 Disallow: /dashboard/
