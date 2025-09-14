@@ -15,7 +15,7 @@ const SEO: React.FC<SEOProps> = ({
   description = 'Find your dream tech job in Sophia Antipolis and the French Riviera. Browse opportunities, read our expat guide, and connect with innovative companies.',
   keywords = 'sophia antipolis jobs, tech jobs france, developer jobs nice, expat tech jobs, french riviera careers',
   image = '/og-image.jpg',
-  url = 'https://paca-dev.com',
+  url = 'https://paca-dev.rivieraapps.com',
   type = 'website'
 }) => {
   return (
@@ -42,19 +42,40 @@ const SEO: React.FC<SEOProps> = ({
       <meta name="author" content="PACA-Dev" />
       <link rel="canonical" href={url} />
       
+      {/* Additional SEO meta tags */}
+      <meta name="geo.region" content="FR-06" />
+      <meta name="geo.placename" content="Sophia Antipolis" />
+      <meta name="geo.position" content="43.6167;7.0667" />
+      <meta name="ICBM" content="43.6167, 7.0667" />
+      
+      {/* Language and locale */}
+      <meta property="og:locale" content="en_US" />
+      <meta property="og:locale:alternate" content="fr_FR" />
+      
       {/* Structured Data */}
       <script type="application/ld+json">
         {JSON.stringify({
           "@context": "https://schema.org",
           "@type": "Organization",
           "name": "PACA-Dev",
-          "url": "https://paca-dev.com",
-          "logo": "https://paca-dev.com/logo.png",
+          "url": "https://paca-dev.rivieraapps.com",
+          "logo": "https://paca-dev.rivieraapps.com/logo.png",
           "description": description,
+          "sameAs": [
+            "https://linkedin.com/company/paca-dev",
+            "https://twitter.com/pacadev",
+            "https://github.com/paca-dev"
+          ],
           "address": {
             "@type": "PostalAddress",
             "addressLocality": "Sophia Antipolis",
-            "addressCountry": "France"
+            "addressRegion": "Provence-Alpes-Côte d'Azur",
+            "addressCountry": "FR"
+          },
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "customer service",
+            "email": "hello@paca-dev.rivieraapps.com"
           }
         })}
       </script>

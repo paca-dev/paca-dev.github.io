@@ -8,7 +8,9 @@ import {
   TrendingUp, 
   BookOpen,
   CheckCircle,
-  ArrowRight
+  ArrowRight,
+  Upload,
+  Zap
 } from 'lucide-react';
 import SEO from '../components/SEO';
 import NewsletterSubscription from '../components/NewsletterSubscription';
@@ -16,13 +18,18 @@ import companiesData from '../data/companies.json'; // adjust path to your JSON 
 import { useApi } from '../contexts/ApiContext';
 import blogPostData from '../data/blog.json';
 import { useNavigate } from 'react-router-dom';
+import JobMatchBarometer from '../components/JobMatchBarometer';
+import CVUploadModal from '../components/CVUploadModal';
+import { useAuth } from '../contexts/AuthContext';
 
 const Home = () => {
+  const { user } = useAuth();
   const [searchQuery, setSearchQuery] = useState('');
   const navigate = useNavigate();
   const { jobs, loading, getJobs } = useApi();
   const companies = companiesData;
   const blogPosts = blogPostData;
+  const [isCVModalOpen, setIsCVModalOpen] = useState(false);
   // On mount, refresh jobs if not loaded
   useEffect(() => {
     if (!jobs) {
@@ -59,6 +66,40 @@ const Home = () => {
     'Networking events and community access',
     'Cultural integration tips and resources',
     'Tax and legal advice for expatriates'
+  ];
+
+  // Demo data for the barometer showcase
+  const demoMatches = [
+    {
+      title: 'Senior React Developer',
+      company: 'TechCorp SA',
+      matchPercentage: 92,
+      matchedSkills: ['React', 'TypeScript', 'Node.js'],
+      missingSkills: ['GraphQL'],
+      experienceMatch: true,
+      salaryMatch: true,
+      locationMatch: true
+    },
+    {
+      title: 'DevOps Engineer',
+      company: 'CloudTech',
+      matchPercentage: 78,
+      matchedSkills: ['AWS', 'Docker', 'Python'],
+      missingSkills: ['Kubernetes', 'Terraform'],
+      experienceMatch: true,
+      salaryMatch: false,
+      locationMatch: true
+    },
+    {
+      title: 'Product Manager',
+      company: 'StartupHub',
+      matchPercentage: 65,
+      matchedSkills: ['Agile', 'Analytics'],
+      missingSkills: ['Product Strategy', 'User Research'],
+      experienceMatch: false,
+      salaryMatch: true,
+      locationMatch: true
+    }
   ];
 
   return (
@@ -104,6 +145,13 @@ const Home = () => {
               >
                 Browse All Jobs
               </Link>
+              <button
+                onClick={() => setIsCVModalOpen(true)}
+                className="bg-gradient-to-r from-orange-500 to-red-500 text-white px-8 py-3 rounded-full font-semibold hover:from-orange-600 hover:to-red-600 transition-colors flex items-center"
+              >
+                <Upload className="h-5 w-5 mr-2" />
+                Upload CV & Get Matches
+              </button>
               <Link
                 to="/expat-guide"
                 className="border-2 border-white text-white px-8 py-3 rounded-full font-semibold hover:bg-white hover:text-blue-800 transition-colors"
@@ -111,6 +159,72 @@ const Home = () => {
                 Expat Guide
               </Link>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* AI Matching Showcase */}
+      <section className="py-16 bg-gradient-to-r from-purple-50 to-blue-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <div className="inline-flex items-center bg-purple-100 text-purple-800 px-4 py-2 rounded-full text-sm font-medium mb-4">
+              <Zap className="h-4 w-4 mr-2" />
+              AI-Powered Job Matching
+            </div>
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">
+              See How Well Jobs Match Your Profile
+            </h2>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              Our AI analyzes your CV and shows you exactly how well each job matches your skills, 
+              experience, and preferences. No more guessing - see your compatibility at a glance.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+            {demoMatches.map((match, index) => (
+              <div key={index} className="bg-white rounded-lg shadow-sm p-6 border border-gray-200">
+                <div className="mb-4">
+                  <h3 className="text-lg font-semibold text-gray-900">{match.title}</h3>
+                  <p className="text-blue-600 font-medium">{match.company}</p>
+                </div>
+                <JobMatchBarometer
+                  matchPercentage={match.matchPercentage}
+                  matchedSkills={match.matchedSkills}
+                  missingSkills={match.missingSkills}
+                  experienceMatch={match.experienceMatch}
+                  salaryMatch={match.salaryMatch}
+                  locationMatch={match.locationMatch}
+                  size="small"
+                  showDetails={false}
+                />
+                <div className="mt-4 pt-4 border-t border-gray-200">
+                  <div className="flex justify-between items-center">
+                    <span className="text-sm text-gray-600">Match Score</span>
+                    <span className={`text-sm font-semibold ${
+                      match.matchPercentage >= 80 ? 'text-green-600' :
+                      match.matchPercentage >= 60 ? 'text-yellow-600' :
+                      'text-orange-600'
+                    }`}>
+                      {match.matchPercentage >= 80 ? 'Excellent' :
+                       match.matchPercentage >= 60 ? 'Good' : 'Fair'}
+                    </span>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          <div className="text-center">
+            <button
+              onClick={() => setIsCVModalOpen(true)}
+              className="bg-purple-600 text-white px-8 py-3 rounded-lg hover:bg-purple-700 transition-colors font-semibold flex items-center mx-auto"
+            >
+              <Upload className="h-5 w-5 mr-2" />
+              Upload Your CV to See Real Matches
+            </button>
+            <p className="text-sm text-gray-600 mt-2">
+              Free • Instant Analysis • Privacy Protected
+            </p>
           </div>
         </div>
       </section>
@@ -237,7 +351,21 @@ const Home = () => {
 
       {/* Newsletter */}
       <NewsletterSubscription />
+
+      <CVUploadModal 
+        isOpen={isCVModalOpen} 
+        onClose={() => setIsCVModalOpen(false)}
+        onSuccess={() => {
+          // Redirect to jobs page or dashboard after successful upload
+          setTimeout(() => {
+            window.location.href = user ? '/#/dashboard' : '/#/jobs';
+          }, 2000);
+        }}
+      />
+   
     </div>
+
+    
   );
 };
 

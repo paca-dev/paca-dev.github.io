@@ -34,19 +34,19 @@ const Article = () => {
   }, [slug]);
 
   return (
-    
-    <div className="prose max-w-none p-5">
+    <div className="max-w-4xl mx-auto px-6 py-10 prose prose-lg prose-indigo">
       {imageUrl && (
         <img
           src={imageUrl}
           alt={title || 'Article image'}
-          className="mb-8 rounded-lg shadow-md max-w-full h-auto"
+          className="mb-10 rounded-lg shadow-lg max-w-full h-auto"
         />
       )}
 
-        <ReactMarkdown>{content}</ReactMarkdown>
+      <ReactMarkdown>{content}</ReactMarkdown>
     </div>
   );
+
 };
 
 export default Article;

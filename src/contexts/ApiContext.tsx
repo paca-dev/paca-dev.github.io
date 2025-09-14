@@ -110,6 +110,8 @@ export const ApiProvider: React.FC<{ children: React.ReactNode }> = ({ children 
             continue; // skip this item
         }
         const llm = rawJob.llmoutput;
+        const updatedAt = new Date(rawJob.updatedAt);
+
         // Extract/use fields safely, with fallback/defaults as needed
         const uijob =  {
             id: rawJob._id,
@@ -137,7 +139,17 @@ export const ApiProvider: React.FC<{ children: React.ReactNode }> = ({ children 
             availability: llm.jobavailiability || '',
         };
 
-        result.push(uijob)
+        // guard, avoid jobs
+        if ( uijob.title.includes("Untutled") ){
+          continue;
+        }
+        // if job is old, skip it
+        if ( new Date().getTime() - updatedAt.getTime() > ( 30*24*60*60*1000 ) ){
+          continue;
+        }
+        if( llm.isthisjoboppeningforasinglejobpost == false ) {continue;}
+        
+        result.push(uijob) 
     };
     return result;
   } 

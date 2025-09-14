@@ -14,16 +14,16 @@
     },
     {
       "id": "2",
-      "title": "Best Neighborhoods for Tech Workers in Nice and Cannes",
-      "slug": "best-neighborhoods-tech-workers-nice-cannes",
-      "excerpt": "A comprehensive guide to finding the perfect place to live as a tech professional on the French Riviera.",
+      "title": "Your Developer Job Offer in Sophia Antipolis: What You Need to Know Before Signing",
+      "slug": "job-offer-sophia-antipolis-what-you-need-to-know",
+      "excerpt": "So you've received a job offer from Sophia Antipolis? Congratulations! You're probably wondering what this French tech hub is all about and whether the offer is worth considering.",
       "content": "",
       "author": "Admin",
-      "publishedAt": "2024-01-12",
-      "tags": ["Housing", "Lifestyle", "Nice", "Cannes"],
+      "publishedAt": "2025-09-07",
+      "tags": ["Job", "Offer", "Sophia Antipolis", "Administrative"],
       "image": "https://images.pexels.com/photos/2506947/pexels-photo-2506947.jpeg?auto=compress&cs=tinysrgb&w=800",
       "readTime": 12,
-      "category": "Lifestyle"
+      "category": "Career"
     },
     {
       "id": "3",
@@ -90,15 +90,41 @@
       "readTime": 5,
       "category": "Lifestyle"
     },
-{
+    {
       "id": "8",
-      "title": "7 mois de recherche d'Emploi",
+      "title": "Votre Offre d'Emploi de Développeur à Sophia Antipolis : Ce Qu'il Faut Savoir Avant de Signer",
+      "slug": "votre-offre-demploi-de-developpeur-a-sophia-antipolis-ce-quilfaut-savoir-avant-de-signer",
+      "excerpt": "Vous avez reçu une offre d'emploi de Sophia Antipolis ? Félicitations ! Vous vous demandez probablement ce qu'est ce hub technologique français et si l'offre mérite d'être considérée.",
+      "content": "",
+      "author": "Admin",
+      "publishedAt": "2025-09-07",
+      "tags": ["Poste", "Offre d'Emploi", "Sophia Antipolis", "Administratif"],
+      "image": "https://images.pexels.com/photos/2506947/pexels-photo-2506947.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "readTime": 12,
+      "category": "Career"
+    },
+    {
+      "id": "9",
+      "title": "7 Mois de Recherche d'Emploi : Les Vraies Leçons d'un Développeur Java Expérimenté",
       "slug": "7-mois-de-recherche-demploi",
-      "excerpt": "Essential tips for navigating firework festivals in Cote D'Azur in your free time from work.",
+      "excerpt": "Chercher un emploi de développeur aujourd'hui, c'est un marathon, pas un sprint. Et quand on parle d'**emploi développeur Java PACA** ou ailleurs en Europe, la réalité peut être décourageante. Voici le témoignage brut d'un développeur Java avec 10 ans d'expérience qui a mis 7 mois à décrocher une offre satisfaisante.",
       "content": "",
       "author": "Admin",
       "publishedAt": "2025-08-14",
-      "tags": ["Networking", "Community", "Festivals"],
+      "tags": ["Networking", "Community", "recherche d'Emploi"],
+      "image": "tsuyoshi-kozu-d-Sk3Ab6njo-unsplash.jpg",
+      "readTime": 8,
+      "category": "Job search"
+    },
+    {
+      "id": "10",
+      "title": "7 mois de recherche d'Emploi",
+      "slug": "7-month-research-of-employment",
+      "excerpt": "Looking for a developer job today is a marathon, not a sprint. And when we talk about **Java developer jobs PACA** or elsewhere in Europe, reality can be discouraging. Here's the raw testimony of a Java developer with 10 years of experience who took 7 months to land a satisfying offer.",
+      "content": "",
+      "author": "Admin",
+      "publishedAt": "2025-08-14",
+      "tags": ["Networking", "Community", "Job search"],
       "image": "tsuyoshi-kozu-d-Sk3Ab6njo-unsplash.jpg",
       "readTime": 8,
       "category": "Job search"

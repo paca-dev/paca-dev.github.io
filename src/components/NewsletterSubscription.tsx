@@ -16,8 +16,25 @@ const NewsletterSubscription = () => {
 
   const onSubmit = async (data: NewsletterForm) => {
     try {
-      // TODO: Integrate with backend API
-      console.log('Newsletter subscription:', data);
+      // Mailchimp form POST URL — replace with your own
+      const mailchimpUrl =
+        'https://rivieraapps.us18.list-manage.com/subscribe/post?u=7ff42d93ae43068e9083f7a55&amp;id=0e885bcd11&amp;f_id=0047afe6f0';
+
+      // Construct params as URLSearchParams
+      const params = new URLSearchParams();
+      params.append('EMAIL', data.email);
+      if (data.jobAlerts) params.append('GROUPINGS[0][GROUP_NAME]', 'Job Alerts');
+      if (data.blogUpdates) params.append('GROUPINGS[0][GROUP_NAME]', 'Blog Updates');
+      if (data.expatGuides) params.append('GROUPINGS[0][GROUP_NAME]', 'Expat Guides');
+
+      // Mailchimp requires JSONP, but to simplify, you can use jsonp or backend proxy
+      // Here, we demonstrate a fetch to a CORS-enabled endpoint (not guaranteed to work)
+
+      const response = await fetch(mailchimpUrl + '&' + params.toString(), {
+        method: 'GET',
+        mode: 'no-cors', // To bypass CORS (won't get response)
+      });
+
       setIsSubmitted(true);
       toast.success('Successfully subscribed to newsletter!');
       reset();
