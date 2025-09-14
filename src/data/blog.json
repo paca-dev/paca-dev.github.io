@@ -89,5 +89,18 @@
       "image": "tsuyoshi-kozu-d-Sk3Ab6njo-unsplash.jpg",
       "readTime": 5,
       "category": "Lifestyle"
+    },
+{
+      "id": "8",
+      "title": "7 mois de recherche d'Emploi",
+      "slug": "7-mois-de-recherche-demploi",
+      "excerpt": "Essential tips for navigating firework festivals in Cote D'Azur in your free time from work.",
+      "content": "",
+      "author": "Admin",
+      "publishedAt": "2025-08-06",
+      "tags": ["Networking", "Community", "Festivals"],
+      "image": "tsuyoshi-kozu-d-Sk3Ab6njo-unsplash.jpg",
+      "readTime": 8,
+      "category": "Job search"
     }
 ]
