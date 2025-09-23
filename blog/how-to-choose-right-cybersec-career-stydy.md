@@ -154,7 +154,6 @@ Your answers will guide whether you pursue **Security Operations, AppSec, Red Te
 | Offensive           | Junior Pen Tester                | Ethical hacking & vulnerability testing  | OSCP, CTFs, HackTheBox           |
 | Management          | Security Analyst / Project Assistant | Early exposure to leadership & projects | CISM later, project experience  |
 
-
 ---
 
 ## Step 5: Habits & Traits That Make You Shine
