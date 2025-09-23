@@ -146,13 +146,13 @@ Vos réponses détermineront si vous vous dirigez vers **Opérations SOC, AppSec
 
 ## Étape 4 : Associer un premier poste à votre parcours choisi
 
-| Parcours | Premier poste | Pourquoi c’est idéal | Compétences / Certifications |
-|----------|---------------|--------------------|-------------------------------|
-| Opérations SOC | Analyste SOC / Réponse aux incidents | Apprendre les attaques et les défenses | Security+, Networking, Splunk |
-| Ingénierie / Cloud | Ingénieur sécurité junior | Construire des systèmes et acquérir de l’expérience pratique | Python, Cloud, GSEC |
-| AppSec | Ingénieur AppSec junior | Combiner codage et sécurité | CSSLP, Laboratoires codage sécurisé |
-| Offensive | Testeur d’intrusion junior | Hacking éthique et tests de vulnérabilité | OSCP, CTF, HackTheBox |
-| Management | Analyste sécurité / Assistant projet | Découverte du leadership et des projets | CISM plus tard, expérience projet |
+| Parcours           | Premier poste                   | Pourquoi c’est idéal                       | Compétences / Certifications         |
+|-------------------|---------------------------------|-------------------------------------------|-------------------------------------|
+| Opérations SOC     | Analyste SOC / Réponse aux incidents | Apprendre les attaques et les défenses   | Security+, Networking, Splunk       |
+| Ingénierie / Cloud | Ingénieur sécurité junior       | Construire des systèmes et acquérir de l’expérience pratique | Python, Cloud, GSEC                 |
+| AppSec             | Ingénieur AppSec junior         | Combiner codage et sécurité               | CSSLP, Laboratoires codage sécurisé |
+| Offensive          | Testeur d’intrusion junior      | Hacking éthique et tests de vulnérabilité | OSCP, CTF, HackTheBox               |
+| Management         | Analyste sécurité / Assistant projet | Découverte du leadership et des projets | CISM plus tard, expérience projet   |
 
 ---
 

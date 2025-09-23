@@ -146,13 +146,14 @@ Your answers will guide whether you pursue **Security Operations, AppSec, Red Te
 
 ## Step 4: Map a First Job to Your Chosen Path
 
-| Career Path | First Job | Why It’s Ideal | Skills / Certifications |
-|-------------|-----------|----------------|------------------------|
-| Security Ops | SOC Analyst / Incident Responder | Learn attack patterns & defenses | Security+, Networking, Splunk |
-| Engineering / Cloud | Junior Security Engineer | Build systems & gain hands-on experience | Python, Cloud, GSEC |
-| AppSec | Junior AppSec Engineer | Merge coding & security | CSSLP, Secure Coding Labs |
-| Offensive | Junior Pen Tester | Ethical hacking & vulnerability testing | OSCP, CTFs, HackTheBox |
-| Management | Security Analyst / Project Assistant | Early exposure to leadership & projects | CISM later, project experience |
+| Career Path         | First Job                        | Why It’s Ideal                             | Skills / Certifications           |
+|--------------------|---------------------------------|-------------------------------------------|----------------------------------|
+| Security Ops        | SOC Analyst / Incident Responder | Learn attack patterns & defenses          | Security+, Networking, Splunk    |
+| Engineering / Cloud | Junior Security Engineer         | Build systems & gain hands-on experience | Python, Cloud, GSEC              |
+| AppSec              | Junior AppSec Engineer           | Merge coding & security                   | CSSLP, Secure Coding Labs        |
+| Offensive           | Junior Pen Tester                | Ethical hacking & vulnerability testing  | OSCP, CTFs, HackTheBox           |
+| Management          | Security Analyst / Project Assistant | Early exposure to leadership & projects | CISM later, project experience  |
+
 
 ---
 
