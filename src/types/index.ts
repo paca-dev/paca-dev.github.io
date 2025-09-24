@@ -1,4 +1,4 @@
-interface RawJob {
+export interface RawJob {
   _id: string;
   hashOfContent: string;
   __v?: number;
@@ -8,7 +8,7 @@ interface RawJob {
   llmoutput: any;  // JSON object structure from backend
 }
 
-interface UiJob {
+export interface UiJob {
   id: string;
   title: string;
   company: string;
@@ -19,6 +19,11 @@ interface UiJob {
   tags: string[];
   description?: string;
   applyUrl?: string;
+  postedAt: string;
+}
+
+export interface JobWithScore extends UiJob {
+  skillMatchCount: number;
 }
 
 export interface Job {

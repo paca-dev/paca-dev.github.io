@@ -10,7 +10,11 @@ import {
   CheckCircle,
   ArrowRight,
   Upload,
-  Zap
+  Zap,
+  Shield,
+  Clock,
+  Globe,
+  Sparkles
 } from 'lucide-react';
 import SEO from '../components/SEO';
 import NewsletterSubscription from '../components/NewsletterSubscription';
@@ -105,60 +109,187 @@ const Home = () => {
   return (
     <div className="min-h-screen">
       <SEO />
-      
-      {/* Hero Section */}
-      <section className="bg-gradient-to-br from-blue-900 via-blue-800 to-teal-700 text-white py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+      {/* Hero Section with Animated Background */}
+      <section className="relative bg-gradient-to-br from-blue-900 via-blue-800 to-teal-700 text-white py-20 overflow-hidden">
+        {/* Animated Background Elements */}
+        <div className="absolute inset-0 overflow-hidden">
+          <div className="absolute -top-40 -right-40 w-80 h-80 bg-blue-400 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-pulse"></div>
+          <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-teal-400 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-pulse animation-delay-2000"></div>
+          <div className="absolute top-40 left-1/2 w-60 h-60 bg-purple-400 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-pulse animation-delay-4000"></div>
+        </div>
+
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-4xl md:text-6xl font-bold mb-6">
+            {/* Badge */}
+            <div className="inline-flex items-center bg-white/10 backdrop-blur-sm rounded-full px-6 py-2 mb-8 border border-white/20">
+              <Sparkles className="h-4 w-4 mr-2 text-yellow-300" />
+              <span className="text-sm font-medium">AI-Powered Job Matching</span>
+              <div className="ml-2 w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
+            </div>
+
+            <h1 className="text-4xl md:text-7xl font-bold mb-6 leading-tight">
               Your Tech Career in
-              <span className="block bg-gradient-to-r from-yellow-300 to-orange-400 bg-clip-text text-transparent">
-                Sophia Antipolis
+              <span className="block bg-gradient-to-r from-yellow-300 via-orange-400 to-red-400 bg-clip-text text-transparent animate-gradient">
+                South of France
               </span>
             </h1>
-            <p className="text-xl md:text-2xl text-blue-100 mb-8 max-w-3xl mx-auto">
-              Discover amazing tech opportunities on the French Riviera. 
-              Perfect for developers, data scientists, and tech professionals looking to work in paradise.
+            
+            <p className="text-xl md:text-2xl text-blue-100 mb-8 max-w-4xl mx-auto leading-relaxed">
+              Discover tech opportunities on the French Riviera (PACA region).
             </p>
             
-            {/* Search Bar */}
-            <div className="max-w-2xl mx-auto mb-8">
-              <div className="relative">
-                <input
-                  type="text"
-                  placeholder="Search for jobs, companies, or skills..."
-                  value={searchQuery}
-                  onChange={(e) => setSearchQuery(e.target.value)}
-                  onKeyDown={onKeyDown}
-                  className="w-full px-6 py-4 text-gray-900 rounded-full text-lg focus:outline-none focus:ring-4 focus:ring-blue-300"
-                />
-                <button onClick={handleSearch} className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-blue-600 hover:bg-blue-700 text-white p-3 rounded-full transition-colors">
-                  <Search className="h-5 w-5" />
-                </button>
+            {/* Enhanced Search Bar */}
+            <div className="max-w-3xl mx-auto mb-12">
+              <div className="relative group">
+                <div className="absolute inset-0 bg-gradient-to-r from-blue-400 to-teal-400 rounded-2xl blur opacity-25 group-hover:opacity-40 transition duration-1000"></div>
+                <div className="relative bg-white/95 backdrop-blur-sm rounded-2xl p-2 shadow-2xl">
+                  <div className="flex items-center">
+                    <div className="flex-1 relative">
+                      <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 h-5 w-5 text-gray-400" />
+                      <input
+                        type="text"
+                        placeholder="Search for jobs, companies, or skills..."
+                        value={searchQuery}
+                        onChange={(e) => setSearchQuery(e.target.value)}
+                        className="w-full pl-12 pr-4 py-4 text-gray-900 rounded-xl text-lg focus:outline-none focus:ring-2 focus:ring-blue-500 bg-transparent"
+                      />
+                    </div>
+                    <button 
+                      className="bg-gradient-to-r from-blue-600 to-teal-600 hover:from-blue-700 hover:to-teal-700 text-white px-8 py-4 rounded-xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg"
+                      onClick={()=>handleSearch()}
+                      >
+                      Search Jobs
+                    </button>
+                  </div>
+                </div>
               </div>
             </div>
 
-            <div className="flex flex-wrap justify-center gap-4">
+            {/* CTA Buttons */}
+            <div className="flex flex-wrap justify-center gap-6 mb-12">
               <Link
                 to="/jobs"
-                className="bg-white text-blue-800 px-8 py-3 rounded-full font-semibold hover:bg-blue-50 transition-colors"
+                className="group bg-white text-blue-800 px-8 py-4 rounded-xl font-semibold hover:bg-blue-50 transition-all duration-300 transform hover:scale-105 shadow-lg flex items-center"
               >
+                <Briefcase className="h-5 w-5 mr-2 group-hover:rotate-12 transition-transform" />
                 Browse All Jobs
               </Link>
+              
               <button
                 onClick={() => setIsCVModalOpen(true)}
-                className="bg-gradient-to-r from-orange-500 to-red-500 text-white px-8 py-3 rounded-full font-semibold hover:from-orange-600 hover:to-red-600 transition-colors flex items-center"
+                className="group bg-gradient-to-r from-orange-500 to-red-500 text-white px-8 py-4 rounded-xl font-semibold hover:from-orange-600 hover:to-red-600 transition-all duration-300 transform hover:scale-105 shadow-lg flex items-center"
               >
-                <Upload className="h-5 w-5 mr-2" />
+                <Upload className="h-5 w-5 mr-2 group-hover:translate-y-1 transition-transform" />
                 Upload CV & Get Matches
+                <Sparkles className="h-4 w-4 ml-2 text-yellow-200" />
               </button>
+              
               <Link
                 to="/expat-guide"
-                className="border-2 border-white text-white px-8 py-3 rounded-full font-semibold hover:bg-white hover:text-blue-800 transition-colors"
+                className="group border-2 border-white text-white px-8 py-4 rounded-xl font-semibold hover:bg-white hover:text-blue-800 transition-all duration-300 transform hover:scale-105 flex items-center"
               >
+                <Globe className="h-5 w-5 mr-2 group-hover:rotate-180 transition-transform duration-500" />
                 Expat Guide
               </Link>
             </div>
+
+            {/* Trust Indicators */}
+            <div className="flex flex-wrap justify-center items-center gap-8 text-blue-200">
+              <div className="flex items-center">
+                <Shield className="h-5 w-5 mr-2" />
+                <span className="text-sm">Privacy Protected</span>
+              </div>
+              <div className="flex items-center">
+                <Clock className="h-5 w-5 mr-2" />
+                <span className="text-sm">Instant Analysis</span>
+              </div>
+              <div className="flex items-center">
+                <CheckCircle className="h-5 w-5 mr-2" />
+                <span className="text-sm">100% Free</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Stats Section */}
+      <section className="py-16 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+            {stats.map((stat, index) => (
+              <div key={index} className="text-center">
+                <div className="inline-flex items-center justify-center w-12 h-12 bg-blue-600 text-white rounded-lg mb-4">
+                  <stat.icon className="h-6 w-6" />
+                </div>
+                <div className="text-3xl font-bold text-gray-900 mb-1">{stat.value}</div>
+                <div className="text-gray-600">{stat.label}</div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+      
+      {/* Featured Jobs */}
+      <section className="py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">Featured Opportunities</h2>
+            <p className="text-lg text-gray-600">Hand-picked jobs from top tech companies in the region</p>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+            {featuredJobs.map((job) => (
+              <div key={job.id} className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow p-6 border border-gray-200">
+                <div className="flex justify-between items-start mb-4">
+                  <div>
+                    <h3 className="text-lg font-semibold text-gray-900 mb-1">{job.title}</h3>
+                    <p className="text-blue-600 font-medium">{job.company}</p>
+                  </div>
+                  <span className={`px-3 py-1 rounded-full text-xs font-medium ${
+                    job.type === 'Full-time' ? 'bg-green-100 text-green-800' :
+                    job.type === 'Internship' ? 'bg-purple-100 text-purple-800' :
+                    'bg-orange-100 text-orange-800'
+                  }`}>
+                    {job.type}
+                  </span>
+                </div>
+                
+                <div className="flex items-center text-gray-600 mb-2">
+                  <MapPin className="h-4 w-4 mr-1" />
+                  <span className="text-sm">{job.location}</span>
+                  {job.remote && (
+                    <span className="ml-2 px-2 py-1 bg-blue-100 text-blue-800 text-xs rounded">Remote OK</span>
+                  )}
+                </div>
+                
+                <div className="text-green-600 font-semibold mb-4">{job.salary}</div>
+                
+                <div className="flex flex-wrap gap-2 mb-4">
+                  {job.tags.map((tag, index) => (
+                    <span key={index} className="bg-gray-100 text-gray-800 px-2 py-1 rounded text-sm">
+                      {tag}
+                    </span>
+                  ))}
+                </div>
+                
+                <Link
+                  to={`/job/${job.id}`}
+                  className="text-blue-600 hover:text-blue-800 font-medium flex items-center"
+                >
+                  View Details <ArrowRight className="h-4 w-4 ml-1" />
+                </Link>
+              </div>
+            ))}
+          </div>
+          
+          <div className="text-center">
+            <Link
+              to="/jobs"
+              className="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors"
+            >
+              View All Jobs
+            </Link>
           </div>
         </div>
       </section>
@@ -225,87 +356,6 @@ const Home = () => {
             <p className="text-sm text-gray-600 mt-2">
               Free • Instant Analysis • Privacy Protected
             </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Stats Section */}
-      <section className="py-16 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-            {stats.map((stat, index) => (
-              <div key={index} className="text-center">
-                <div className="inline-flex items-center justify-center w-12 h-12 bg-blue-600 text-white rounded-lg mb-4">
-                  <stat.icon className="h-6 w-6" />
-                </div>
-                <div className="text-3xl font-bold text-gray-900 mb-1">{stat.value}</div>
-                <div className="text-gray-600">{stat.label}</div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Featured Jobs */}
-      <section className="py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Featured Opportunities</h2>
-            <p className="text-lg text-gray-600">Hand-picked jobs from top tech companies in the region</p>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-            {featuredJobs.map((job) => (
-              <div key={job.id} className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow p-6 border border-gray-200">
-                <div className="flex justify-between items-start mb-4">
-                  <div>
-                    <h3 className="text-lg font-semibold text-gray-900 mb-1">{job.title}</h3>
-                    <p className="text-blue-600 font-medium">{job.company}</p>
-                  </div>
-                  <span className={`px-3 py-1 rounded-full text-xs font-medium ${
-                    job.type === 'Full-time' ? 'bg-green-100 text-green-800' :
-                    job.type === 'Internship' ? 'bg-purple-100 text-purple-800' :
-                    'bg-orange-100 text-orange-800'
-                  }`}>
-                    {job.type}
-                  </span>
-                </div>
-                
-                <div className="flex items-center text-gray-600 mb-2">
-                  <MapPin className="h-4 w-4 mr-1" />
-                  <span className="text-sm">{job.location}</span>
-                  {job.remote && (
-                    <span className="ml-2 px-2 py-1 bg-blue-100 text-blue-800 text-xs rounded">Remote OK</span>
-                  )}
-                </div>
-                
-                <div className="text-green-600 font-semibold mb-4">{job.salary}</div>
-                
-                <div className="flex flex-wrap gap-2 mb-4">
-                  {job.tags.map((tag, index) => (
-                    <span key={index} className="bg-gray-100 text-gray-800 px-2 py-1 rounded text-sm">
-                      {tag}
-                    </span>
-                  ))}
-                </div>
-                
-                <Link
-                  to={`/job/${job.id}`}
-                  className="text-blue-600 hover:text-blue-800 font-medium flex items-center"
-                >
-                  View Details <ArrowRight className="h-4 w-4 ml-1" />
-                </Link>
-              </div>
-            ))}
-          </div>
-          
-          <div className="text-center">
-            <Link
-              to="/jobs"
-              className="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors"
-            >
-              View All Jobs
-            </Link>
           </div>
         </div>
       </section>

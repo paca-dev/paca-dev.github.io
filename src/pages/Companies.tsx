@@ -4,6 +4,7 @@ import SEO from '../components/SEO';
 import companiesData from '../data/companies.json'; // adjust path to your JSON file
 import { useApi } from '../contexts/ApiContext';
 import { Link } from 'react-router-dom';
+import CompanyLogo from '../components/CompanyLogo';
 
 const Companies = () => {
   const [searchQuery, setSearchQuery] = useState('');
@@ -119,11 +120,9 @@ const Companies = () => {
           >
             <div className="flex flex-col sm:flex-row items-start sm:justify-between mb-4">
               <div className="flex items-start space-x-4">
-                <img
-                  src={company.logo}
-                  alt={company.name}
-                  className="w-16 h-16 max-w-full rounded-lg"
-                />
+                <CompanyLogo 
+                  companyName={company.name}
+                  ></CompanyLogo>
                 <div>
                   <h3 className="text-xl font-bold text-gray-900 mb-1">{company.name}</h3>
                   <div className="flex items-center space-x-4 text-sm text-gray-600 mb-2">

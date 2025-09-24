@@ -128,5 +128,31 @@
       "image": "tsuyoshi-kozu-d-Sk3Ab6njo-unsplash.jpg",
       "readTime": 8,
       "category": "Job search"
+    }, 
+    {
+      "id": "11",
+      "title": "How to Choose the Right Cybersecurity Career as a Student",
+      "slug": "how-to-choose-right-cybersec-career-stydy",
+      "excerpt": "Cybersecurity isn’t just a career—it’s a mission. Every day, cybersecurity professionals protect people, companies, and sometimes entire countries from digital threats. If you’re a student in the **PACA region** looking to enter this dynamic field, you may be asking yourself: Which path should I take?",
+      "content": "",
+      "author": "Admin",
+      "publishedAt": "2025-09-23",
+      "tags": ["Cybersecurity jobs PACA", "Cybersecurity careers France", "SOC analyst France", "Junior Security Engineer PACA", "Penetration tester EMEA", "AppSec France", "Cloud security jobs PACA", "Cybersecurity internships France", "CISO career path"],
+      "image": "/images/student-CISP-OSCP.png",
+      "readTime": 9,
+      "category": "Career"
+    },
+    {
+      "id": "12",
+      "title": "Comment choisir la bonne carrière en cybersécurité pour les étudiants",
+      "slug": "comment-choisir-la-bonne-carriere-en-cybersecurite",
+      "excerpt": "La cybersécurité n’est pas seulement un métier : c’est une mission. Chaque jour, les professionnels de la cybersécurité protègent les personnes, les entreprises et parfois même des pays entiers contre les menaces numériques. Si vous êtes étudiant dans la **région PACA** et que vous souhaitez entrer dans ce domaine dynamique, vous vous demandez peut-être: Quel chemin dois-je suivre?",
+      "content": "",
+      "author": "Admin",
+      "publishedAt": "2025-09-23",
+      "tags": ["Cybersecurity jobs PACA", "Cybersecurity careers France", "SOC analyst France", "Junior Security Engineer PACA", "Penetration tester EMEA", "AppSec France", "Cloud security jobs PACA", "Cybersecurity internships France", "CISO career path"],
+      "image": "/images/student-CISP-OSCP.png",
+      "readTime": 9,
+      "category": "Career"
     }
 ]

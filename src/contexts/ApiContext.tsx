@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useEffect, useState } from 'react';
 
-import {UiJob, RawJob} from '../types.index'
+import {UiJob, RawJob} from '../types/index'
 interface Job {
   _id: string;
   hashOfContent: string;
@@ -10,10 +10,12 @@ interface Job {
 
 interface AuthContextType {
   loading: boolean;
-  jobs: Job[] | null;
+  jobs: UiJob[] | null;
+  skills: string[] | null;
   getJobs: () => Promise<void>;
   deleteJob: (id: string) => Promise<void>;
   saveJob: (jobData: Partial<Job>) => Promise<void>;
+  analyseCV: (cv: string) => Promise<void>;
 }
 
 const STORAGE_KEY = 'cachedJobs';
@@ -23,7 +25,8 @@ const API_URL = 'https://api.paca-dev.rivieraapps.com/api/';
 const ApiContext = createContext<AuthContextType | undefined>(undefined);
 
 export const ApiProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
-  const [jobs, setJobs] = useState<Job[] | null>(null);
+  const [jobs, setJobs] = useState<UiJob[] | null>(null);
+  const [skills, setSkills] = useState<string[] | null>(null);
   const [loading, setLoading] = useState<boolean>(false);
 
   const getJobs = async () => {
@@ -102,6 +105,29 @@ export const ApiProvider: React.FC<{ children: React.ReactNode }> = ({ children 
     }
   };
 
+  const analyseCV = async (cv: String) => {
+    try {
+      setLoading(true);
+        const response = await fetch(`${API_URL}jobs/cvanalyse`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'x-api-password': 'yourPasswordHere',
+        },
+        body: JSON.stringify({ cvText: cv }),
+      });
+      if (!response.ok) throw new Error('Failed to analyse CV');
+
+      const json = await response.json(); // { skills: [...] }
+      setSkills(json.skills);
+
+    } catch (err) {
+        console.error('Failed to analyse CV:', err);
+    } finally {
+        setLoading(false);
+    }
+  };
+
   function mapRawJobToUiJob(rawJobs: RawJob[]): UiJob[] {
     var result: UiJob[] = [];
     for (const rawJob of rawJobs) {
@@ -134,17 +160,17 @@ export const ApiProvider: React.FC<{ children: React.ReactNode }> = ({ children 
             experienceLevel: llm.jobexperiencelevel || '',
             applyUrl: llm.jobwheretoapply || llm.joboppeningurl || '',
             applicationProcess: llm.applicationprocessandcontact || '',
-            postedAt: llm.jobdateposted || '',
+            postedAt: rawJob.updatedAt || '',
             workConditions: llm.jobworkconditions || '',
-            availability: llm.jobavailiability || '',
+            availability: llm.jobavailiability || ''
         };
 
         // guard, avoid jobs
-        if ( uijob.title.includes("Untutled") ){
+        if ( uijob.title === "Untitled Job" ){
           continue;
         }
-        // if job is old, skip it
-        if ( new Date().getTime() - updatedAt.getTime() > ( 30*24*60*60*1000 ) ){
+        // if job is old (20d), skip it
+        if ( new Date().getTime() - updatedAt.getTime() > ( 20*24*60*60*1000 ) ){
           continue;
         }
         if( llm.isthisjoboppeningforasinglejobpost == false ) {continue;}
@@ -159,7 +185,7 @@ export const ApiProvider: React.FC<{ children: React.ReactNode }> = ({ children 
   }, []);
 
   return (
-    <ApiContext.Provider value={{ loading, jobs, getJobs, deleteJob, saveJob }}>
+    <ApiContext.Provider value={{ loading, jobs, skills, getJobs, deleteJob, saveJob, analyseCV }}>
       {children}
     </ApiContext.Provider>
   );

@@ -3,6 +3,7 @@ import { Dialog } from '@headlessui/react';
 import { X, Upload, FileText, Loader, CheckCircle } from 'lucide-react';
 import { useAuth } from '../contexts/AuthContext';
 import toast from 'react-hot-toast';
+import { useApi } from '../contexts/ApiContext';
 
 interface CVUploadModalProps {
   isOpen: boolean;
@@ -19,7 +20,7 @@ const CVUploadModal: React.FC<CVUploadModalProps> = ({ isOpen, onClose, onSucces
   const [extractedSkills, setExtractedSkills] = useState<string[]>([]);
   const { user } = useAuth();
   const [showJobsButton, setShowJobsButton] = useState(false);
-
+  const { analyseCV, skills } = useApi();
   // Load saved CV text on mount
   useEffect(() => {
     const savedCv = localStorage.getItem(LOCAL_STORAGE_KEY);
@@ -36,46 +37,16 @@ const CVUploadModal: React.FC<CVUploadModalProps> = ({ isOpen, onClose, onSucces
   };
 
   const extractSkillsWithGrok = async (cvText: string): Promise<string[]> => {
-    const GROK_API_KEY = ""; // Set your key in env
-    const GROK_API_URL = 'https://api.x.ai/v1/chat/completions';
-
-    // Example prompt to get skills from CV text
-    const prompt = `
-  Extract a list of skills from the following CV text. Return only a JSON array with skill strings.
-
-  CV Text:
-  """${cvText}"""
-  `;
-
+   
     try {
-      const response = await fetch(GROK_API_URL, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          'Authorization': `Bearer ${GROK_API_KEY}`,
-        },
-        body: JSON.stringify({
-          model: 'grok-4',
-          messages: [{ role: 'user', content: prompt }],
-          max_tokens: 150,
-          temperature: 0.3,
-        }),
-      });
-      if (!response.ok) {
-        throw new Error(`Grok API error: ${response.statusText}`);
-      }
-
-      const data = await response.json();
-      // Expected response choices[0].message.content is JSON stringified array
-      const content = data.choices?.[0]?.message?.content || '[]';
-      const skills: string[] = JSON.parse(content);
-      return skills;
+      await analyseCV(cvText);
+      setExtractedSkills(skills || []);
+      return skills || [];
     } catch (error) {
       console.error('Grok API skill extraction failed:', error);
       return [];
     }
   };
-
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -87,26 +58,20 @@ const CVUploadModal: React.FC<CVUploadModalProps> = ({ isOpen, onClose, onSucces
 
     setIsProcessing(true);
 
-    localStorage.setItem(LOCAL_STORAGE_KEY, cvText);
+    // Sanitize CV: allow only letters, numbers, basic punctuation and whitespace
+    const sanitizedCV = cvText
+    .replace(/[^a-zA-Z0-9.,;:!?()\-\s]/g, '') // remove unwanted chars
+    .replace(/\s+/g, ' ') // collapse multiple spaces into one
+    .trim();
+
+    localStorage.setItem(LOCAL_STORAGE_KEY, sanitizedCV);
 
     try {
-      const response = await fetch('/api/cv/upload', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          'Authorization': `Bearer ${await user?.getIdToken()}`
-        },
-        body: JSON.stringify({ cvText })
-      });
 
-
-      const skills = await extractSkillsWithGrok(cvText);
-      setExtractedSkills(skills);
+      const skills = await extractSkillsWithGrok(sanitizedCV);
       toast.success('Skills extracted successfully!');
 
-      if (response.ok) {
-        const data = await response.json();
-        setExtractedSkills(data.skills || []);
+      if (skills) {
         toast.success('CV uploaded and processed successfully!');
         onSuccess?.();
       } else {

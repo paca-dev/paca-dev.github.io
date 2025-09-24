@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
 import { useParams } from 'react-router-dom';
 import matter from 'gray-matter';
 import blogPostData from '../data/blog.json';
@@ -43,7 +44,7 @@ const Article = () => {
         />
       )}
 
-      <ReactMarkdown>{content}</ReactMarkdown>
+      <ReactMarkdown remarkPlugins={[remarkGfm]} >{content}</ReactMarkdown>
     </div>
   );
 
