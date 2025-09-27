@@ -83,20 +83,20 @@
       "rating": 4.0,
       "benefits": ["Telecom perks", "Innovation labs", "Flexible work", "Career development"]
     },
-    // {
-    //   "id": "7",
-    //   "name": "Accenture Technology",
-    //   "logo": "https://ui-avatars.com/api/?name=Accenture&background=4f46e5&color=fff",
-    //   "description": "Global professional services company with capabilities in digital, cloud and security.",
-    //   "location": "Sophia Antipolis",
-    //   "size": "1000-5000 employees",
-    //   "website": "accenture.com",
-    //   "founded": "1995",
-    //   "careersURL": "https://www.accenture.com/fr-fr/careers/jobsearch?jk=&sb=1&vw=0&is_rj=0&pg=1&ct=paris&ba=technology",
-    //   "tags": ["Consulting", "Digital Transformation", "Cloud", "AI", "Blockchain"],
-    //   "rating": 4.1,
-    //   "benefits": ["Global projects", "Learning platform", "Career advancement", "Diversity programs"]
-    // },
+    {
+      "id": "7",
+      "name": "Accenture Technology",
+      "logo": "https://ui-avatars.com/api/?name=Accenture&background=4f46e5&color=fff",
+      "description": "Global professional services company with capabilities in digital, cloud and security.",
+      "location": "Sophia Antipolis",
+      "size": "1000-5000 employees",
+      "website": "accenture.com",
+      "founded": "1995",
+      "careersURL": "https://www.accenture.com/fr-fr/careers/jobsearch?jk=&sb=1&vw=0&is_rj=0&pg=1&ct=paris&ba=technology",
+      "tags": ["Consulting", "Digital Transformation", "Cloud", "AI", "Blockchain"],
+      "rating": 4.1,
+      "benefits": ["Global projects", "Learning platform", "Career advancement", "Diversity programs"]
+    },
     {
       "id": "8",
       "name": "Thales Alenia Space",
@@ -643,36 +643,22 @@
     "rating": 4.1,
     "benefits": ["Research projects", "Health insurance", "Flexible work", "Training programs"]
   },
-  // {
-  //   "id": "47",
-  //   "name": "Acustis",
-  //   "logo": "https://ui-avatars.com/api/?name=Acustis&background=2563eb&color=fff",
-  //   "description": "Hearing solutions and personalised hearing experiences (hearables / audiology).",
-  //   "location": "Sophia-Antipolis",
-  //   "size": "10-50 employees",
-  //   "website": "https://acustis.com",
-  //   "founded": "2018",
-  //   "careersURL": "",
-  //   "tags": ["HealthTech","Audiology","Hardware","Embedded"],
-  //   "rating": 3.9,
-  //   "notes": "non-existing"
-  //   "benefits": ["Flexible hours","Startup culture"]
-  // },
-  // {
-  //   "id": "48",
-  //   "name": "ArcanSecurity",
-  //   "logo": "https://ui-avatars.com/api/?name=ArcanSecurity&background=7c3aed&color=fff",
-  //   "description": "Passwordless authentication & identity security solutions.",
-  //   "location": "Sophia-Antipolis",
-  //   "size": "10-50 employees",
-  //   "website": "https://arcansecurity.com",
-  //   "founded": "2019",
-  //   "careersURL": "",
-  //   "tags": ["Consulting","Auth","SaaS"],
-  //   "rating": 4.0,
-  //   "benefits": ["Remote options","Learning budget"]
-  //   "notes": "consulting"
-  // },
+  
+  {
+    "id": "48",
+    "name": "ArcanSecurity",
+    "logo": "https://ui-avatars.com/api/?name=ArcanSecurity&background=7c3aed&color=fff",
+    "description": "Passwordless authentication & identity security solutions.",
+    "location": "Sophia-Antipolis",
+    "size": "10-50 employees",
+    "website": "https://arcansecurity.com",
+    "founded": "2019",
+    "careersURL": "",
+    "tags": ["Consulting","Auth","SaaS"],
+    "rating": 4.0,
+    "benefits": ["Remote options","Learning budget"],
+    "notes": "consulting"
+  },
   {
     "id": "49",
     "name": "Attestis",
@@ -2051,21 +2037,6 @@
     "rating": 4.2,
     "benefits": ["AI-driven projects","Health insurance"]
   },
-  // {
-  //   "id": "147",
-  //   "name": "Exactium CyberHealth",
-  //   "logo": "https://ui-avatars.com/api/?name=Exactium&background=7c3aed&color=fff",
-  //   "description": "Sophia startup bridging cybersecurity and health data compliance.",
-  //   "location": "Sophia-Antipolis",
-  //   "size": "10-50 employees",
-  //   "website": "https://exactium.fr",
-  //   "founded": "2021",
-  //   "careersURL": "",
-  //   "tags": ["Cybersecurity","E-Health","Compliance"],
-  //   "rating": 3.8,
-  //   "notes": "seems like it doesn't exist",
-  //   "benefits": ["Startup culture"]
-  // },
   {
     "id": "148",
     "name": "TheraPanacea Imaging Lab",
