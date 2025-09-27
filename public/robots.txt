@@ -1,20 +1,19 @@
 User-agent: *
-Allow: /
+# Allow all main pages
+Allow: /$
+Allow: /jobs
+Allow: /companies
+Allow: /blog
+Allow: /expat-guide
 
-# Sitemap location
-Sitemap: https://paca-dev.rivieraapps.com/sitemap.xml
-
-# Disallow admin and private areas
+# Disallow private or admin pages
 Disallow: /dashboard/
 Disallow: /admin/
 Disallow: /api/
 Disallow: /private/
 
-# Allow important pages
-Disallow: /jobs
-Allow: /blog
-Allow: /expat-guide
-Allow: /companies
+# Sitemap location
+Sitemap: https://paca-dev.rivieraapps.com/sitemap.xml
 
-# Crawl delay (optional - be respectful to search engines)
+# Optional: Crawl delay to be polite to search engines
 Crawl-delay: 1
