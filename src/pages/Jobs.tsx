@@ -117,6 +117,7 @@ useEffect(() => {
 
 
   function extractUrl(text: string): string | null {
+    if (!text) return null;           // handle null/undefined
     // Regex to match http or https URL
     const urlRegex = /(https?:\/\/[^\s]+)/g;
     const match = text.match(urlRegex);

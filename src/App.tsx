@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { HashRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import { HashRouter , Routes, Route, useLocation } from 'react-router-dom';
 import { HelmetProvider } from 'react-helmet-async';
 import { Toaster } from 'react-hot-toast';
 import { AuthProvider } from './contexts/AuthContext';
@@ -35,7 +35,7 @@ function App() {
     <HelmetProvider>
       <AuthProvider>
         <ApiProvider>
-          <Router>
+          <HashRouter>
             <GAListener />
             <div className="flex flex-col min-h-screen">
               <Header />
@@ -54,7 +54,7 @@ function App() {
               <Footer />
             </div>
             <Toaster position="top-right" />
-          </Router>
+          </HashRouter>
         </ApiProvider>
       </AuthProvider>
     </HelmetProvider>

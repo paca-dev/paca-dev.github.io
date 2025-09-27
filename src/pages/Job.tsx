@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import { useParams, Link, useNavigate } from 'react-router-dom';
-import { MapPin, Briefcase, Clock, DollarSign } from 'lucide-react';
+import { useParams, useNavigate } from 'react-router-dom';
 import { useApi } from '../contexts/ApiContext';
+import { Helmet } from 'react-helmet-async';
 
 const Job = () => {
   const { id } = useParams<{ id: string }>();
@@ -36,16 +36,86 @@ const Job = () => {
   }
 
 
-  function extractUrl(text: string): string | null {
-    // Regex to match http or https URL
-    const urlRegex = /(https?:\/\/[^\s]+)/g;
-    const match = text.match(urlRegex);
-    return match ? match[0] : null;
+    function extractUrl(text: string): string | null {
+        if (!text) return null;           // handle null/undefined
+        // Regex to match http or https URL
+        try{
+            const urlRegex = /(https?:\/\/[^\s]+)/g;
+            const match = text.match(urlRegex);
+            return match ? match[0] : null;
+        }catch{
+            return null;
+        }
     }
+
+    const jobTitle = job.title || 'Tech Job in Sophia Antipolis';
+    const jobDescription = job.description || job.longDescription || 'Apply to this tech job in Sophia Antipolis, PACA, France.';
+    const jobUrl = window.location.href;
+    const jobLocation = job.location || 'Sophia Antipolis, Provence-Alpes-Côte d\'Azur, France';
+    const companyName = job.company || 'PACA-Dev';
+
 
     console.log("job", job)
     return (
         <div className="max-w-5xl mx-auto p-6 bg-white rounded shadow ">
+
+            {/* SEO */}
+            <Helmet>
+                <title>{`${jobTitle} - ${companyName}`}</title>
+                <meta name="description" content={jobDescription} />
+                <meta name="keywords" content={`tech jobs Nice, Sophia Antipolis careers, ${jobTitle}, developer jobs PACA, expat tech jobs France`} />
+                <link rel="canonical" href={jobUrl} />
+
+                {/* Open Graph */}
+                <meta property="og:title" content={`${jobTitle} - ${companyName}`} />
+                <meta property="og:description" content={jobDescription} />
+                <meta property="og:url" content={jobUrl} />
+                <meta property="og:type" content="article" />
+
+                {/* Twitter Card */}
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name="twitter:title" content={`${jobTitle} - ${companyName}`} />
+                <meta name="twitter:description" content={jobDescription} />
+
+                {/* JobPosting structured data */}
+                <script type="application/ld+json">
+                {JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@type": "JobPosting",
+                    "title": jobTitle,
+                    "description": jobDescription,
+                    "datePosted": job.postedAt ? new Date(job.postedAt).toISOString() : new Date().toISOString(),
+                    "validThrough": job.validThrough ? new Date(job.validThrough).toISOString() : undefined,
+                    "employmentType": job.type?.toUpperCase() || "FULL_TIME",
+                    "hiringOrganization": {
+                    "@type": "Organization",
+                    "name": companyName,
+                    "sameAs": job.companyUrl || "https://paca-dev.rivieraapps.com",
+                    "logo": job.companyLogo || "https://paca-dev.rivieraapps.com/logo.png"
+                    },
+                    "jobLocation": {
+                    "@type": "Place",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "streetAddress": job.address || "",
+                        "addressLocality": job.locationCity || 'Sophia Antipolis',
+                        "addressRegion": 'Provence-Alpes-Côte d\'Azur',
+                        "addressCountry": 'FR'
+                    }
+                    },
+                    "baseSalary": job.salary ? {
+                    "@type": "MonetaryAmount",
+                    "currency": "EUR",
+                    "value": {
+                        "@type": "QuantitativeValue",
+                        "value": Number(job.salary?.replace(/\D/g, '') || 0),
+                        "unitText": "YEAR"
+                    }
+                    } : undefined
+                })}
+                </script>
+            </Helmet>
+
             {/* Sticky Job Title Section */}
             <div className="sticky top-16 bg-white z-30 py-4 mb-4 border-b border-gray-300">
                 <h2 className="text-2xl sm:text-3xl font-bolder text-center sm:text-left">

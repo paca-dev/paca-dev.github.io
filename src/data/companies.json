@@ -78,25 +78,25 @@
       "size": "500-1000 employees",
       "website": "orange.com",
       "founded": "1988",
-      "careersURL": "",
+      "careersURL": "https://orange.jobs/jobs/v3/search?keyword=france&lang=en",
       "tags": ["Telecom", "5G", "IoT", "AI/ML", "Cloud"],
       "rating": 4.0,
       "benefits": ["Telecom perks", "Innovation labs", "Flexible work", "Career development"]
     },
-    {
-      "id": "7",
-      "name": "Accenture Technology",
-      "logo": "https://ui-avatars.com/api/?name=Accenture&background=4f46e5&color=fff",
-      "description": "Global professional services company with capabilities in digital, cloud and security.",
-      "location": "Sophia Antipolis",
-      "size": "1000-5000 employees",
-      "website": "accenture.com",
-      "founded": "1995",
-      "careersURL": "",
-      "tags": ["Consulting", "Digital Transformation", "Cloud", "AI", "Blockchain"],
-      "rating": 4.1,
-      "benefits": ["Global projects", "Learning platform", "Career advancement", "Diversity programs"]
-    },
+    // {
+    //   "id": "7",
+    //   "name": "Accenture Technology",
+    //   "logo": "https://ui-avatars.com/api/?name=Accenture&background=4f46e5&color=fff",
+    //   "description": "Global professional services company with capabilities in digital, cloud and security.",
+    //   "location": "Sophia Antipolis",
+    //   "size": "1000-5000 employees",
+    //   "website": "accenture.com",
+    //   "founded": "1995",
+    //   "careersURL": "https://www.accenture.com/fr-fr/careers/jobsearch?jk=&sb=1&vw=0&is_rj=0&pg=1&ct=paris&ba=technology",
+    //   "tags": ["Consulting", "Digital Transformation", "Cloud", "AI", "Blockchain"],
+    //   "rating": 4.1,
+    //   "benefits": ["Global projects", "Learning platform", "Career advancement", "Diversity programs"]
+    // },
     {
       "id": "8",
       "name": "Thales Alenia Space",
@@ -106,7 +106,7 @@
       "size": "1000-5000 employees",
       "website": "thalesaleniaspace.com",
       "founded": "2007",
-      "careersURL": "",
+      "careersURL": "https://thales.wd3.myworkdayjobs.com/en-US/Careers/jobs?q=thales+alenia+space",
       "tags": ["Aerospace", "Satellites", "Defense", "C/C++", "Real-time Systems"],
       "rating": 4.2,
       "benefits": ["Cutting-edge tech", "Space projects", "Security clearance", "International collaboration"]
@@ -643,34 +643,36 @@
     "rating": 4.1,
     "benefits": ["Research projects", "Health insurance", "Flexible work", "Training programs"]
   },
-  {
-    "id": "47",
-    "name": "Acustis",
-    "logo": "https://ui-avatars.com/api/?name=Acustis&background=2563eb&color=fff",
-    "description": "Hearing solutions and personalised hearing experiences (hearables / audiology).",
-    "location": "Sophia-Antipolis",
-    "size": "10-50 employees",
-    "website": "https://acustis.com",
-    "founded": "2018",
-    "careersURL": "",
-    "tags": ["HealthTech","Audiology","Hardware","Embedded"],
-    "rating": 3.9,
-    "benefits": ["Flexible hours","Startup culture"]
-  },
-  {
-    "id": "48",
-    "name": "ArcanSecurity",
-    "logo": "https://ui-avatars.com/api/?name=ArcanSecurity&background=7c3aed&color=fff",
-    "description": "Passwordless authentication & identity security solutions.",
-    "location": "Sophia-Antipolis",
-    "size": "10-50 employees",
-    "website": "https://arcansecurity.com",
-    "founded": "2019",
-    "careersURL": "",
-    "tags": ["Cybersecurity","Auth","SaaS"],
-    "rating": 4.0,
-    "benefits": ["Remote options","Learning budget"]
-  },
+  // {
+  //   "id": "47",
+  //   "name": "Acustis",
+  //   "logo": "https://ui-avatars.com/api/?name=Acustis&background=2563eb&color=fff",
+  //   "description": "Hearing solutions and personalised hearing experiences (hearables / audiology).",
+  //   "location": "Sophia-Antipolis",
+  //   "size": "10-50 employees",
+  //   "website": "https://acustis.com",
+  //   "founded": "2018",
+  //   "careersURL": "",
+  //   "tags": ["HealthTech","Audiology","Hardware","Embedded"],
+  //   "rating": 3.9,
+  //   "notes": "non-existing"
+  //   "benefits": ["Flexible hours","Startup culture"]
+  // },
+  // {
+  //   "id": "48",
+  //   "name": "ArcanSecurity",
+  //   "logo": "https://ui-avatars.com/api/?name=ArcanSecurity&background=7c3aed&color=fff",
+  //   "description": "Passwordless authentication & identity security solutions.",
+  //   "location": "Sophia-Antipolis",
+  //   "size": "10-50 employees",
+  //   "website": "https://arcansecurity.com",
+  //   "founded": "2019",
+  //   "careersURL": "",
+  //   "tags": ["Consulting","Auth","SaaS"],
+  //   "rating": 4.0,
+  //   "benefits": ["Remote options","Learning budget"]
+  //   "notes": "consulting"
+  // },
   {
     "id": "49",
     "name": "Attestis",
@@ -680,7 +682,7 @@
     "size": "10-50 employees",
     "website": "https://www.attestis.com",
     "founded": "2017",
-    "careersURL": "",
+    "careersURL": "https://www.attestis.com/carrieres/",
     "tags": ["ConstructionTech","SaaS","Compliance"],
     "rating": 3.8,
     "benefits": ["Flexible hours"]
@@ -692,7 +694,7 @@
     "description": "Insurtech / insurance service solutions (specialised insurance products).",
     "location": "Sophia-Antipolis",
     "size": "10-50 employees",
-    "website": "https://b2bot.net",
+    "website": "http://bemaker.eu/",
     "founded": "2016",
     "careersURL": "",
     "tags": ["Insurtech","SaaS","API"],
@@ -711,6 +713,7 @@
     "careersURL": "",
     "tags": ["AR","3D","ComputerVision","SaaS"],
     "rating": 3.9,
+    "notes": "doesnt seem to be in sophia, but in singapore",
     "benefits": ["Startup culture","Training"]
   },
   {
@@ -722,7 +725,7 @@
     "size": "10-50 employees",
     "website": "https://www.ekinnox.com",
     "founded": "2017",
-    "careersURL": "",
+    "careersURL": "https://www.welcometothejungle.com/fr/companies/ekinox/jobs",
     "tags": ["MedTech","Rehabilitation","Hardware","AI"],
     "rating": 3.9,
     "benefits": ["Health insurance","Flexible hours"]
@@ -736,7 +739,7 @@
     "size": "10-50 employees",
     "website": "http://greenerwave.com",
     "founded": "2018",
-    "careersURL": "",
+    "careersURL": "https://www.greenerwave.com/careers/",
     "tags": ["Photonics","RF","Hardware","R&D"],
     "rating": 3.8,
     "benefits": ["Research allowances","Flexible schedule"]
@@ -764,7 +767,7 @@
     "size": "10-50 employees",
     "website": "https://www.inocess.fr",
     "founded": "2015",
-    "careersURL": "",
+    "careersURL": "https://www.inocess.com/?page_id=1352&lang=en",
     "tags": ["Embedded","Electronics","Prototyping","R&D"],
     "rating": 3.9,
     "benefits": ["Training budget","Flexible work"]
@@ -778,7 +781,7 @@
     "size": "10-50 employees",
     "website": "https://www.litrinium.com",
     "founded": "2014",
-    "careersURL": "",
+    "careersURL": "https://www.litrinium.com/careers/?job__location_spec=france",
     "tags": ["Semiconductors","Analog","Telecom","Hardware"],
     "rating": 3.8,
     "benefits": ["R&D projects","Training"]
@@ -792,7 +795,7 @@
     "size": "10-50 employees",
     "website": "https://keyinfuser.com",
     "founded": "2017",
-    "careersURL": "",
+    "careersURL": "https://www.linkedin.com/company/key-infuser/jobs/",
     "tags": ["Robotics","HCI","Hardware","R&D"],
     "rating": 3.7,
     "benefits": ["Startup culture"]
@@ -806,7 +809,7 @@
     "size": "20-100 employees",
     "website": "https://www.sinay.fr",
     "founded": "2013",
-    "careersURL": "",
+    "careersURL": "https://www.welcometothejungle.com/fr/companies/sinay/jobs",
     "tags": ["MarineTech","Data","SaaS","IoT"],
     "rating": 4.0,
     "benefits": ["Remote options","Flexible hours"]
@@ -834,7 +837,7 @@
     "size": "10-50 employees",
     "website": "https://www.trucksme.com",
     "founded": "2018",
-    "careersURL": "",
+    "careersURL": "https://www.trucksme.com/offres-demplois-et-de-stages/",
     "tags": ["Marketplace","Logistics","SaaS"],
     "rating": 3.7,
     "benefits": ["Flexible hours"]
@@ -848,7 +851,7 @@
     "size": "10-50 employees",
     "website": "https://wenity.fr",
     "founded": "2016",
-    "careersURL": "",
+    "careersURL": "https://careers.wemanity.com/fr/offres-emplois/",
     "tags": ["SaaS","Community","Events"],
     "rating": 3.7,
     "benefits": ["Remote-friendly"]
@@ -876,7 +879,7 @@
     "size": "200-500 employees",
     "website": "https://www.kalrayinc.com",
     "founded": "2008",
-    "careersURL": "",
+    "careersURL": "https://www.kalrayinc.com/careers/",
     "tags": ["Semiconductors","Processors","AI","Embedded"],
     "rating": 4.1,
     "benefits": ["Competitive salary","R&D projects","Stock options"]
@@ -918,7 +921,7 @@
     "size": "200-500 employees",
     "website": "https://www.dualsun.com",
     "founded": "2010",
-    "careersURL": "",
+    "careersURL": "https://www.welcometothejungle.com/fr/companies/dualsun/jobs",
     "tags": ["Cleantech","Solar","Energy"],
     "rating": 4.1,
     "benefits": ["Sustainability mission","Remote options"]
@@ -932,7 +935,7 @@
     "size": "50-200 employees",
     "website": "https://www.enogia.com",
     "founded": "2009",
-    "careersURL": "",
+    "careersURL": "https://www.indeed.com/cmp/Enogia/jobs?start=0&from=profOnboardingACME",
     "tags": ["Energy","Hardware","CleanTech"],
     "rating": 4.0,
     "benefits": ["R&D focus","Health insurance"]
@@ -944,7 +947,7 @@
     "description": "AI solution for store managers that provides personalised marketing and product recommendations.",
     "location": "Marseille",
     "size": "20-100 employees",
-    "website": "https://www.shopymind.com",
+    "website": "https://www.shopimind.com/",
     "founded": "2013",
     "careersURL": "",
     "tags": ["RetailTech","AI","Martech"],
@@ -963,6 +966,7 @@
     "careersURL": "",
     "tags": ["ClimateTech","Platform","SaaS"],
     "rating": 3.7,
+    "notes": "seems like it in california",
     "benefits": ["Mission-driven","Flexible work"]
   },
   {
@@ -974,7 +978,7 @@
     "size": "10-50 employees",
     "website": "https://aioliv.com",
     "founded": "2020",
-    "careersURL": "",
+    "careersURL": "https://career.autoliv.com/jobs?country=France&split_view=true&query=",
     "tags": ["AI","Hardware","Infrastructure"],
     "rating": 3.9,
     "benefits": ["Training","Remote work"]
@@ -988,7 +992,7 @@
     "size": "5-20 employees",
     "website": "https://monavoc.com",
     "founded": "2022",
-    "careersURL": "",
+    "careersURL": "https://fr.indeed.com/cmp/Mon--avocat.fr/jobs",
     "tags": ["Marketplace","Mobile","SaaS"],
     "rating": 3.6,
     "benefits": ["Startup culture"]
@@ -1030,7 +1034,7 @@
     "size": "5-20 employees",
     "website": "https://deepscouting.com",
     "founded": "2020",
-    "careersURL": "",
+    "careersURL": "https://www.deepscouting.com/career",
     "tags": ["SportsTech","AI","Analytics"],
     "rating": 3.7,
     "benefits": ["Remote-friendly"]
@@ -1073,8 +1077,9 @@
     "website": "https://sharemundo.com",
     "founded": "2004",
     "careersURL": "",
-    "tags": ["Mobility","Marketplace","Platform"],
+    "tags": ["consulting", "Mobility","Marketplace","Platform"],
     "rating": 3.5,
+    "notes": "consulting",
     "benefits": ["Flexible hours"]
   },
   {
@@ -1084,7 +1089,7 @@
     "description": "Novel therapeutics biotech (Marseille cluster startup).",
     "location": "Marseille",
     "size": "5-50 employees",
-    "website": "https://adcytherix.com",
+    "website": "https://www.adcytherix.com/",
     "founded": "2024",
     "careersURL": "",
     "tags": ["Biotech","Therapeutics","R&D"],
@@ -1098,7 +1103,7 @@
     "description": "Biotech company in clinical discovery / translational research (Marseille).",
     "location": "Marseille",
     "size": "10-50 employees",
-    "website": "https://diogenx.com",
+    "website": "https://diogenx.com/",
     "founded": "2020",
     "careersURL": "",
     "tags": ["Biotech","Diagnostics","R&D"],
@@ -1112,7 +1117,7 @@
     "description": "Rapid diagnostics & lateral flow assay developer (Marseille cluster).",
     "location": "Marseille",
     "size": "10-50 employees",
-    "website": "https://abreosbio.com",
+    "website": "https://abreos.com",
     "founded": "2016",
     "careersURL": "",
     "tags": ["Diagnostics","MedTech","Biotech"],
@@ -1156,7 +1161,7 @@
     "size": "200-500 employees",
     "website": "https://www.mediantechnologies.com",
     "founded": "2002",
-    "careersURL": "",
+    "careersURL": "https://mediantechnologies.com/careers/",
     "tags": ["HealthTech","AI","Biomarkers"],
     "rating": 4.1,
     "benefits": ["Health insurance","Stock options"]
@@ -1198,7 +1203,7 @@
     "size": "10-50 employees",
     "website": "https://www.genosciencepharma.com",
     "founded": "2001",
-    "careersURL": "",
+    "careersURL": "https://www.genosciencepharma.com/careers/",
     "tags": ["Biotech","Oncology","Pharma"],
     "rating": 4.0,
     "benefits": ["Clinical research","Flexible schedule"]
@@ -1243,6 +1248,7 @@
     "careersURL": "",
     "tags": ["Diagnostics","Oncology","Biotech"],
     "rating": 4.0,
+    "notes": "seems like page does not exist anymore",
     "benefits": ["Health coverage","International team"]
   },
   {
@@ -1254,7 +1260,7 @@
     "size": "50-200 employees",
     "website": "https://www.sensorion.com",
     "founded": "2009",
-    "careersURL": "",
+    "careersURL": "https://www.sensorion.com/en/career/",
     "tags": ["Biotech","Hearing","Therapeutics"],
     "rating": 3.9,
     "benefits": ["Research labs","Flexible schedule"]
@@ -1268,7 +1274,7 @@
     "size": "50-200 employees",
     "website": "https://www.sattse.com",
     "founded": "2012",
-    "careersURL": "",
+    "careersURL": "https://www.sattse.com/en/rejoignez-une-equipe-dexperts/",
     "tags": ["Innovation","TechTransfer","R&D"],
     "rating": 4.0,
     "benefits": ["Public-private projects","Innovation funding"]
@@ -1660,7 +1666,7 @@
     "size": "500-1000 employees",
     "website": "https://www.sophiagenetics.com",
     "founded": "2011",
-    "careersURL": "",
+    "careersURL": "https://careers.sophiagenetics.com/jobs/search/search-france?page=1&country_codes%5B%5D=FR&query=",
     "tags": ["AI","Genomics","HealthTech"],
     "rating": 4.3,
     "benefits": ["International team","Remote-friendly"]
@@ -1688,7 +1694,7 @@
     "size": "10-50 employees",
     "website": "https://inheartmedical.com",
     "founded": "2017",
-    "careersURL": "",
+    "careersURL": "https://www.inheartmedical.com/careers",
     "tags": ["MedTech","Cardiology","Imaging"],
     "rating": 4.1,
     "benefits": ["Cutting-edge R&D","International clients"]
@@ -1702,7 +1708,7 @@
     "size": "10-50 employees",
     "website": "https://trophix-therapeutics.com",
     "founded": "2018",
-    "careersURL": "",
+    "careersURL": "https://protalix.com/contact/careers",
     "tags": ["Biotech","Neurodegeneration","RegenerativeMedicine"],
     "rating": 4.0,
     "benefits": ["Lab facilities","Research-driven"]
@@ -1828,7 +1834,7 @@
     "size": "200-500 employees",
     "website": "https://www.provepharm.com",
     "founded": "1998",
-    "careersURL": "",
+    "careersURL": "https://www.provepharm.com/en/join-us",
     "tags": ["Pharma","HospitalMedicines","Biotech"],
     "rating": 4.1,
     "benefits": ["Stable employer","Health insurance"]
@@ -1859,7 +1865,8 @@
     "careersURL": "",
     "tags": ["Cybersecurity","E-Health","Cloud"],
     "rating": 4.1,
-    "benefits": ["Large employer","Innovation projects"]
+    "notes": "seems like an recruitemnet agency",
+    "benefits": ["contractors","Large employer","Innovation projects"]
   },
   {
     "id": "134",
@@ -1884,7 +1891,7 @@
     "size": "1000+ employees",
     "website": "https://amadeus.com",
     "founded": "1987",
-    "careersURL": "",
+    "careersURL": "https://amadeus.wd3.myworkdayjobs.com/jobs?locationCountry=54c5b6971ffb4bf0b116fe7651ec789a",
     "tags": ["AI","BigData","HealthTech"],
     "rating": 4.3,
     "benefits": ["Global company","Flexible work"]
@@ -1929,7 +1936,8 @@
     "careersURL": "",
     "tags": ["E-Health","Cybersecurity","Cloud"],
     "rating": 4.0,
-    "benefits": ["Stable company","Flexible schedule"]
+    "notes":"contracting agency",
+    "benefits": ["contracting agency","Stable company","Flexible schedule"]
   },
   {
     "id": "139",
@@ -1940,7 +1948,7 @@
     "size": "10-50 employees",
     "website": "https://neurosys.ai",
     "founded": "2020",
-    "careersURL": "",
+    "careersURL": "https://neurosys.com/career",
     "tags": ["AI","Neuroscience","HealthTech"],
     "rating": 3.9,
     "benefits": ["Startup culture","AI research"]
@@ -1954,8 +1962,8 @@
     "size": "50-200 employees",
     "website": "https://qwamci.com",
     "founded": "2007",
-    "careersURL": "",
-    "tags": ["AI","NLP","HealthData"],
+    "careersURL": "https://www.welcometothejungle.com/fr/companies/chapsvision/jobs",
+    "tags": ["AI","NLP","HealthData", "cybersecurity"],
     "rating": 4.0,
     "benefits": ["Research projects","Remote-friendly"]
   },
@@ -1968,7 +1976,7 @@
     "size": "50-200 employees",
     "website": "https://trustinsoft.com",
     "founded": "2013",
-    "careersURL": "",
+    "careersURL": "https://www.trust-in-soft.com/careers",
     "tags": ["Cybersecurity","Software","MedTech"],
     "rating": 4.2,
     "benefits": ["Cutting-edge R&D","Flexible work"]
@@ -1982,7 +1990,7 @@
     "size": "200-500 employees",
     "website": "https://kalrayinc.com",
     "founded": "2008",
-    "careersURL": "",
+    "careersURL": "https://www.kalrayinc.com/jobs/",
     "tags": ["AI","Semiconductors","HealthTech"],
     "rating": 4.1,
     "benefits": ["Public company","Cutting-edge R&D"]
@@ -2043,20 +2051,21 @@
     "rating": 4.2,
     "benefits": ["AI-driven projects","Health insurance"]
   },
-  {
-    "id": "147",
-    "name": "Exactium CyberHealth",
-    "logo": "https://ui-avatars.com/api/?name=Exactium&background=7c3aed&color=fff",
-    "description": "Sophia startup bridging cybersecurity and health data compliance.",
-    "location": "Sophia-Antipolis",
-    "size": "10-50 employees",
-    "website": "https://exactium.fr",
-    "founded": "2021",
-    "careersURL": "",
-    "tags": ["Cybersecurity","E-Health","Compliance"],
-    "rating": 3.8,
-    "benefits": ["Startup culture"]
-  },
+  // {
+  //   "id": "147",
+  //   "name": "Exactium CyberHealth",
+  //   "logo": "https://ui-avatars.com/api/?name=Exactium&background=7c3aed&color=fff",
+  //   "description": "Sophia startup bridging cybersecurity and health data compliance.",
+  //   "location": "Sophia-Antipolis",
+  //   "size": "10-50 employees",
+  //   "website": "https://exactium.fr",
+  //   "founded": "2021",
+  //   "careersURL": "",
+  //   "tags": ["Cybersecurity","E-Health","Compliance"],
+  //   "rating": 3.8,
+  //   "notes": "seems like it doesn't exist",
+  //   "benefits": ["Startup culture"]
+  // },
   {
     "id": "148",
     "name": "TheraPanacea Imaging Lab",
@@ -2066,7 +2075,7 @@
     "size": "20-50 employees",
     "website": "https://therapanacea.eu",
     "founded": "2019",
-    "careersURL": "",
+    "careersURL": "https://www.therapanacea.eu/careers/",
     "tags": ["AI","MedicalImaging","Oncology"],
     "rating": 4.2,
     "benefits": ["Cutting-edge AI","Flexible work"]
@@ -2094,7 +2103,7 @@
     "size": "50-200 employees",
     "website": "https://krono-safe.com",
     "founded": "2011",
-    "careersURL": "",
+    "careersURL": "https://www.safran-group.com/jobs?regions_states%5B0%5D=3634-provence-alpes-cote-azur&sort=relevance",
     "tags": ["Cybersecurity","MedTech","Software"],
     "rating": 4.1,
     "benefits": ["Cutting-edge R&D","International clients"]
@@ -2108,7 +2117,7 @@
     "size": "50-200 employees",
     "website": "https://quantificare.com",
     "founded": "2001",
-    "careersURL": "",
+    "careersURL": "https://www.quantificare.com/careers/",
     "tags": ["3DImaging","MedTech","Dermatology"],
     "rating": 4.1,
     "benefits": ["Cutting-edge imaging","International clients"]
@@ -2136,7 +2145,7 @@
     "size": "200-500 employees",
     "website": "https://mediantechnologies.com",
     "founded": "2002",
-    "careersURL": "",
+    "careersURL": "https://mediantechnologies.com/careers/",
     "tags": ["AI","Oncology","MedicalImaging"],
     "rating": 4.2,
     "benefits": ["Cutting-edge AI","Global projects"]
