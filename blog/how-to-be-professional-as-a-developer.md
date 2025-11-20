@@ -122,6 +122,6 @@ Every senior developer browsing candidates on ZipRecruiter or Monster was once e
 
 Whether you're searching on Indeed, LinkedIn Jobs, CareerBuilder, Glassdoor, SimplyHired, or other job boards, finding the right opportunity starts with showcasing your growing professionalism. Your next role isn't about having every answer—it's about demonstrating you can find them.
 
-**[Visit our job board](paca-dev/rivieraapps.com/#/jobs)** to discover companies that value potential over pedigree, and where your curiosity and problem-solving skills matter more than years on a resume. Because the best developers aren't born—they're forged through practice, projects, and persistence.
+**[Visit our job board](https://paca-dev.rivieraapps.com/#/jobs)** to discover companies that value potential over pedigree, and where your curiosity and problem-solving skills matter more than years on a resume. Because the best developers aren't born—they're forged through practice, projects, and persistence.
 
 Start building your professional story today.
